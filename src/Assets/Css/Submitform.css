@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rowdies:wght@300;400;700&display=swap'); */
+.form-apply{
+    padding: 100px;
+}
+.email-form{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+input[type="email"]::placeholder {
+    color: white; /* Change this to the desired color */
+}
+input[type="text"]::placeholder {
+    color: white; /* Change this to the desired color */
+}
+input[type="contact"]::placeholder {
+    color: white; /* Change this to the desired color */
+}
+input[type="file"]::placeholder {
+    color: white; /* Change this to the desired color */
+}
+textarea::placeholder {
+    color: white; /* Change this to the desired color */
+}
+.email{
+    margin-top: 20px;
+    border-radius: 5px;
+
+  
+
+    font-size: 15px;
+
+    border: 2px solid;
+    border-color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 100;
+   background-color: transparent;
+   color: white;
+}
+
+.email option{
+    font-family: "Encode Sans", sans-serif;
+    padding: 30px;
+
+}
+.Submit_form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Submit_form button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: rgb(247, 87, 159);
+    border: none;
+
+}
+.form-card{
+    padding: 40px;
+    border-radius: 20px;
+}
+.application{
+    color: red;
+}
+.application::before{
+    content: "";
+    position: absolute;
+    left: 1;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+   
+    box-sizing: border-box;
+    width: 40%;
+   
+  
+}
+@media(max-width:470px){
+    input[type="email"]::placeholder {
+        color: white; /* Change this to the desired color */
+    }
+    input[type="text"]::placeholder {
+        color: white; /* Change this to the desired color */
+    }
+    input[type="contact"]::placeholder {
+        color: white; /* Change this to the desired color */
+    }
+    input[type="file"]::placeholder {
+        color: white; /* Change this to the desired color */
+    }
+    textarea::placeholder {
+        color: white; /* Change this to the desired color */
+    }
+  
+    .glass{
+     margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5); */
+        padding: 30px;
+        border-radius: 5px;
+        width: 300px;
+       
+    }
+    .email{
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 12px;
+       
+    border: 2px solid;
+    border-color: white;
+    }
+    .Submit_form button{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        color: red;
+        background: rgb(247, 87, 159);
+    }
+
+}
+.glass{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5); */
+    padding: 30px;
+    border-radius: 5px;
+   
+}
