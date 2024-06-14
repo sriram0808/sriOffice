@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    box-shadow: 0px 0px  10px rgb(0, 0, 0);
+
+}
+.footerBack{
+    background: url(../Images//footerBack.png);
+}
+
+
+
+.fullWidthContainer {
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+.footer-col .social-links{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    /* color: #ffffff; */
+    transition: all 0.2s ease;
+    font-size: 18px;
+  
+}
+
+.bottom-1,.bottom-2,.bottom-3{
+    margin-top: 80px;
+}
+.social-div{
+    display: flex;
+    align-items: center;
+}
+.social-div:hover{
+    margin-left: 20px;
+    transition: all 0.3s ;
+}
+
+.footerTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.footerSubTitle{
+    color: white !important;
+    cursor: pointer;
+}
+
+
+
+.service li:hover{
+    transition: all 0.3s;
+    margin-left: 15px;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.company li:hover{
+    transition: all 0.3s;
+    margin-left: 15px;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subscribeBack{
+    background: url(../Images//subscribeBack.png);
+    border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
+}
+ .subscribeButton{
+    height: 50px;
+    width: 333px;
+    border: 2px solid !important;
+    border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1 !important;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .subscribeButton:hover {
+    border-image: linear-gradient(45deg, rgb(51,120,153), rgb(252,252,252)) 1 !important;
+    background: -webkit-linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    background: linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ .companyName{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .foot{
+    color: white;
+}
+
+
+
+
+

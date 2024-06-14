@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.serviceBack{
+    background-image: url("../Images/Circle\ line.png"); 
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.serviceIcon{
+   color: rgb(202, 172, 121);
+}
+.serviceTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 500;
+    font-family:  "Lexend", sans-serif;
+
+}
+.serviceSubTitle{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+} 
+
+.serviceCard{
+    height: 490px;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Adjust the margin value as needed */
+    display: flex;
+    flex-direction: column;
+    background: url(../Images//serviceCard.png);
+}
+.serviceCardTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px !important;
+    font-weight: 400;
+}
+.serviceCardSubTitle{
+    color: rgb(252, 252, 252) !important;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 500;
+}

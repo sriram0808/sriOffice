@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.details{
+    background-color: transparent;
+    border: none;
+}
+.details h1{
+    
+    color: white;
+    font-family:  "Lexend", sans-serif;
+    font-weight: 400;
+}
+.details h6{
+    margin-top: 15px;
+    font-size: 15px !important;
+}
+.View{
+    padding: 12px 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    margin-top: 12px;
+    font-size: 13px;
+}
+.current{
+    text-align: center;
+    padding: 10px;
+    font-family:  "Lexend", sans-serif;
+    font-weight: 400;
+
+}
+.rounded{
+  width: 70%;
+ margin-left: 50px;
+  
+}
+.btn{
+    margin-top: 15px;
+}
+.apply {
+    padding: 5px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.card-col{
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px grey;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-shop{
+    padding: 25px 25px 25px 25px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px  grey;
+}
+.card-shop ul {
+    text-align: start;
+}
+.card-shop ul li{
+    text-align: start;
+    margin-top: 5px;
+ 
+}
+
+
+ h1{
+    color: white;
+    font-weight: 200;
+    font-weight: bolder;
+}
+h5{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:  "Lexend", sans-serif;
+    font-weight: 400;
+    
+}
+
+h6{
+   color: white;
+}
+.joinCard{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 200px;
+    background: url(../Images//joinGlass.png);
+}
+.joinSubTitle{
+    color: white;
+    font-size: 24px;
+}
+.carrersTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px !important;
+    font-weight: 400;
+}
+.carrersSubTitle{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../Images//Slogan\ 1.png);
+    color: white;
+    font-weight: 300;
+    font-size: 34px !important;
+}
+@media screen and (max-width: 500px) {
+    .rounded{
+        width: 70%;
+       margin-left: 20px;
+        
+      }
+      .carrersSubTitle{
+        color: white;
+        font-weight: 300;
+        font-size: 17px !important;
+    }
+  
+}
+@media screen and (max-width: 370px) {
+    .position {
+        font-size: 12px;
+
+    }
+    .rounded{
+        width: 70%;
+       margin-left: 20px;
+        
+      }
+     
+}
+.accordionBack{
+    background: url(../Images//accordion.png);
+    background-color: #000000 !important;
+}
+.customExpandIcon {
+    color: rgb(236, 197, 132);
+  }
+  .skillsList li{
+    color: white;
+    text-align: justify;
+    line-height: 24px;
+
+  }
+  .jobApplyButton{
+    height: 50px;
+    width: 180px;
+    border: 2px solid ;
+    border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+  }
+  .jobApplyButton:hover{
+    border-image: linear-gradient(45deg, rgb(51,120,153), rgb(252,252,252)) 1 !important;
+    background: -webkit-linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    background: linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  
+  
