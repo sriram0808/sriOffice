@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="carousel-item active ">
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
-                                <h1 className='contents-h1'>Cypto Trading</h1>
+                                <h1 className='contents-h1'>Crypto Trading</h1>
                                 <p className='homeQuotes'>With a multi-billion dollar market capitalization, crypto is here to stay. It's not going anywhere.</p>
                             </div>
                             <div className="col-md-6">
