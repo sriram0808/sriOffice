@@ -8,6 +8,7 @@ import Service from "./Service";
 import { Link } from "react-router-dom";
 
 let About = () => {
+    
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);

@@ -22,12 +22,12 @@ let Footer=()=>{
         <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
           <div class="row h-70 align-items-end justify-content-center">
             <div class="col-12 col-md-11 col-xl-10 footer-con">
-              <div class="footer-logo-wrapper m-3">
+              <div class="footer-logo-wrapper">
                
                   <img src={logo} alt="Company Logo" width="179" height="60"/>
                 
               </div>
-              <div className="col footer-col mx-1">
+              <div className="col footer-col mx-1 my-4">
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">

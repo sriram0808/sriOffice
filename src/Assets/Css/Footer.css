@@ -6,13 +6,11 @@
 
 .footer{
     box-shadow: 0px 0px  10px rgb(0, 0, 0);
-
 }
+
 .footerBack{
     background: url(../Images//footerBack.png);
 }
-
-
 
 .fullWidthContainer {
     padding-left: 0;
@@ -121,9 +119,9 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     .subscribeButton {
-        width: 390px;
+        width: 340px;
         
         
     }
@@ -136,6 +134,7 @@
  }
  .foot{
     color: white;
+    
 }
 
 
