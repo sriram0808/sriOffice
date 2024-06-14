@@ -1,6 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import uiux from "../Assets/Images/ux-ui-development-it-photorealism (1) 1 (1).png"
 import { Link } from "react-router-dom"
+import Footer from "../Components/Footer"
 
 
 let Uiux=()=>{
@@ -26,6 +27,8 @@ let Uiux=()=>{
               </div>
           </div>
       </div>
+      <Footer/>
+      
  </div>
     )
 }

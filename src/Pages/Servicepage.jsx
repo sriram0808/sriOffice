@@ -10,7 +10,6 @@ function Servicepage(){
     return(
         <div className="homepage">
             <Service/>
-            
             <Carrers/>
             <Contactpage/>
             <Contact/>

@@ -1,6 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import ai from "../Assets/Images/Ai Image (1).png"
 import { Link } from "react-router-dom"
+import Footer from "../Components/Footer"
 
 
 let Aidevelopment=()=>{
@@ -24,6 +25,7 @@ let Aidevelopment=()=>{
               </div>
           </div>
       </div>
+      <Footer/>
  </div>
     )
 }

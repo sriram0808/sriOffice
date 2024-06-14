@@ -19,6 +19,7 @@ import Aboutpage from "./Pages/Aboutpage"
 import Servicepage from "./Pages/Servicepage"
 import Careerpage from "./Pages/Careerpage"
 import Contactpages from "./Pages/Contactpage"
+import { Web } from "@mui/icons-material"
 
 
 let App=()=>{
@@ -41,7 +42,7 @@ let App=()=>{
                     <Route element={<Webdevelopment/>} path="/webdevelopment"></Route>
                     <Route element={<Uiux/>} path="/uiux"></Route>
                     <Route element={<Aidevelopment/>} path="/aidevelopment"></Route>
-                    <Route element={<Cripto/>} path="/cripto"></Route>y
+                    <Route element={<Cripto/>} path="/cripto"></Route>
                     <Route element={<Neft/>} path="/neft"></Route>
                     <Route element={<Discover/>} path="/discover"></Route>
                     </Routes>
