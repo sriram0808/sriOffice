@@ -4,6 +4,11 @@
 }
 .detailsBlock{
     margin-top: 450px;
+    height: 200px;
+    width: 600px;
+    background: url(../Images//details.png);
+    border-radius: 10px;
+  
 }
 
 @media (min-width: 1200px) {

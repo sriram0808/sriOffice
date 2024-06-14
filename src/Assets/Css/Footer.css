@@ -98,6 +98,36 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media (min-width: 1200px) {
+    .subscribeButton {
+        width: 333px;
+   
+         
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .subscribeButton {
+        width: 200px;
+        
+      
+    }
+}
+@media (max-width: 500px) {
+    .subscribeButton {
+        width: 390px;
+        
+        
+    }
+}
+
+@media (max-width: 300px) {
+    .subscribeButton {
+        width: 390px;
+        
+        
+    }
+}
 
  .companyName{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
