@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 let MobileApp=()=>{
     return(
       <div className="mobileBack">
-      <div className="container">
+      <div className="container ">
           <div className="row">
               <div className="col-md-6 d-flex justify-content-center detailsBlock">
                   <div className="align-self-start mt-5">
