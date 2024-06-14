@@ -11,8 +11,8 @@
               <div className="col footer-col mx-4">
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
-                       <a href="/"><FaFacebook/> </a>
-                       <a href="/"><FaInstagram/> </a>
+                       <a href="/"><FaFacebook/></a>
+                       <a href="/"><FaInstagram/></a>
                        <a href="/"><FaTwitter/> </a>
                        <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-YjU4MDVhNDUtMTEyMC00NzUxLWE0YjAtZWEyY2IwYjlhN2U2XzAxMA==/"><FaLinkedin/> </a>
                     </div>

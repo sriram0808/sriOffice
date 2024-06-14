@@ -1,0 +1,64 @@
+.mobileBack{
+    background-color: black;
+    /* background: url(../Images//discoverBack.png ); */
+
+}
+.detailsBlock{
+    margin-top: 450px;
+}
+
+@media (min-width: 1200px) {
+    .detailsBlock {
+        margin-top: 450px;
+         
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .detailsBlock {
+        margin-top: 200px;
+      
+    }
+}
+
+@media (max-width: 767px) {
+    .detailsBlock {
+        margin-top: 10px;
+        
+    }
+}
+
+.mobileAppTitle{
+    margin-bottom: 20px; 
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px !important;
+    font-weight: 400;
+}
+.discrption{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+.moredetailsButton{
+    height: 50px;
+    width: 250px;
+    border: 2px solid ;
+    border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1;
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.moredetailsButton:hover{
+    border-image: linear-gradient(45deg, rgb(51,120,153), rgb(252,252,252)) 1 !important;
+    background: -webkit-linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    background: linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rightSideBack{
+    background: url(../Images//back.png);
+}

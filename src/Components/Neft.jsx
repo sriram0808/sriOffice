@@ -1,61 +1,31 @@
+import "../Assets/Css/Mobile.css"
+import nft from "../Assets/Images/nnnn.png"
 import { Link } from "react-router-dom"
-import style from "../Assets/Css/mobileapp.module.css"
-import Footer from "./Footer"
-import video from "./Assest/nftVideo.mp4"
+
 
 let Neft=()=>{
     return(
-        <div className={style.back}>
-                        
-              <section class="py-3 py-md-5">
-                <div class="container mb-4 mb-md-5">
-                  <div class="row justify-content-md-center">
-                    <div class="col-12 col-md-10 col-xxl-8">
-                      {/* <img class="img-fluid rounded shadow" loading="lazy" src={img} alt="About 3"/> */}
-                      <div className={`embed-responsive embed-responsive-16by9 ${style.videoContainer}`}>
-                        <video className="embed-responsive-item" src={video} autoPlay loop muted></video>
-                    </div>
-                    </div>
+      <div className="mobileBack">
+      <div className="container">
+          <div className="row">
+              <div className="col-md-6 d-flex justify-content-center detailsBlock">
+                  <div className="align-self-start mt-5">
+                    <h2 className="mobileAppTitle">For more details</h2>
+                    <Link to="/contact"><button className="btn  moredetailsButton mb-3">More Details</button></Link>
                   </div>
-                </div>
+              </div>
+              <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
+                  <img src={nft} alt="Descriptive Alt Text" className="img-fluid" />
+                  <h1 className="mobileAppTitle">NFT</h1>
+                  <h5 className="discrption">Description:</h5>
+                   <p className="discrption">
+                   NFT marketing thrives on captivating content and storytelling to forge connections with audiences. Building vibrant communities around NFT projects fosters engagement and loyalty among collectors. Collaborating with influencers and celebrities amplifies visibility and credibility within the NFT ecosystem. Hosting exclusive events like drops and auctions adds excitement and exclusivity to NFT launches. Educational initiatives play a pivotal role in onboarding newcomers to the world of NFTs and blockchain technology. Strategic partnerships with aligned brands and platforms extend reach and diversify marketing channels. Transparency in transactions and authenticity of digital assets are essential for trust and credibility. Embracing gamification strategies enhances user engagement and fosters a sense of participation. Regular innovation and adaptation to emerging trends are crucial for staying relevant in the competitive NFT market. Overall, NFT marketing is a dynamic landscape that requires creativity, community focus, and strategic execution to succeed.
+                    </p>
 
-                <div class="container overflow-hidden">
-                  <div class="row gy-2 gy-md-0 justify-content-xxl-center">
-                    <div class="col-12 order-md-1 col-md-8 col-xxl-6">
-                      <div class="text-center text-md-start">
-                        <h2 class="display-3 fw-bold lh-1">NFT</h2>
-                        <p class="text-secondary fs-4 mb-2">Description</p>
-                        <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary"/>
-                        <p style={{color:"grey"}}>NFT marketing thrives on captivating content and storytelling to forge connections with audiences.
-                            Building vibrant communities around NFT projects fosters engagement and loyalty among collectors.
-                            Collaborating with influencers and celebrities amplifies visibility and credibility within the NFT ecosystem.
-                            Hosting exclusive events like drops and auctions adds excitement and exclusivity to NFT launches.
-                            Educational initiatives play a pivotal role in onboarding newcomers to the world of NFTs and blockchain technology.
-                            Strategic partnerships with aligned brands and platforms extend reach and diversify marketing channels.
-                            Transparency in transactions and authenticity of digital assets are essential for trust and credibility.
-                            Embracing gamification strategies enhances user engagement and fosters a sense of participation.
-                            Regular innovation and adaptation to emerging trends are crucial for staying relevant in the competitive NFT market.
-                            Overall, NFT marketing is a dynamic landscape that requires creativity, community focus, and strategic execution to succeed.
-                            </p>
-
-                      </div>
-                    </div>
-                    <div class="col-12 order-md-0 col-md-4 col-xxl-4">
-                      <div class="text-center text-md-start me-md-3 me-xl-5">
-                        <p class="mb-4">
-                          
-                          <span class="fs-4 text-secondary">For more details</span>
-                        </p>
-                        <div class="d-grid">
-                        <Link to="/contact"><button class={`btn btn-primary btn-lg ${style.btn}`} type="button"> CONTACT US </button></Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <Footer></Footer>
-        </div>
+              </div>
+          </div>
+      </div>
+ </div>
     )
 }
 export default Neft
