@@ -1,6 +1,4 @@
 import logo from "../Assets/Images/finalLogo.jpg"
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import "../Assets/Css/Footer.css" 
 import { useState } from "react";
 import arrow from "../Assets/Images/arrow.png"
@@ -12,7 +10,7 @@ import whatsapp from "../Assets/Images/whatsapp.png"
 import linkedin from "../Assets/Images/linkedin.png"
 
 let Footer=()=>{
-  const closeMenu=()=> setClick(false)
+  const closeMenu=()=> setClick(false);
   const [click, setClick] = useState(false);
 
 
@@ -33,7 +31,6 @@ let Footer=()=>{
                        </div>
                        <div className="social-div">
                        <a href="/"><img src={insta} alt="" className="img-fluid" style={{height:"40px"}}/>  </a><h6>Instagram</h6>
-
                        </div>
                        <div className="social-div">
                        <a href="/"><img src={twitter} alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Twitter</h6>
@@ -41,7 +38,7 @@ let Footer=()=>{
                        <div className="social-div">
                        <a href="/"><img src={whatsapp} alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Whatsapp</h6>
                        </div>   
-                       <div className="social-div">
+                       <div className="social-div"> 
                        <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><img src={linkedin} alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Linkedin</h6>
                        </div>                   
                     </div>
@@ -124,7 +121,6 @@ let Footer=()=>{
                       <div class="row gy-4">
                         <div class="col-12">
                           <div class="input-group">
-                           
                             <input type="email" class="form-control subscribeBack" id="email-newsletter"  placeholder="Email" aria-label="email-newsletter" aria-describedby="email-newsletter-addon" required />
                           </div>
                         </div>
