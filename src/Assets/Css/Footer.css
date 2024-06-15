@@ -56,10 +56,7 @@
 }
 .footerSubTitle{
     color: white !important;
-    cursor: pointer;
 }
-
-
 
 .service li:hover{
     transition: all 0.3s;
@@ -106,7 +103,7 @@
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .subscribeButton {
-        width: 200px;
+        width: 220px;
         
       
     }
@@ -119,9 +116,16 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .subscribeButton {
-        width: 340px;
+        width: 390px;
+        
+        
+    }
+}
+@media (max-width: 385px) {
+    .subscribeButton {
+        width: 335px;
         
         
     }

@@ -3,7 +3,6 @@ import video1 from "../Assets/Images/video1.mp4";
 import video2 from "../Assets/Images/video2.mp4"
 import video3 from "../Assets/Images/video3.mp4"
 import video4 from "../Assets/Images/video4.mp4"
-import image from "../Assets/Images/objects.png";
 import "../Assets/Css/home.css";
 import About from "./About";
 
