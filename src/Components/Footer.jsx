@@ -59,7 +59,7 @@ let Footer=()=>{
                     <h4 class="widget-title mb-4 footerTitle">Services</h4>
                     <ul class="list-unstyled service">
                       <li class="mb-3">
-                      <a href="/mobileapp"  class="link-secondary text-decoration-none footerSubTitle"><img src={arrow} alt="" className="img-fluid"/> Mobile Development </a>
+                      <a href="/mobileapp"  class="link-secondary text-decoration-none footerSubTitle"><img src={arrow} alt="" className="img-fluid"/> MobileApp Development </a>
                       </li>
                       <li class="mb-3">
                       <a href="/webdevelopment"  class="link-secondary text-decoration-none footerSubTitle"><img src={arrow} alt="" className="img-fluid"/> Web Development </a>
@@ -138,7 +138,7 @@ let Footer=()=>{
                   </div>
                 </div>
               </div>
-              <div class="row mt-6 border-top border-light-subtle my-5 text-center">
+              <div class="row  border-top border-light-subtle my-5 text-center">
                 <div class="footer-copyright-wrapper foot my-4">
                  <img src={copyright} alt="" className="img-fluid" style={{height:"18px"}}/> copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
                 </div>        
