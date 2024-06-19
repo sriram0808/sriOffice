@@ -27,7 +27,7 @@ let Footer=()=>{
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">
-                       <a href="/"><img src={faceBook} alt="" className="img-fluid" style={{height:"40px"}}/> </a> <h6>Facebook</h6>
+                       <a href="/"><img src={faceBook} alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Facebook</h6>
                        </div>
                        <div className="social-div">
                        <a href="/"><img src={insta} alt="" className="img-fluid" style={{height:"40px"}}/>  </a><h6>Instagram</h6>
