@@ -10,15 +10,13 @@ import Footerdemo from "../Components/Footerdemo";
 function Homepage(){
     return(
         <div className="homepage">
-           <Home/>
+            <Home/>
             <About/>
             <Service/>
-            
             <Carrers/>
             <Contact/> 
             <Footer/>
             {/* <Footerdemo/> */}
-
         </div>
     )
 }
