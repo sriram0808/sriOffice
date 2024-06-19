@@ -37,7 +37,7 @@ let Discovermore=()=>{
                     <div className="col mb-5">
                     <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
-                                <img src={verstile} alt="" className="image-fluid mb-3" style={{height:"32px"}}/>
+                                <img src={verstile} alt="" className="image-fluid mb-3" style={{height:"42px"}}/>
                                 <h5 className="card-title discoverTitle mb-4">Versatile Brand</h5>
                                 <p className="card-text discoverSubTitle">We are crafting a digital method that sublists life across all mediums.</p>
                             </div>
@@ -47,7 +47,7 @@ let Discovermore=()=>{
                     <div className="col ">
                     <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
-                            <img src={digital} alt="" className="image-fluid mb-3" style={{height:"32px"}}/>
+                            <img src={digital} alt="" className="image-fluid mb-3" style={{height:"42px"}}/>
                                 <h5 className="card-title discoverTitle mb-4">Digital Agency</h5>
                                 <p className="card-text discoverSubTitle">We belive in innovation by merging primary with <br /> elaborate ideas. </p>
                             </div>
