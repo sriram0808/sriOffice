@@ -2,12 +2,12 @@ import "../Assets/Css/Discover.css"
 import image from "../Assets/Images/discoverImage.png"
 import verstile from "../Assets/Images/versatile.png"
 import digital from "../Assets/Images/digital.png"
+
 let Discovermore=()=>{
-    
     return(
         <div className="discoverBack">
-            <div className="container ">
-                <div className="row ">
+            <div className="container">
+                <div className="row">
                     <div className="col mt-5">
                         <img src={image} alt="" className="img-fluid discoverImage" style={{height:"330px"}}/>
                     </div>
@@ -30,7 +30,6 @@ let Discovermore=()=>{
                                 <p className="card-text discoverSubTitle">Foster a culture of continuous learning and professional growth, providing employees with the resources and opportunities to excel in their careers and contribute to the company's success.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className="row mt-5 ">
@@ -42,7 +41,6 @@ let Discovermore=()=>{
                                 <p className="card-text discoverSubTitle">We are crafting a digital method that sublists life across all mediums.</p>
                             </div>
                         </div>
-
                     </div>
                     <div className="col ">
                     <div className="card discoverCard">
@@ -52,7 +50,6 @@ let Discovermore=()=>{
                                 <p className="card-text discoverSubTitle">We belive in innovation by merging primary with <br /> elaborate ideas. </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

@@ -130,6 +130,13 @@
         
     }
 }
+@media (max-width: 320px) {
+    .subscribeButton {
+        width: 300px;
+        
+        
+    }
+}
 
  .companyName{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
