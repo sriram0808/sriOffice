@@ -23,16 +23,22 @@
 .formName, .formSubject {
     background: url(../Images/formName.png);
     border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
+    background: transparent !important;
+    color: white !important;
 }
 
 .formEmail, .formPhone {
     background: url(../Images/formEmailAndPhone.png);
     border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
+    background: transparent !important;
+    color: white !important;
 }
 
 .formMessage {
     background: url(../Images/formMessage.png);
     border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
+    background: transparent !important;
+    color:  white !important;
 }
 
 .sendMessageButton {

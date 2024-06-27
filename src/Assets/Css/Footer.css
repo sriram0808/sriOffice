@@ -11,12 +11,10 @@
 .footerBack{
     background: url(../Images//footerBack.png);
 }
-
 .fullWidthContainer {
     padding-left: 0;
     padding-right: 0px;
 }
-
 .footer-col .social-links{
    display: flex;
    flex-direction: column;
@@ -33,9 +31,7 @@
     /* color: #ffffff; */
     transition: all 0.2s ease;
     font-size: 18px;
-  
 }
-
 .bottom-1,.bottom-2,.bottom-3{
     margin-top: 80px;
 }
@@ -96,45 +92,32 @@
 @media (min-width: 1200px) {
     .subscribeButton {
         width: 333px;
-   
-         
     }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .subscribeButton {
         width: 220px;
-        
-      
     }
 }
 @media (max-width: 500px) {
     .subscribeButton {
-        width: 390px;
-        
-        
+        width: 390px;    
     }
 }
-
 @media (max-width: 450px) {
     .subscribeButton {
-        width: 390px;
-        
-        
+        width: 390px;    
     }
 }
 @media (max-width: 385px) {
     .subscribeButton {
-        width: 335px;
-        
-        
+        width: 335px;   
     }
 }
 @media (max-width: 320px) {
     .subscribeButton {
-        width: 300px;
-        
-        
+        width: 300px;    
     }
 }
 
