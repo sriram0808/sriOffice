@@ -33,7 +33,7 @@
 } 
 
 .serviceCard{
-    height:490px;
+    height:100%;
     background-color: #000000;
     padding: 10px;
     border-radius: 10px;
