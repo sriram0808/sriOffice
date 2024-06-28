@@ -94,14 +94,13 @@ let Contact = () => {
                 <div class="container">
                     <div class="row">
                         <div class="   text-center contactpage pb-3" data-aos="fade-in">
-                            <h3 class="fs-5 mb-2  contactTitle  ">Contact Us</h3>
+                            <h1  class="fs-5 mb-2  contactTitle  ">Contact Us</h1>
                             <h2 class="display-5 mb-4 mb-md-5 mb-xl-8 contact contactSubTitle" >We're always on the lookout to work with new clients. Please get in touch in one of the following ways.</h2>
                         </div>
                     </div>
                 </div>
                 <div className=" container map">
-
-                    <div class="container contactus " >
+                    <div class="container contactus">
                         <div class="row gy-4 gy-md-5 gy-lg-0 align-items-md-center ">
                             <div class="col-12 col-lg-6  ">
                                 <div class=" overflow-hidden  formBack" data-aos="fade-right">

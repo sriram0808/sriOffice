@@ -4,8 +4,7 @@ import style from "../Assets/Css/about.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
-import Service from "./Service";
-import { Link } from "react-router-dom";
+
 
 let About = () => {
 
@@ -19,7 +18,7 @@ let About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h3 className={`fs-5 mb-2 text-secondary aboutpage ${style.aboutTitle}`} data-aos="fade-down">About</h3>
+                            <h1 className={`fs-5 mb-2 text-secondary aboutpage ${style.aboutTitle}`} data-aos="fade-down">About</h1>
                         </div>
                     </div>
                     <div className="row" data-aos="fade-down">
