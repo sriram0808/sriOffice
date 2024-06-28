@@ -91,6 +91,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 @media (min-width: 1200px) {
     .subscribeButton {
         width: 333px;
@@ -102,6 +103,7 @@
         width: 220px;
     }
 }
+
 @media (max-width: 500px) {
     .subscribeButton {
         width: 390px;    
@@ -111,7 +113,7 @@
     .subscribeButton {
         width: 390px;    
     }
-}
+}    
 @media (max-width: 385px) {
     .subscribeButton {
         width: 335px;   

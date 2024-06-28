@@ -16,7 +16,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
                                 <h1 className='contents-h1'>Crypto Trading</h1>
-                                <p className='homeQuotes'>With a multi-billion dollar market capitalization, crypto is here to stay. It's not going anywhere.</p>
+                                <p className='homeQuotes'>“Whenever the price of cryptocurrency is rallying, people start spending a lot more. — Erik Voorhees”</p>
                             </div>
                             <div className="col-md-6">
                                 <video src={video1} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
@@ -27,7 +27,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
                                 <h1 className='contents-h1'>Web Development</h1>
-                                <p className='homeQuotes'>Website without visitors is like a ship lost in the horizon</p>
+                                <p className='homeQuotes'> “Websites promote you 24/7: No employee will do that.” <br />– Paul Cookson</p>
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="Web Development" /> */}
@@ -39,7 +39,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
                                 <h1 className='contents-h1'>UI/UX Design</h1>
-                                <p className='homeQuotes'>Design isn't finished until somebody is using it.</p>
+                                <p className='homeQuotes'>“Design is not just what it looks like and feels like. Design is how it works.” <br /> –Steve Jobs</p>
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="UI/UX Design" /> */}
@@ -51,7 +51,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
                                 <h1 className='contents-h1'>AI Development</h1>
-                                <p className='homeQuotes'>Software is eating the world, but AI is going to eat software.</p>
+                                <p className='homeQuotes'> “Machine intelligence is the last invention that humanity will ever need to make.” <br /> – Nick Bostrom</p>
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="AI Development" /> */}

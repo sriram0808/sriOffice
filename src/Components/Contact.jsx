@@ -1,8 +1,5 @@
-import { TiLocation } from "react-icons/ti";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+
 import "../Assets/Css/Contact.css"
-import Footer from "./Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from "react";
@@ -137,7 +134,7 @@ let Contact = () => {
                                                 {errors.subject && <div className="text-danger">{errors.subject}</div>}
                                             </div>
                                             <div className="col-12">
-                                                <label htmlFor="message" className="form-label" style={{ color: "white" }}>Message <span className="text-danger">*</span></label>
+                                                <label htmlFor="message" className="form-label" style={{ color: "white" }}>Project Breif <span className="text-danger">*</span></label>
                                                 <textarea className="form-control formMessage" id="message" name="message" rows="3" value={formData.message} onChange={handleChange} ></textarea>
                                                 {errors.message && <div className="text-danger">{errors.message}</div>}
                                             </div>
