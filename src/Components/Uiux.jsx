@@ -13,7 +13,7 @@ let Uiux=()=>{
               <div className="col-md-6 d-flex justify-content-center detailsBlock">
                   <div className="align-self-start mt-5">
                     <h2 className="mobileAppTitle">For more details</h2>
-                    <Link to="/contact"><button className="btn  moredetailsButton mb-3">Contact Us</button></Link>
+                    <Link to="/contact"><button className="btn  moredetailsButton mb-3">Get Demo</button></Link>
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
