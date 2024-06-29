@@ -65,7 +65,7 @@ let Footer=()=>{
           <div className="row h-70 align-items-end justify-content-center">
             <div className="col-12 col-md-11 col-xl-10 footer-con">
               <div className="footer-logo-wrapper">
-                  <img src={logo} alt="Company Logo" width="179" height="60"/>
+                <a href="/">  <img src={logo} alt="Company Logo" width="179" height="60"/></a>
               </div>
               <div className="col footer-col mx-1 my-4">
                 <h1> Follow Us </h1>
