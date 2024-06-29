@@ -12,7 +12,7 @@ let Termsandconditions=()=>{
                     <p className="text-center termsDescription my-3">By accessing this internet site, We assume you receive these tems and conditions. Do now not keep to use our internet site if you do no longer comply with take all of the phrases and situations said in this page.</p>
                 </div>
                 <div className="row">
-                    <h2 className="termsOffer text-center my-3">We Offer</h2>
+                    <h2 className=" text-start my-3 termsItemsTitle">We Offer:</h2>
                 </div>
                 <div className="row my-3">
                     <h1 className="termsServiceTitle">Web Development:</h1>

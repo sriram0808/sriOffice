@@ -1,5 +1,5 @@
 .privacyBack{
-    background: url(../Images//discoverBack.png);
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719663171/Discover_Back_erdnbz.png");
     background-color: black;
     background-position: center ;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     height: 100%;
 }
 .privacyBackground{
-    background: url(../Images//privacypolicyBackground.png);
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719662221/privacypolicyBackground-min_t81imd.png");
     background-color: black;
     background-position: center ;
     background-repeat: no-repeat;
@@ -25,6 +25,7 @@
 .privacyDiscription{
     color: white;
     font-family: "Lexend", sans-serif;
+    font-size: 15px;
 }
 .privacyQustion{
     font-size: 20px;

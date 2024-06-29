@@ -39,7 +39,7 @@ function NavBar() {
         <div className="nav-container">
          
           <div className="nav-logo">
-          <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719643663/finalLogo_gabxuo.png" alt="Logo Image" className="logo"/>
+          <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719643663/finalLogo_gabxuo.png" alt="Logo Image" className="logo"/></a>
 
           </div>
 
