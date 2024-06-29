@@ -92,6 +92,11 @@
     -webkit-text-fill-color: transparent;
 }
 
+.Toastify__spinner {
+    border-top-color: #3498db !important; /* Change this color to your desired loading color */
+    border-right-color: #3498db !important; /* Change this color to your desired loading color */
+  }
+
 @media (min-width: 1200px) {
     .subscribeButton {
         width: 333px;
