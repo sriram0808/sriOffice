@@ -23,8 +23,8 @@ let About = () => {
                     </div>
                     <div className="row" data-aos="fade-down">
                         <div className="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                            <h2 className="display-5 mb-4 "  style={{color:"white",fontSize:"24px",fontWeight:"400"}}>
-                               Our journey began with a dream of redefining how the world perceives design.
+                            <h2 className="display-5 mb-4 "  style={{color:"white",fontSize:"22px",fontWeight:"400"}}>
+                            Our adventure started out with a dream of redefining how the arena perceives layout.
                             </h2>
                             <a href="/discover"> <button  className={`btn btn-lg  mb-3 mb-md-4 mb-xl-5 ${style.discoverButton}`}>Discover More</button></a>
                         </div>
@@ -43,7 +43,7 @@ let About = () => {
                                             </h2>
                                         </div>
                                         <p className={`card-text entry-summary text-secondary mb-3 ${style.aboutSubTitle}`}>
-                                            From sleek modernism to timeless elegance, we infuse every creation with a touch of our artistic ingenuity. As a design agency, great design can shape perceptions, inspire action, and leave an indelible mark on the world.
+                                        As a design agency, we believe in the transformative power of great design. It shapes perceptions, inspires action, and leaves a lasting impact on the world. Our mission is to create designs that resonate, provoke thought, and drive meaningful change.
                                         </p>
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@ let About = () => {
                                             </h2>
                                         </div>
                                         <p className={`card-text entry-summary text-secondary mb-3 ${style.aboutSubTitle}`}>
-                                            Welcome to our design agency, where creativity knows no bounds and innovation takes center stage. We are a team of dedicated designers, strategists, and visionaries with a passion for transforming ideas into captivating visuals.
+                                        Welcome to Digital Agency, where innovation meets excellence. Specialising in web development, app improvement, AI, crypto trading, and NFT services. Let's transform your ideas into impactful solutions and elevate your business with our comprehensive offerings today!
                                         </p>
                                     </div>
                                 </div>

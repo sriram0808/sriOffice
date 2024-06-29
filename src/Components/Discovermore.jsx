@@ -14,9 +14,10 @@ let Discovermore=()=>{
                     <div className="col-md-6 mt-5">
                         <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
-                                <h5 className="card-title discoverTitle mb-4">Who are we ?</h5>
-                                <p className="card-text discoverSubTitle">We help people incredible brands and superior products. Our perspective is to furnish outstanding captivating services. </p>
-                                <p className="card-text discoverSubTitle">We are fast growing company, but we have never lost sight of our core values. We belive in collaboration, Innovation and customer satisfaction. We are always for new ways to improve  our products and services.</p>
+                                <h5 className="card-title discoverTitle mb-4">Who choose Thamizhan Solution ?</h5>
+                                <p className="card-text discoverSubTitle">Our Team fully focuses on your growth, because your growth is “Our growth” . Connect with expert Developers, and stay with the Thamizhan Families. </p>
+                                <p className="card-text discoverSubTitle">We help humans with extremely good brands and advanced products. Our angle is to supply excellent fascinating services.It's a habit of us Developers to know What you Want and make it work. Our team Full Focus On  Submission to Time is positive. We are checking that there are no complaints from The clients,
+                                </p>
                             </div>
                         </div>
                     </div>
