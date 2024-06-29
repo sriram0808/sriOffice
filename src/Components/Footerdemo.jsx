@@ -22,7 +22,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
           return (
             <div> 
          
-            <footer className="footer-section " >
+            <footer className="footer-section">
               
       <div className="row">
         <div class='col-12 col-lg-4    footerBlock'>
