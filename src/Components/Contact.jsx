@@ -152,7 +152,7 @@ let Contact = () => {
                                     <div class="col-12 col-xl-11">
                                         <div class="mb-4 mb-md-5 officeBack">
                                         <div class="col-12 col-lg-2 mb-3">
-                                              <img src={location} alt="" className='img-fluid' style={{height:"40px"}}/>
+                                              <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644899/officeIcon_mx7exy.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                         </div>
                                             <div>
                                                 <h4 class="mb-2 officeLabel">Office</h4>
@@ -165,7 +165,7 @@ let Contact = () => {
                                             <div class="col-12 col-sm-6">
                                                 <div class="mb-4 mb-sm-0">
                                                 <div class="col-12 col-lg-2 mb-3">
-                                                     <img src={phone} alt="" className='img-fluid' style={{height:"40px"}}/>
+                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644901/phoneIcon_njcmed.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                                     <div>
                                                         <h4 class="mb-2 phoneLabel" >Phone</h4>
@@ -182,7 +182,7 @@ let Contact = () => {
                                             <div class="col-12 col-sm-6">
                                                 <div class="mb-4 mb-sm-0">
                                                 <div class="col-12 col-lg-2 mb-3">
-                                                     <img src={email} alt="" className='img-fluid' style={{height:"40px"}}/>
+                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644939/emailIcon_pscotu.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                                     <div>
                                                         <h4 class="mb-2 emailLabel" >Email</h4>
@@ -197,7 +197,7 @@ let Contact = () => {
                                         </div>
                                         <div>
                                         <div class="col-12 col-lg-2 mb-3">
-                                                     <img src={clock} alt="" className='img-fluid' style={{height:"40px"}}/>
+                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644930/clockIcon_udkcai.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                             <div>
                                                 <h4 class="mb-2 openingLabel" >Opening Hours</h4>

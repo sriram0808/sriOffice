@@ -19,7 +19,7 @@ const Home = () => {
                                 <p className='homeQuotes'>“Whenever the price of cryptocurrency is rallying, people start spending a lot more. — Erik Voorhees”</p>
                             </div>
                             <div className="col-md-6">
-                                <video src={video1} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643804/video1_qe2lm5.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="Web Development" /> */}
-                                <video src={video2} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643904/video2_d4uxnx.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="UI/UX Design" /> */}
-                                <video src={video3} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643918/video3_kixw5h.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="AI Development" /> */}
-                                <video src={video4} className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643935/video4_qk8baw.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
