@@ -8,7 +8,7 @@ let Privacypolicy=()=>{
                 <h1 className="text-center privacyTitle my-4">Privacy Policy</h1>
             </div>
             <div className="row">
-                <p className="text-center privacyDiscription my-3">Discription Discription Discription Discription Discription Discription Discription Discription Discription Discription</p>
+                <p className="text-center privacyDiscription my-3">At Thamizhan Solution, we prioritize your privacy. Rest assured, any information you provide through our website is strictly protected and not sold or distributed to third parties unless legally required. We collect data solely to understand your needs and respond effectively to your requests.</p>
             </div>
             <div className="row my-3">
                 <h1 className="text-start privacyQustion">1. Why We Collect your Information?</h1>
