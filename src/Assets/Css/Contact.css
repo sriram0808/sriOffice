@@ -39,7 +39,7 @@
     border-image: linear-gradient(45deg, rgb(236, 197, 132), rgb(252, 252, 252)) 1;
     background: transparent !important;
     color:  white !important;
-}
+} 
 
 .sendMessageButton {
     height: 50px;

@@ -1,4 +1,4 @@
-.privacyBack{
+.termsBack{
     background: url(../Images//discoverBack.png);
     background-color: black;
     background-position: center ;
@@ -6,7 +6,7 @@
     background-size: cover; 
     height: 100%;
 }
-.privacyBackground{
+.termsBackground{
     background: url(../Images//privacypolicyBackground.png);
     background-color: black;
     background-position: center ;
@@ -14,7 +14,7 @@
     background-size: cover; 
     height: 100%;
 }
-.privacyTitle{
+.termsTitle{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -22,20 +22,37 @@
     font-weight: 500;
     font-family: "Lexend", sans-serif;
 }
-.privacyDiscription{
+.termsDescription{
+    font-size: 18px;
     color: white;
     font-family: "Lexend", sans-serif;
 }
-.privacyQustion{
+.termsOffer{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px !important;
+    font-weight: 500;
+    font-family: "Lexend", sans-serif;
+}
+.termsServiceTitle{
+    color: white;
     font-size: 20px;
     font-weight: 600;
     font-family: "Lexend", sans-serif;
 
 }
-.privacyDetails{
-    font-size: 16px;
+.termsServiceSubTitle{
     color: white;
-    text-align: justify;
-    line-height: 30px;
+    font-size: 15px;
+    font-family: "Lexend", sans-serif;
+
+}
+.termsItemsTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px !important;
+    font-weight: 600;
     font-family: "Lexend", sans-serif;
 }
