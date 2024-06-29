@@ -8,6 +8,9 @@ let Privacypolicy=()=>{
                 <h1 className="text-center privacyTitle my-4">Privacy Policy</h1>
             </div>
             <div className="row">
+                <p className="text-center privacyDiscription">Discription Discription Discription Discription Discription Discription Discription Discription Discription Discription</p>
+            </div>
+            <div className="row">
                 <h1 className="text-start privacyQustion">1. Why We Collect your Information?</h1>
                 <p className="tex-start privacyDetails fw-light">We collect user information to fulfill your requests and meet your needs. We are committed to protecting the information you provide to us through the Website. We do not share or sell user information with third parties unless required by law.</p>
                 <h1 className="text-start privacyQustion">2.	What steps does your organization take to protect and manage personally identifiable information (Personal Information) it receives?</h1>
