@@ -20,6 +20,8 @@ import Servicepage from "./Pages/Servicepage"
 import Careerpage from "./Pages/Careerpage"
 import Contactpages from "./Pages/Contactpage"
 import { Web } from "@mui/icons-material"
+import Privacypolicy from "./Components/Privacypolicy"
+import Termsandconditions from "./Components/Termsandcondition"
 
 
 let App=()=>{
@@ -45,6 +47,8 @@ let App=()=>{
                     <Route element={<Cripto/>} path="/cripto"></Route>
                     <Route element={<Neft/>} path="/neft"></Route>
                     <Route element={<Discover/>} path="/discover"></Route>
+                    <Route element={<Privacypolicy/>} path="/privacypolicy"></Route>
+                    <Route element={<Termsandconditions/>} path="/termsandconditions"></Route>
                     </Routes>
                     </BrowserRouter>
         </div>

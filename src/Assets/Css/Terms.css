@@ -1,0 +1,58 @@
+.termsBack{
+    background: url(../Images//discoverBack.png);
+    background-color: black;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+}
+.termsBackground{
+    background: url(../Images//privacypolicyBackground.png);
+    background-color: black;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+}
+.termsTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px !important;
+    font-weight: 500;
+    font-family: "Lexend", sans-serif;
+}
+.termsDescription{
+    font-size: 18px;
+    color: white;
+    font-family: "Lexend", sans-serif;
+}
+.termsOffer{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px !important;
+    font-weight: 500;
+    font-family: "Lexend", sans-serif;
+}
+.termsServiceTitle{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+
+}
+.termsServiceSubTitle{
+    color: white;
+    font-size: 15px;
+    font-family: "Lexend", sans-serif;
+
+}
+.termsItemsTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px !important;
+    font-weight: 600;
+    font-family: "Lexend", sans-serif;
+}
