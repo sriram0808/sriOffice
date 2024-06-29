@@ -27,8 +27,8 @@ let Discovermore=()=>{
                     <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
                                 <h5 className="card-title discoverTitle mb-4">Our Goals</h5>
-                                <p className="card-text discoverSubTitle">Develop cutting-edge software and technology solutions that meet and exceed client expectations, leveraging the latest advancements in AI and machine learning. </p>
-                                <p className="card-text discoverSubTitle">Foster a culture of continuous learning and professional growth, providing employees with the resources and opportunities to excel in their careers and contribute to the company's success.</p>
+                                <p className="card-text discoverSubTitle">Promote continuous studying and expert growth, empowering our group with sources and possibilities to excel in their careers. By nurturing talent, we drive our enterprise's success and foster a tradition of innovation and success. </p>
+                                <p className="card-text discoverSubTitle">Our aim is to improve our services every day from software and technology end to stand out in the competitive world</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,6 @@ let Discovermore=()=>{
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

@@ -90,20 +90,20 @@ let Contact = () => {
   
     return (
         <div className="">
-            <section class="py-3 py-md-5 py-xl-8 contactBack" style={{backgroundColor:" #000000"}}>
-                <div class="container">
-                    <div class="row">
-                        <div class="   text-center contactpage pb-3" data-aos="fade-in">
-                            <h1  class="fs-5 mb-2  contactTitle  ">Contact Us</h1>
-                            <h2 class="display-5 mb-4 mb-md-5 mb-xl-8 contact contactSubTitle" >Our Experts Ready to Action your Business Analysis, for that  you Contact us.</h2>
+            <section className="py-3 py-md-5 py-xl-8 contactBack" style={{backgroundColor:" #000000"}}>
+                <div className="container">
+                    <div className="row">
+                        <div className="   text-center contactpage pb-3" data-aos="fade-in">
+                            <h1  className="fs-5 mb-2  contactTitle  ">Contact Us</h1>
+                            <h2 className="display-5 mb-4 mb-md-5 mb-xl-8 contact contactSubTitle" >Our Experts Ready to Action your Business Analysis, for that  you Contact us.</h2>
                         </div>
                     </div>
                 </div>
                 <div className=" container map">
-                    <div class="container contactus">
-                        <div class="row gy-4 gy-md-5 gy-lg-0 align-items-md-center ">
-                            <div class="col-12 col-lg-6  ">
-                                <div class=" overflow-hidden  formBack" data-aos="fade-right">
+                    <div className="container contactus">
+                        <div className="row gy-4 gy-md-5 gy-lg-0 align-items-md-center ">
+                            <div className="col-12 col-lg-6  ">
+                                <div className=" overflow-hidden  formBack" data-aos="fade-right">
                                     <form onSubmit={handleSubmit} >
                                         <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
                                             <div className="col-12">
@@ -147,30 +147,30 @@ let Contact = () => {
                                 </div>
                             </div>
                           
-                            <div class="col-12 col-lg-6 " >
-                                <div class="row justify-content-xl-center informationBack" data-aos="fade-right">
-                                    <div class="col-12 col-xl-11">
-                                        <div class="mb-4 mb-md-5 officeBack">
-                                        <div class="col-12 col-lg-2 mb-3">
+                            <div className="col-12 col-lg-6 " >
+                                <div className="row justify-content-xl-center informationBack" data-aos="fade-right">
+                                    <div className="col-12 col-xl-11">
+                                        <div className="mb-4 mb-md-5 officeBack">
+                                        <div className="col-12 col-lg-2 mb-3">
                                               <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644899/officeIcon_mx7exy.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                         </div>
                                             <div>
-                                                <h4 class="mb-2 officeLabel">Office</h4>
-                                                <p class="mb-2 officeQuote">Please visit us to have a discussion.</p>
-                                                <hr class="w-50 mb-3 border-dark-subtle" />
-                                                <address class="m-0 officeDetail"> 21, Pandian St, T V S Nagar, Madurai,Tamil Nadu 625003</address>
+                                                <h4 className="mb-2 officeLabel">Office</h4>
+                                                <p className="mb-2 officeQuote">Please visit us to have a discussion.</p>
+                                                <hr className="w-50 mb-3 border-dark-subtle" />
+                                                <address className="m-0 officeDetail"> 21, Pandian St, T V S Nagar, Madurai,Tamil Nadu 625003</address>
                                             </div>
                                         </div>
-                                        <div class="row mb-sm-4 mb-md-5">
-                                            <div class="col-12 col-sm-6">
-                                                <div class="mb-4 mb-sm-0">
-                                                <div class="col-12 col-lg-2 mb-3">
+                                        <div className="row mb-sm-4 mb-md-5">
+                                            <div className="col-12 col-sm-6">
+                                                <div className="mb-4 mb-sm-0">
+                                                <div className="col-12 col-lg-2 mb-3">
                                                      <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644901/phoneIcon_njcmed.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                                     <div>
-                                                        <h4 class="mb-2 phoneLabel" >Phone</h4>
-                                                        <p class="mb-2 phoneQuote" >Please speak with us directly.</p>
-                                                        <hr class="w-75 mb-3 border-dark-subtle" />
+                                                        <h4 className="mb-2 phoneLabel" >Phone</h4>
+                                                        <p className="mb-2 phoneQuote" >Please speak with us directly.</p>
+                                                        <hr className="w-75 mb-3 border-dark-subtle" />
                                                      
                                                         <div className="number phoneDetail">
                                                             <p >+91 8870854141</p>
@@ -179,33 +179,33 @@ let Contact = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-sm-6">
-                                                <div class="mb-4 mb-sm-0">
-                                                <div class="col-12 col-lg-2 mb-3">
+                                            <div className="col-12 col-sm-6">
+                                                <div className="mb-4 mb-sm-0">
+                                                <div className="col-12 col-lg-2 mb-3">
                                                      <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644939/emailIcon_pscotu.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                                     <div>
-                                                        <h4 class="mb-2 emailLabel" >Email</h4>
-                                                        <p class="mb-2 emailQuote" >Please write to us directly.</p>
-                                                        <hr class="w-75 mb-3 border-dark-subtle" />
-                                                        <p class="mb-0">
-                                                            <a class=" text-decoration-none emailDetail" href="/" >thamizhansolutions1630@gmail.com</a>
+                                                        <h4 className="mb-2 emailLabel" >Email</h4>
+                                                        <p className="mb-2 emailQuote" >Please write to us directly.</p>
+                                                        <hr className="w-75 mb-3 border-dark-subtle" />
+                                                        <p className="mb-0">
+                                                            <a className=" text-decoration-none emailDetail" href="/" >thamizhansolutions1630@gmail.com</a>
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div>
-                                        <div class="col-12 col-lg-2 mb-3">
+                                        <div className="col-12 col-lg-2 mb-3">
                                                      <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644930/clockIcon_udkcai.png" alt="" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                             <div>
-                                                <h4 class="mb-2 openingLabel" >Opening Hours</h4>
-                                                <p class="mb-2 openingQuote">Explore our business opening hours.</p>
-                                                <hr class="w-50 mb-3 border-dark-subtle" />
-                                                <div class="d-flex mb-1 openingDetail">
-                                                    <p class=" fw-bold mb-0 me-5" >Mon - Sat</p>
-                                                    <p class=" mb-0" >9am - 6.30pm</p>
+                                                <h4 className="mb-2 openingLabel" >Opening Hours</h4>
+                                                <p className="mb-2 openingQuote">Explore our business opening hours.</p>
+                                                <hr className="w-50 mb-3 border-dark-subtle" />
+                                                <div className="d-flex mb-1 openingDetail">
+                                                    <p className=" fw-bold mb-0 me-5" >Mon - Sat</p>
+                                                    <p className=" mb-0" >9am - 6.30pm</p>
                                                 </div>
                                                
                                             </div>
