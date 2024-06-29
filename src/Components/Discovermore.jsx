@@ -14,10 +14,10 @@ let Discovermore=()=>{
                     <div className="col-md-6 mt-5">
                         <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
-                                <h5 className="card-title discoverTitle mb-4">Who choose Thamizhan Solution ?</h5>
+                                <h5 className="card-title discoverTitle mb-4">Why choose Thamizhan Solution ?</h5>
+                                <p className="card-text discoverSubTitle">We help humans with extremely good brands and advanced products. Our angle is to supply excellent fascinating services.It's a habit of us Developers to know What you Want and make it work. Our team Full Focus On  Submission to Time is positive. We are checking that there are no complaints from The clients,  </p>
                                 <p className="card-text discoverSubTitle">Our Team fully focuses on your growth, because your growth is “Our growth” . Connect with expert Developers, and stay with the Thamizhan Families. </p>
-                                <p className="card-text discoverSubTitle">We help humans with extremely good brands and advanced products. Our angle is to supply excellent fascinating services.It's a habit of us Developers to know What you Want and make it work. Our team Full Focus On  Submission to Time is positive. We are checking that there are no complaints from The clients,
-                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ let Discovermore=()=>{
                             <div className="card-body discoverCardBack">
                                 <h5 className="card-title discoverTitle mb-4">Our Goals</h5>
                                 <p className="card-text discoverSubTitle">Promote continuous studying and expert growth, empowering our group with sources and possibilities to excel in their careers. By nurturing talent, we drive our enterprise's success and foster a tradition of innovation and success. </p>
-                                <p className="card-text discoverSubTitle">Our aim is to improve our services every day from software and technology end to stand out in the competitive world</p>
+                                <p className="card-text discoverSubTitle">Our aim is to improve our services every day from software and technology end to stand out in the competitive world.</p>
                             </div>
                         </div>
                     </div>
