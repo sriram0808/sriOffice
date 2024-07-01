@@ -9,7 +9,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {useRef} from 'react';
 import Contact from "./Contact"
 
-
 let Carrers=()=>{
 
     const ref = useRef(null);
@@ -20,14 +19,13 @@ let Carrers=()=>{
     return(
       <div>
         <div className="container-fluid careers-page" style={{backgroundColor:" #000000"}}>
-     
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center align-items-center py-3 "> 
             <div className="col joinCard" >
 <div className="card details" data-aos="fade-in">
     <h1 class="fs-1 carrersTitle"> Come Connect With Us Our Family. </h1>
     {/* <h3 style={{color:"white",marginTop:"10"}} class="fs-3 joinSubTitle">Come work with us</h3> */}  
-    <p className="fs-5 joinSubTitle">Our aim is to change your working environment to work for our future development and growth of our company.</p>
+    <p className="fs-5 joinSubTitle">We aim is to change your working environment to work for our future development and growth of our company.</p>
 </div>
 
             </div>
