@@ -10,7 +10,7 @@ let Neft=()=>{
       <div className="container">
           <div className="row">
               <div className="col-md-6 d-flex justify-content-center detailsBlock">
-                  <div className="align-self-start mt-5">
+                  <div className="align-self-start mt-5">  
                     <h2 className="mobileAppTitle">For more details</h2>
                     <Link to="/contact"><button className="btn  moredetailsButton mb-3">Get Demo</button></Link>
                   </div>
@@ -22,7 +22,6 @@ let Neft=()=>{
                    <p className="discrption">
                     NFTs
                     A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain and is used to certify possession and authenticity. It can't be copied, substituted, or subdivided. The possession of an NFT is recorded in the blockchain and can be transferred via the proprietor, allowing NFTs to be offered and traded. <br /> <br />
-
                     We Provide Top-list NFTs Service:
                     <ul>
                         <li>NFT Marketplace Development</li>
@@ -35,7 +34,6 @@ let Neft=()=>{
           </div>
       </div>
       <Footer/>
-
  </div>
     )
 }
