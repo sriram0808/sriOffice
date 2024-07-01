@@ -20,7 +20,28 @@ let Webdevelopment=()=>{
                   <h1 className="mobileAppTitle">Web Development</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
-                   React.js is a JavaScript library primarily used for building user interfaces for single-page applications. It allows developers to create reusable UI components that can efficiently update when data changes. React's virtual DOM (Document Object Model) enables fast rendering by updating only the components that have changed. It follows a component-based architecture, making code modular and easier to maintain. React Router is commonly used for client-side routing, enabling navigation within single-page applications. Redux or Context API are often used for state management in larger applications, providing a predictable state container. React Native extends React's capabilities to mobile app development, allowing developers to build cross-platform mobile apps using JavaScript. Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It enables developers to run JavaScript on the server-side, allowing for building scalable and high-performance web applications. Node.js is event-driven and non-blocking, making it suitable for handling asynchronous operations like I/O operations or network requests efficiently. It comes with a vast ecosystem of packages through npm (Node Package Manager), allowing developers to leverage libraries and frameworks to expedite development. Express.js is a popular web framework for Node.js, providing a minimalist and flexible approach for building web applications and APIs. Node.js is commonly used in microservices architecture, real-time applications, and serverless computing platforms like AWS Lambda or Google Cloud Functions. It's known for its performance, scalability, and versatility, making it a preferred choice for building modern web applications and services.
+                   Internet improvement refers back to the creation, construction, and preservation of websites. It consists of aspects including net layout, internet publishing, net programming, and database control. It is the advent of software that works over the net i.E. Websites.A responsive website is designed to provide an most fulfilling viewing revel in throughout various devices, together with computer systems, capsules, and smartphones <br />
+                    Web Development Is a two-section: <br />
+                    <ul>
+                        <li>Frontend Developmetn</li>
+                        <li>Backend Development</li>
+                    </ul>
+                    We use popular the front-end generation:
+                    <ul>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>Bootstrap 5 </li>
+                        <li>Java Script</li>
+                        <li>Material UI</li>
+                        <li>Redux</li>
+                        <li>React Js</li>
+                    </ul>
+                    We Use popular the Back-end generation:
+                    <ul>
+                        <li>Express Js</li>
+                        <li>Mongo DB</li>
+                        <li>Node.js</li>
+                    </ul>
                   </p>
               </div>
           </div>

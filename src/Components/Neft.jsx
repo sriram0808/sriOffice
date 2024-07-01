@@ -20,9 +20,17 @@ let Neft=()=>{
                   <h1 className="mobileAppTitle">NFT</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
-                   NFT marketing thrives on captivating content and storytelling to forge connections with audiences. Building vibrant communities around NFT projects fosters engagement and loyalty among collectors. Collaborating with influencers and celebrities amplifies visibility and credibility within the NFT ecosystem. Hosting exclusive events like drops and auctions adds excitement and exclusivity to NFT launches. Educational initiatives play a pivotal role in onboarding newcomers to the world of NFTs and blockchain technology. Strategic partnerships with aligned brands and platforms extend reach and diversify marketing channels. Transparency in transactions and authenticity of digital assets are essential for trust and credibility. Embracing gamification strategies enhances user engagement and fosters a sense of participation. Regular innovation and adaptation to emerging trends are crucial for staying relevant in the competitive NFT market. Overall, NFT marketing is a dynamic landscape that requires creativity, community focus, and strategic execution to succeed.
-                    </p>
+                    NFTs
+                    A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain and is used to certify possession and authenticity. It can't be copied, substituted, or subdivided. The possession of an NFT is recorded in the blockchain and can be transferred via the proprietor, allowing NFTs to be offered and traded. <br /> <br />
 
+                    We Provide Top-list NFTs Service:
+                    <ul>
+                        <li>NFT Marketplace Development</li>
+                        <li>White Label Marketplace</li>
+                        <li>Nft Marketplace on BSC</li>
+                        <li>Nft Art Marketplace</li>
+                    </ul>
+                    </p>
               </div>
           </div>
       </div>

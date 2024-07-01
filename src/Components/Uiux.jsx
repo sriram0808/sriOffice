@@ -21,7 +21,17 @@ let Uiux=()=>{
                   <h1 className="mobileAppTitle">UI/UX Development</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
-                   UI/UX development focuses on creating user interfaces and experiences that are intuitive, efficient, and enjoyable for users. UI (User Interface) design involves designing the visual elements of an application or website, including layout, typography, color schemes, and interactive elements, to create a visually appealing and cohesive design. UX (User Experience) design focuses on understanding users' needs, behaviors, and preferences to create interfaces that are user-friendly, accessible, and provide a seamless experience. UI/UX designers utilize various tools and techniques such as wireframing, prototyping, and user testing to iterate and refine designs based on user feedback. They aim to create interfaces that are easy to navigate, with clear hierarchies and logical flow, to ensure users can accomplish tasks efficiently. Responsive design is crucial in UI/UX development to ensure that interfaces adapt seamlessly to different screen sizes and devices, providing a consistent experience across platforms. Accessibility standards are also prioritized to ensure that interfaces are usable by people with disabilities. UI/UX development involves collaboration between designers, developers, and stakeholders to align design decisions with business goals and user needs. Continuous evaluation and iteration are essential to refine and improve the user experience over time, based on user feedback and analytics data. Ultimately, effective UI/UX development is key to creating products that users love and return to.
+                     UI/UX
+
+                    In digital design, the user interface (UI) focuses on the visual and interactive elements of a product screen or webpage, such as buttons, layout, and design aesthetics. Meanwhile, user experience (UX) encompasses the overall journey and satisfaction a user feels while interacting with the product or website, ensuring it is intuitive and enjoyable. <br />
+<br />
+                    We use the most popular UI/UX software:
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Figma</li>
+                        <li>Adobe Illustrator</li>
+                        <li>FiGJam</li>
+                    </ul>
                     </p>
               </div>
           </div>
