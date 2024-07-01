@@ -20,8 +20,8 @@ let Webdevelopment=()=>{
                   <h1 className="mobileAppTitle">Web Development</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
-                   Internet improvement refers back to the creation, construction, and preservation of websites. It consists of aspects including net layout, internet publishing, net programming, and database control. It is the advent of software that works over the net i.E. Websites.A responsive website is designed to provide an most fulfilling viewing revel in throughout various devices, together with computer systems, capsules, and smartphones <br />
-                    Web Development Is a two-section: <br />
+                   Internet improvement refers back to the creation, construction, and preservation of websites. It consists of aspects including net layout, internet publishing, net programming, and database control. It is the advent of software that works over the net i.E. Websites.A responsive website is designed to provide an most fulfilling viewing revel in throughout various devices, together with computer systems, capsules, and smartphones <br /> <br />
+                    Web Development Is a two-section:
                     <ul>
                         <li>Frontend Developmetn</li>
                         <li>Backend Development</li>

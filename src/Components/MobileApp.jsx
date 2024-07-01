@@ -18,8 +18,8 @@ let MobileApp=()=>{
                   <h1 className="mobileAppTitle">Mobile App Development</h1>
                   {/* <h5 className="discrption">Description:</h5> */}
                    <p className="discrption">
-                   Mobile software development is the technique of creating software for smartphones, Tablets, and virtual assistants, most typically for the Android and iOS operating systems. Mobile apps often leverage the unique hardware features of devices, such as GPS, cameras, and sensors, to deliver rich and interactive experiences. They also rely on network connectivity to interact with cloud services, enabling functionalities like data synchronization, real-time updates, and user authentication. With the rise of mobile usage globally, developing high-quality mobile applications is crucial for businesses aiming to engage users, streamline operations, and stay competitive in the digital marketplace.
-                    We Used Popular & Best Software: <br />
+                   Mobile software development is the technique of creating software for smartphones, Tablets, and virtual assistants, most typically for the Android and iOS operating systems. Mobile apps often leverage the unique hardware features of devices, such as GPS, cameras, and sensors, to deliver rich and interactive experiences. They also rely on network connectivity to interact with cloud services, enabling functionalities like data synchronization, real-time updates, and user authentication. With the rise of mobile usage globally, developing high-quality mobile applications is crucial for businesses aiming to engage users, streamline operations, and stay competitive in the digital marketplace. <br /> <br />
+                    We Used Popular & Best Software: 
                   <ul>
                     <li>Flutter</li>
                     <li>Android Studio</li>
