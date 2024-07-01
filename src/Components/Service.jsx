@@ -31,7 +31,7 @@ let Service=()=>{
                         <div className="row" data-aos="fade-right">
                             <div className="col-md-4 mb-4">
                             <div className="card serviceCard">
-                            <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644960/mobile_we3e5y.png" alt="Mobil Development Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
+                            <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644960/mobile_we3e5y.png" alt="Mobile Development Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
                                 <h1 className=" serviceCardTitle">Mobile App Development</h1>
                                 <p className="mb-3 serviceCardSubTitle">Thamizhan Solution excels in mobile app development, creating tailored applications to meet diverse business needs. Our expert team enhances user engagement and operational efficiency for clients. Join us and be part of our highly skilled developers transforming the mobile landscape.</p>
