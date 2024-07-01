@@ -114,7 +114,6 @@ let Contact = () => {
                                             <div className="col-12 col-md-6">
                                                 <label htmlFor="email" className="form-label" style={{ color: "white" }}>Email <span className="text-danger">*</span></label>
                                                 <div className="input-group">
-                                                    
                                                     <input type="email" className="form-control formEmail" id="email" name="email" value={formData.email} onChange={handleChange} />
                                                 </div>
                                                 {errors.email && <div className="text-danger">{errors.email}</div>}
@@ -152,7 +151,7 @@ let Contact = () => {
                                     <div className="col-12 col-xl-11">
                                         <div className="mb-4 mb-md-5 officeBack">
                                         <div className="col-12 col-lg-2 mb-3">
-                                              <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644899/officeIcon_mx7exy.png" alt="" className='img-fluid' style={{height:"40px"}}/>
+                                              <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644899/officeIcon_mx7exy.png" alt="Office Icon" className='img-fluid' style={{height:"40px"}}/>
                                         </div>
                                             <div>
                                                 <h4 className="mb-2 officeLabel">Office</h4>
@@ -165,7 +164,7 @@ let Contact = () => {
                                             <div className="col-12 col-sm-6">
                                                 <div className="mb-4 mb-sm-0">
                                                 <div className="col-12 col-lg-2 mb-3">
-                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644901/phoneIcon_njcmed.png" alt="" className='img-fluid' style={{height:"40px"}}/>
+                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644901/phoneIcon_njcmed.png" alt="Phone Icon" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                                     <div>
                                                         <h4 className="mb-2 phoneLabel" >Phone</h4>
@@ -182,7 +181,7 @@ let Contact = () => {
                                             <div className="col-12 col-sm-6">
                                                 <div className="mb-4 mb-sm-0">
                                                 <div className="col-12 col-lg-2 mb-3">
-                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644939/emailIcon_pscotu.png" alt="" className='img-fluid' style={{height:"40px"}}/>
+                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644939/emailIcon_pscotu.png" alt="Email Icon" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                                     <div>
                                                         <h4 className="mb-2 emailLabel" >Email</h4>
@@ -197,7 +196,7 @@ let Contact = () => {
                                         </div>
                                         <div>
                                         <div className="col-12 col-lg-2 mb-3">
-                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644930/clockIcon_udkcai.png" alt="" className='img-fluid' style={{height:"40px"}}/>
+                                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644930/clockIcon_udkcai.png" alt="Clock Icon" className='img-fluid' style={{height:"40px"}}/>
                                                  </div>
                                             <div>
                                                 <h4 className="mb-2 openingLabel" >Opening Hours</h4>

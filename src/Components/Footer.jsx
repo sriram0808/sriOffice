@@ -72,25 +72,25 @@ let Footer=()=>{
           <div className="row h-70 align-items-end justify-content-center">
             <div className="col-12 col-md-11 col-xl-10 footer-con">
               <div className="footer-logo-wrapper">
-                 <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719643663/finalLogo_gabxuo.png" alt="Company Logo" width="179" height="60"/></a>
+                 <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719643663/finalLogo_gabxuo.png" alt="Thamizhan Solution Logo" width="179" height="60"/></a>
               </div>
               <div className="col footer-col mx-1 my-4">
                 <h1> Follow Us </h1>
                     <div className="social-links my-4">
                       <div className="social-div">
-                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644940/faceBook_mzumxj.png" alt="" className="img-fluid " style={{height:"40px"}}/> </a><h6>Facebook</h6>
+                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644940/faceBook_mzumxj.png" alt="FaceBook Icon" className="img-fluid " style={{height:"40px"}}/> </a><h6>Facebook</h6>
                        </div>
                        <div className="social-div">
-                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644951/insta_siwe70.png" alt="" className="img-fluid " style={{height:"40px"}}/>  </a><h6>Instagram</h6>
+                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644951/insta_siwe70.png" alt="Instagram Icon" className="img-fluid " style={{height:"40px"}}/>  </a><h6>Instagram</h6>
                        </div>
                        <div className="social-div">
-                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png" alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Twitter</h6>
+                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png" alt="Twitter Icon" className="img-fluid" style={{height:"40px"}}/> </a><h6>Twitter</h6>
                        </div>
                        <div className="social-div">
-                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png" alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Whatsapp</h6>
+                       <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png" alt="Whatsapp Icon" className="img-fluid" style={{height:"40px"}}/> </a><h6>Whatsapp</h6>
                        </div>   
                        <div className="social-div"> 
-                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/linkedin_mlh3ml.png" alt="" className="img-fluid" style={{height:"40px"}}/> </a><h6>Linkedin</h6>
+                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/linkedin_mlh3ml.png" alt="Linked Icon" className="img-fluid" style={{height:"40px"}}/> </a><h6>Linkedin</h6>
                        </div>                   
                     </div>
                 </div>
@@ -106,23 +106,22 @@ let Footer=()=>{
                     <h4 className="widget-title mb-4 footerTitle">Services</h4>
                     <ul className="list-unstyled service">
                       <li className="mb-3">
-                      <a href="/mobileapp"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> MobileApp Development </a>
+                      <a href="/mobileapp"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> MobileApp Development </a>
                       </li>
                       <li className="mb-3">
-                      <a href="/webdevelopment"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Web Development </a>
+                      <a href="/webdevelopment"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Web Development </a>
                       </li>
                       <li className="mb-3">
-                      <a href="/uiux"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> UI/UX Development </a>
+                      <a href="/uiux"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> UI/UX Development </a>
                       </li>
                       <li className="mb-3">
-                      <a href="/aidevelopment"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> AI Development </a>
-
+                      <a href="/aidevelopment"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> AI Development </a>
                       </li>
                       <li className="mb-3">
-                      <a href="/cripto"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Crypto Trading </a>
+                      <a href="/cripto"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Crypto Trading </a>
                       </li>
                       <li className="mb-3">
-                        <a href="/neft"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> NFT Marketing </a>
+                        <a href="/neft"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> NFT Marketing </a>
                       </li>
                     </ul>
                   </div>
@@ -132,33 +131,33 @@ let Footer=()=>{
                     <h4 className="widget-title mb-4 footerTitle">Company</h4>
                     <ul className="list-unstyled company">
                     <li className="mb-3">
-              <a href="/"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Home</a>
+              <a href="/"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Home</a>
             </li>
            
             <li className="mb-3">
           
               
-              <a href="/about"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> About</a>
+              <a href="/about"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> About</a>
             </li>
             <li className="mb-3">
           
-               <a href="/service"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Service</a>
+               <a href="/service"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Service</a>
             </li>
             <li className="mb-3">
           
-               <a href="/career"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Career</a>
+               <a href="/career"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Career</a>
             </li>
             <li className="mb-3">
         
-               <a href="/contact"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Contact</a>
+               <a href="/contact"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Contact</a>
             </li>
             <li className="mb-3">
 
-            <a href="/termsandconditions"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Terms & Condition</a>
+            <a href="/termsandconditions"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Terms & Condition</a>
             </li>
             <li className="mb-3">
 
-            <a href="/privacypolicy"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="" className="img-fluid"/> Privacy Policy</a>
+            <a href="/privacypolicy"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Privacy Policy</a>
             </li>
                     </ul>
                   </div>
@@ -186,7 +185,7 @@ let Footer=()=>{
               </div>
               <div className="row  border-top border-light-subtle my-5 text-center">
                 <div className="footer-copyright-wrapper foot my-4">
-                 <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644931/copyright_refluz.png" alt="" className="img-fluid" style={{height:"18px"}}/> copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
+                 <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644931/copyright_refluz.png" alt="Copy Rights Icon" className="img-fluid" style={{height:"18px"}}/> copyrights <span className="fw-bold companyName">Thamizhan Solutions</span> All Rights Reserved.
                 </div>        
               </div>
             </div>

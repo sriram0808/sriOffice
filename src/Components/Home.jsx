@@ -43,7 +43,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="UI/UX Design" /> */}
-                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643918/video3_kixw5h.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643918/video3_kixw5h.mp4"  className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
