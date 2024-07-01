@@ -155,7 +155,7 @@ let Contact = () => {
                                         </div>
                                             <div>
                                                 <h4 className="mb-2 officeLabel">Office</h4>
-                                                <p className="mb-2 officeQuote">Please visit us to have a discussion.</p>
+                                                <p className="mb-2 officeQuote"> visit us to have a discussion.</p>
                                                 <hr className="w-50 mb-3 border-dark-subtle" />
                                                 <address className="m-0 officeDetail"> 21, Pandian St, T V S Nagar, Madurai,Tamil Nadu 625003</address>
                                             </div>
@@ -168,7 +168,7 @@ let Contact = () => {
                                                  </div>
                                                     <div>
                                                         <h4 className="mb-2 phoneLabel" >Phone</h4>
-                                                        <p className="mb-2 phoneQuote" >Please speak with us directly.</p>
+                                                        <p className="mb-2 phoneQuote" > speak with us directly.</p>
                                                         <hr className="w-75 mb-3 border-dark-subtle" />
                                                      
                                                         <div className="number phoneDetail">
@@ -185,7 +185,7 @@ let Contact = () => {
                                                  </div>
                                                     <div>
                                                         <h4 className="mb-2 emailLabel" >Email</h4>
-                                                        <p className="mb-2 emailQuote" >Please write to us directly.</p>
+                                                        <p className="mb-2 emailQuote" > write to us directly.</p>
                                                         <hr className="w-75 mb-3 border-dark-subtle" />
                                                         <p className="mb-0">
                                                             <a className=" text-decoration-none emailDetail" href="/" >thamizhansolutions1630@gmail.com</a>
@@ -206,7 +206,6 @@ let Contact = () => {
                                                     <p className=" fw-bold mb-0 me-5" >Mon - Sat</p>
                                                     <p className=" mb-0" >9am - 6.30pm</p>
                                                 </div>
-                                               
                                             </div>
                                         </div>
                                     </div>

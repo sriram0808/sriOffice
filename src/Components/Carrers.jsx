@@ -36,8 +36,7 @@ let Carrers=()=>{
             <img className="img-fluid rounded " src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644956/interview2_rkw6pv.png" alt="Interview Image"/>
            </div>
            </div>
-
-            </div>  
+          </div>  
            </div>
           <div className="container my-4 open" data-aos="fade-in">
             <h3 className="text-center  carrersSubTitle"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
