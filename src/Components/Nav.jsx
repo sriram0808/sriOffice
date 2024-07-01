@@ -14,7 +14,6 @@ function NavBar() {
   // const [click, setClick] = useState(false);
 
   // const handleClick = () => setClick(!click);
-   
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
       if (window.scrollY >= 80) {
@@ -129,14 +128,12 @@ function NavBar() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-
             {click ? (
               <span className="icon">
                   <IoMdClose />{" "}
               </span>
             ) : (
               <span className="icon">
-            
             <CgMenuRightAlt />
               </span>
             )}
@@ -147,5 +144,3 @@ function NavBar() {
   );
 }
 export default NavBar;
-
-

@@ -15,12 +15,10 @@ let Carrers=()=>{
     const ref = useRef(null);
 
   const handleClick = () => {
-    
     ref.current?.scrollIntoView({behavior: 'smooth'});
   };
     return(
       <div>
-        
         <div className="container-fluid careers-page" style={{backgroundColor:" #000000"}}>
      
            <div className="container">
@@ -52,7 +50,7 @@ let Carrers=()=>{
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col my-3"> 
 
-      <Accordion className="p-1 accordionBack" >
+      <Accordion className="p-1 accordionBack">
         <AccordionSummary
             expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
           aria-controls="panel3-content"
@@ -80,8 +78,6 @@ let Carrers=()=>{
       </Accordion>
     </div>
     <div className="col my-3"> 
-      
-    
       <Accordion className="p-1 accordionBack" >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
@@ -104,9 +100,7 @@ let Carrers=()=>{
         </AccordionDetails>
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   
                    <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
-
                   </div>
         </AccordionActions>
       </Accordion>
@@ -123,7 +117,7 @@ let Carrers=()=>{
         <AccordionDetails >
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
-          <ul className="skillsList">
+    <ul className="skillsList">
         <li>Good knowledge of Node.js with 1 year of minimum experience.</li>
         <li>Good exposure on Mongodb and Express.js.</li>
         <li>User authentication and authorization between multiple systems, servers, and environments.</li>
@@ -133,17 +127,13 @@ let Carrers=()=>{
     </ul>
         </AccordionDetails>
         <AccordionActions>
-        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   
+        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">                    
                    <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
-
                   </div>
         </AccordionActions>
       </Accordion>
     </div>
     <div className="col my-3"> 
-      
-      
       <Accordion className="p-1 accordionBack">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className="customExpandIcon" />}
@@ -179,10 +169,7 @@ let Carrers=()=>{
            </div>
                    </div>
                     </div>
-                 
-           
-             
-      
+
     )
 }
 export default Carrers
