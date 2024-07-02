@@ -7,9 +7,8 @@
     height: 100%;
 }
 .termsBackground{
-    /* background-color: black; */
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902706/privacypolicyBackground_ycivhi.webp");
-    background-color: black;
+    /* background-color: black; */
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover; 

@@ -7,10 +7,8 @@
     height: 100%;
 }
 .privacyBackground{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719662221/privacypolicyBackground-min_t81imd.png");
-    /* background-color: black; */
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902706/privacypolicyBackground_ycivhi.webp");
-    background-color: black;
+    /* background-color: black; */
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover; 
