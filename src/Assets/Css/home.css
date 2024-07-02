@@ -22,6 +22,10 @@
 .carousel-control-prev, .carousel-control-next{
   display: none;
 }
+.carousel-indicators{
+  list-style: none;
+}
+
 .contents-h1{
     font-size: 70px;
     font-weight: 900;
@@ -119,3 +123,6 @@
           box-shadow: none;
       }
   }
+ 
+
+

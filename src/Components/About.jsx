@@ -13,11 +13,11 @@ let About = () => {
     }, []);
 
     return (
-        <div className="" >
-            <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:" #000000"}}>
+        <div className="">
+            <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:"#000000"}}>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12">
+                    <div className="row"> 
+                        <div className="col-12">         
                             <h1 className={`fs-5 mb-2 text-secondary aboutpage ${style.aboutTitle}`} data-aos="fade-down">About</h1>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ let About = () => {
                                 <div className="card border-0" data-aos="fade-right">
                                     <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644993/neAbout1_e2liau.png" alt="Our Vision" />
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
-                                        <div className="entry-header mb-3">
+                                        <div className="entry-header mb-3"> 
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>
                                                 <a className="link-dark text-decoration-none " href="#!">Our Vision</a>
                                             </h2>

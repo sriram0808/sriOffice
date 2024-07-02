@@ -11,6 +11,7 @@ import email from "../Assets/Images/emailIcon.png"
 import clock from "../Assets/Images/clockIcon.png"
 
 let Contact = () => {
+
     const [formData, setFormData] = useState({
         fullname: '',
         email: '',
@@ -144,7 +145,6 @@ let Contact = () => {
                                     </form>
                                 </div>
                             </div>
-                          
                             <div className="col-12 col-lg-6 " >
                                 <div className="row justify-content-xl-center informationBack" data-aos="fade-right">
                                     <div className="col-12 col-xl-11">
@@ -224,5 +224,3 @@ let Contact = () => {
     )
 }
 export default Contact
-
-
