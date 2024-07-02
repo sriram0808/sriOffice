@@ -67,9 +67,7 @@ let Carrers=()=>{
         </AccordionDetails>
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   
                    <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
-
                   </div>
         </AccordionActions>
       </Accordion>
