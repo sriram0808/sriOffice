@@ -12,7 +12,7 @@ const Home = () => {
         <div className="">
             <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="4000">
                 <div className="carousel-inner mt-5">
-                    <div className="carousel-item active ">
+                    <div className="carousel-item active">
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
                                 <h1 className='contents-h1'>Crypto Trading</h1>
@@ -27,7 +27,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-md-6 d-flex flex-column justify-content-center">
                                 <h1 className='contents-h1'>Web Development</h1>
-                                <p className='homeQuotes'> “Websites promote you 24/7: No employee will do that.” <br />– Paul Cookson</p>
+                                <p className='homeQuotes'> “Websites promote you 24/7: No employee will do that.” <br /> – Paul Cookson</p>
                             </div>
                             <div className="col-md-6">
                                 {/* <img src={image} className="img-fluid" alt="Web Development" /> */}

@@ -10,10 +10,10 @@
 .discoverButton{
     height: 50px;
     width: 250px;
-    border: 2px solid ;
+    border: 2px solid;
     border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1;
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
 }
 .discoverButton:hover{
