@@ -18,7 +18,7 @@ let Cripto=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  <img src={cryto} alt="Descriptive Alt Text" className="img-fluid" />
+                  <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/Crypto_image_1_ijkftx.webp" alt="Descriptive Alt Text" className="img-fluid" />
                   <h1 className="mobileAppTitle">Crypto Trading</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">

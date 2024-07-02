@@ -16,7 +16,7 @@ let Webdevelopment=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  <img src={web} alt="Descriptive Alt Text" className="img-fluid" />
+                  <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902807/wwwwww_jpezwq.webp" alt="Descriptive Alt Text" className="img-fluid" />
                   <h1 className="mobileAppTitle">Web Development</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">

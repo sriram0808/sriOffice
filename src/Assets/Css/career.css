@@ -101,7 +101,7 @@ h6{
     align-items: center;
     justify-content: center ;
     height: 200px;
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/joinGlass_ymq4ix.png");
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902701/joinGlass_qhwyfq.webp");
 }
 .joinSubTitle{
     color: white;
@@ -119,7 +119,7 @@ h6{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719644906/Slogan_1_owvphl.png");
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902805/Slogan_1_y7l8u3.webp");
     color: white;
     font-weight: 300;
     font-size: 34px !important;
@@ -150,7 +150,7 @@ h6{
      
 }
 .accordionBack{
-    background: url(../Images//accordion.png);
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902681/accordion_kra0lg.webp");
     background-color: #000000 !important;
 }
 .customExpandIcon {

@@ -35,7 +35,7 @@ let About = () => {
                         <div className="col-12 col-lg-6">
                             <article>
                                 <div className="card border-0" data-aos="fade-right">
-                                    <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644993/neAbout1_e2liau.png" alt="Our Vision" />
+                                    <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/neAbout1_l6br80.webp" alt="Our Vision" />
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3">
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>
@@ -52,7 +52,7 @@ let About = () => {
                         <div className="col-12 col-lg-6">
                             <article>
                                 <div className="card border-0" data-aos="fade-left">
-                                    <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644982/newAbout2_pnve1s.png" alt="Our Approach"/>
+                                    <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/newAbout2_f71sfd.webp" alt="Our Approach"/>
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3">
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>

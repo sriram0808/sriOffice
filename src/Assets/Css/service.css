@@ -6,7 +6,7 @@
 
 }
 .serviceBack{
-    background-image: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719644948/Circle_line_s1m0pi.png"); 
+    background-image: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902701/Circle_line_vu1ovm.webp"); 
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -40,7 +40,7 @@
     margin-bottom: 10px; /* Adjust the margin value as needed */
     display: flex;
     flex-direction: column;
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719644906/serviceCard_nrigdr.png");
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902806/serviceCard_xbebsr.webp");
 }
 .serviceCardTitle{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);

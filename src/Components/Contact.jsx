@@ -3,12 +3,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from "react";
 import { UserFormUpload } from "../Authiapis/backendcall"
-import {  toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import location from "../Assets/Images/officeIcon.png"
 import phone from "../Assets/Images/phoneIcon.png"
 import email from "../Assets/Images/emailIcon.png"
 import clock from "../Assets/Images/clockIcon.png"
+import toast, { Toaster } from 'react-hot-toast';
 
 let Contact = () => {
     const [formData, setFormData] = useState({
@@ -29,6 +29,23 @@ let Contact = () => {
         });
     };
 
+    const notifyError = (msg) => toast.error(msg,
+        {
+          style: {
+            background: '#333',
+            color: '#fff',
+          },
+        }
+      );
+      const notifySuccess = (msg) => toast.success(msg,
+        {
+          style: {
+            background: '#333',
+            color: '#fff',
+          },
+        }
+      );
+
     const handleSubmit = async(e) => {
         e.preventDefault();
         const validationErrors = validateForm(formData);
@@ -38,8 +55,8 @@ let Contact = () => {
             console.log(formData)
 
             const backendsend = await UserFormUpload(formData).then((res) => {
-
-                toast.info(res.message)
+                console.log("respose --- ",res);
+                notifyError(res.message)
                 
             }).catch((err) => {
                 console.log('err', err)
@@ -89,6 +106,10 @@ let Contact = () => {
   
     return (
         <div className="">
+            <Toaster
+  position="top-right"
+  reverseOrder={false}
+/>
             <section className="py-3 py-md-5 py-xl-8 contactBack" style={{backgroundColor:" #000000"}}>
                 <div className="container">
                     <div className="row">
