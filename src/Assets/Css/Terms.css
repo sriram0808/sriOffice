@@ -1,5 +1,5 @@
 .termsBack{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719663171/Discover_Back_erdnbz.png");
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902697/discoverBack_qajhnb.webp");
     background-color: black;
     background-position: center ;
     background-repeat: no-repeat;
@@ -7,8 +7,9 @@
     height: 100%;
 }
 .termsBackground{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719662221/privacypolicyBackground-min_t81imd.png");
     /* background-color: black; */
+    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902706/privacypolicyBackground_ycivhi.webp");
+    background-color: black;
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover; 
