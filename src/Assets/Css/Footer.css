@@ -77,7 +77,7 @@
 }
  .subscribeButton{
     height: 50px;
-    width: 333px;
+    /* width: 333px; */
     border: 2px solid !important;
     border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1 !important;
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
@@ -97,38 +97,8 @@
     border-right-color: #3498db !important; /* Change this color to your desired loading color */
   }
 
-@media (min-width: 1200px) {
-    .subscribeButton {
-        width: 333px;
-    }
-}
 
-@media (min-width: 768px) and (max-width: 1199px) {
-    .subscribeButton {
-        width: 220px;
-    }
-}
-
-@media (max-width: 500px) {
-    .subscribeButton {
-        width: 390px;    
-    }
-}
-@media (max-width: 450px) {
-    .subscribeButton {
-        width: 390px;    
-    }
-}    
-@media (max-width: 385px) {
-    .subscribeButton {
-        width: 335px;   
-    }
-}
-@media (max-width: 320px) {
-    .subscribeButton {
-        width: 300px;    
-    }
-}
+ 
 
  .companyName{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
