@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import toast, { Toaster } from "react-hot-toast";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import config from "../Authiapis/config";
 import { ApplyForm } from "../Authiapis/backendcall";
 const Submitform = () => {
   const [formData, setFormData] = useState({
@@ -131,12 +132,12 @@ const Submitform = () => {
         // Reset form data and errors after successful submission
         
         setIsLoading(true)
-        console.log("form data ---------",formDataToSend);
+        // console.log("form data ---------",formDataToSend);
         // const response = await ApplyForm(formDataToSend)
-        const response = await axios.post("http://localhost:3002/applyforjob", formDataToSend)
+        const response = await axios.post(`${config.BACKEND_URL}applyforjob`, formDataToSend)
         setIsLoading(false)
         
-        console.log("final response",response);
+        // console.log("final response",response);
         if (response.status) {
           notifySuccess(response.data.message);
           setFormData({
@@ -154,7 +155,7 @@ const Submitform = () => {
           // window.location.href = "/";
         } else {
           setIsLoading(false)
-          console.log("submit form ---",response);
+          // console.log("submit form ---",response);
           setErrors({ ...errors, file: null }); 
           if(response.response){
             notifyError(response.response.data.message)
@@ -166,7 +167,7 @@ const Submitform = () => {
       } catch (error) {
         setIsLoading(false)
         setErrors({ ...errors, file: null });
-        console.error("Error submitting form:", error);
+        // console.error("Error submitting form:", error);
         if(error.response){
           setFormData({...formData, file:null})
           notifyError(error.response.data.message)

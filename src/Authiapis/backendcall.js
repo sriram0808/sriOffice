@@ -7,14 +7,14 @@ import { makeApiRequest } from "./axiosService";
         method: "POST",
         data: bodyData
       }
-      console.log('bodyData-------------', bodyData)
+      // console.log('bodyData-------------', bodyData)
       let response = await makeApiRequest(params);
       return {
         status: response.status,
         message: response.message
       }
     } catch (error) {
-      console.log('buytoken error',error);
+      // console.log('buytoken error',error);
       return {
         status:false,
         message: "Error on server",
@@ -31,7 +31,7 @@ import { makeApiRequest } from "./axiosService";
         data: bodyData
       }
       let response = await makeApiRequest(params);
-      console.log('backend call response',response)
+      // console.log('backend call response',response)
       // return {
       //   status:response.status,
       //   message:response.message,
@@ -63,10 +63,11 @@ import { makeApiRequest } from "./axiosService";
         data:response.data
       }
     } catch (error) {
-      console.log('getAdminFeeAmount error',error);
+      // console.log('getAdminFeeAmount error',error);
       return {
         status:false,
-        message: "Error on server"
+        message: "Error on server",
+        error: error.message
       }
     } 
   }

@@ -55,7 +55,7 @@ let Contact = () => {
       await UserFormUpload(formData)
         // await axios.post('http://localhost:3002/uploaddata', formData)
         .then((res) => {
-          console.log("respose --- ", res);
+          // console.log("respose --- ", res);
           notifySuccess(res.message);
           setFormData({
             fullname: "",
@@ -64,7 +64,7 @@ let Contact = () => {
             subject: "",
             message: "",
           });
-          console.log("Form submitted successfully");
+          // console.log("Form submitted successfully");
         })
         .catch((err) => {
           if (err.response) {
@@ -72,7 +72,7 @@ let Contact = () => {
           } else {
             notifyError(err.message);
           }
-          console.log("err--", err);
+          // console.log("err--", err);
         });
     } else {
       setErrors(validationErrors);

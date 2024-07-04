@@ -2,7 +2,7 @@ import axios from "axios";
 import config from "./config";
 
 export const makeApiRequest = async (params) => {
-  console.log('params',params)
+  // console.log('params',params)
   try {
     const headers = {
         "Access-Control-Allow-Origin": "*",
@@ -20,7 +20,6 @@ export const makeApiRequest = async (params) => {
         break;
       case "POST":
         response = await axios.post(`${config.BACKEND_URL}${params.url}`,params.data);
-        console.log("axios page la response",response);
         break;
       case "PUT":
         response = await axios.put(`${config.BACKEND_URL}${params.url}`, params.data, { headers });
@@ -33,7 +32,7 @@ export const makeApiRequest = async (params) => {
     }
     return response.data;
   } catch (error) {
-    console.log("axios error", error);
+    // console.log("axios error", error);
     // throw error;
     return error
   }
