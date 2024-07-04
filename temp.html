@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;   
+        }
+        .container {
+            background-image: url('https://res.cloudinary.com/duglv3mab/image/upload/v1719577619/Background1_whjksb.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 30%;
+            padding: 20px;
+            position: relative;
+            border-radius: 10px;
+        }
+        .company-logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 15%;
+            max-width: 100px;
+        }
+        .thanks-icon {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            max-width: 200px;
+        }
+        .heading {
+            background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px !important;
+            font-weight: bold;
+            font-family: "Lexend", sans-serif;
+        }
+        .subHeading {
+            color: white;
+        }
+        @media (min-width: 1200px) { 
+            .thanks-icon {
+                max-width: 300px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1199.98px) {
+            .thanks-icon {
+                max-width: 250px;
+            }
+        }
+        @media (max-width: 767.98px) { 
+            .thanks-icon {
+                max-width: 150px;
+            }
+            .container {
+                width: 90%;
+            }
+            .company-logo {
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+        <img src="https://res.cloudinary.com/duglv3mab/image/upload/v1719577268/Logo_jvju1s.png" alt="Company Logo" class="company-logo">
+        <div class="row w-100">
+            <h1
+        style="text-align: start; -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;"
+          class="text-start heading mt-5"
+        >
+          Dear ${name}
+        </h1>
+        </div>
+        <div class="row w-100">
+            <p class="text-start fw-lighter subHeading">Thank you for filling out the form on our websites.</p>
+            <p class="text-start fw-lighter subHeading">We appreciate your interest in our company</p>
+            <p class="text-start fw-lighter subHeading">If you have any  further or require assistance, feel  free to contact us <span><a href="mailto:thamizhan1630@gmail.com" target="_blank">thamizhan1630@gmail.com</a></span>. We're here to help! </p>
+
+            <h4 class="text-start fw-lighter subHeading">Best regards,</h4>
+            <h4 class="text-start fw-lighter subHeading">Thamizhan Solutions</h4>
+        </div>
+    </div>
+</body>
+</html>`

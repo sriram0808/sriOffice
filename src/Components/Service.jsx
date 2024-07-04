@@ -21,7 +21,7 @@ let Service=()=>{
     return(
 
         <div>
-                <section class="py-5 py-xl-8  serviceBack" style={{backgroundColor:" #000000"}}>
+                <section className="py-5 py-xl-8  serviceBack" style={{backgroundColor:" #000000"}}>
                 <div className="container">
                 <h1 className="mb-4 display-5 text-center  serviceTitle"  >Our Services</h1>
                         <p className=" mb-5 text-center serviceSubTitle">We provide comprehensive digital solutions including NFT services, AI development, web development, UI/UX design, and crypto trading services. Our expertise spans diverse sectors, ensuring innovative and tailored solutions for all your digital needs.</p>
@@ -46,7 +46,7 @@ let Service=()=>{
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644914/web_p6wxa8.png" alt="Web Development Icon" className='img-fluid mx-3 mt-3'  style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
-                                <h1 class="serviceCardTitle">Web Devleopment</h1>
+                                <h1 className="serviceCardTitle">Web Devleopment</h1>
                                 <p className=" mb-3 serviceCardSubTitle ">Thamizhan Solution offers premier web development services, crafting dynamic and responsive websites tailored to your business needs. Our expert developers specialize in creating user-friendly, scalable, and secure web solutions that enhance your digital presence and drive success.</p>
                                 <a href='/webdevelopment'style={{ position: 'absolute', bottom: '10px', right: '10px' }}>
                                     <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644956/learnnn_rld4rb.png" alt="learn more" className="img-fluid mx-3 mb-3" style={{ height: "25px" }} />
