@@ -187,7 +187,7 @@ const Submitform = () => {
       <div className="applyBack" style={{ backgroundColor: "#000000" }}>
         <div className="container py-5">
           <div className="row justify-content-center">
-            <div className="col-6 glass">
+            <div className="col-lg-6 col-md-8 col-sm-12 glass">
               <h1 className="text-center applyFormTitle">Job Application</h1>
               <form className="my-5" onSubmit={submit}>
                 <div className="form-group">
