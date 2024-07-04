@@ -68,7 +68,7 @@ let Footer=()=>{
   reverseOrder={false}
 />
       <div className="row footerBack">
-        <div class='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
+        <div className='col-12 col-lg-4  py-4 py-md-5 py-xxl-8   footerBlock'>
           <div className="row h-70 align-items-end justify-content-center">
             <div className="col-12 col-md-11 col-xl-10 footer-con">
               <div className="footer-logo-wrapper">

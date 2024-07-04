@@ -1,12 +1,11 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "../Assets/Css/Submitform.css";
 import Footer from "./Footer";
-import {  toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from "react-hot-toast";
+import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
-import {ApplyForm}from '../Authiapis/backendcall'
+import { ApplyForm } from "../Authiapis/backendcall";
 const Submitform = () => {
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -19,6 +18,8 @@ const Submitform = () => {
 
   const [errors, setErrors] = useState({});
 
+  const [isLoading, setIsLoading] = useState(false)
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -27,30 +28,58 @@ const Submitform = () => {
     }
   };
 
+  // Toast notification---
+  const notifyError = (msg) =>
+    toast.error(msg, {
+      style: {
+        background: "#333",
+        color: "#fff",
+      },
+    });
+  const notifySuccess = (msg) =>
+    toast.success(msg, {
+      style: {
+        background: "#333",
+        color: "#fff",
+      },
+    });
+
+    const inputFile = useRef(null);
+
   const handleFileChange = (e) => {
     const file = e.target.files[0];
     setFormData({ ...formData, file });
+
     if (errors.file) {
-      setErrors({ ...errors, file: "" });
+      setErrors({ ...errors, file: null });
+      handleFileReset()
     }
   };
 
 
-  const submit = async(e) => {
-    
-    e.preventDefault();
+  // Function to reset the input element
+  const handleFileReset = () => {
+    if (inputFile.current) {
+        inputFile.current.value = "";
+        inputFile.current.type = "text";
+        inputFile.current.type = "file";
+    }
+};
+
+  const submit = async (e) => {
+    e.preventDefault(); 
+    setIsLoading(false)
+
     const validationErrors = {};
-    
+
     if (!formData.name.trim()) {
       validationErrors.name = "Name is required";
     }
 
     if (!formData.email.trim()) {
-      validationErrors.email = "Email is required";
+      validationErrors.email = "Email is required"; 
     } else if (
-      !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(
-        formData.email
-      )
+      !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(formData.email)
     ) {
       validationErrors.email = "Invalid email format";
     }
@@ -73,7 +102,7 @@ const Submitform = () => {
       validationErrors.message = "Message is required";
     }
 
-     if (!formData.file) {
+    if (!formData.file) {
       validationErrors.file = "File is required";
     } else {
       const allowedFileSize = 5 * 1024 * 1024; // 5MB in bytes
@@ -86,21 +115,9 @@ const Submitform = () => {
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
-
     } else {
-
-      console.log("Form submitted:", formData);
-      toast.info("Application Submitted")
-
-      setFormData({
-        user_name: "",
-        user_email: "",
-        contact: "",
-        position: "",
-        experience: "",
-        message: "",
-        file: "",
-      });
+      // console.log("Form submitted:", formData);
+      // toast.info("Application Submitted");
       setErrors({});
       const formDataToSend = new FormData();
       formDataToSend.append("name", formData.name);
@@ -110,48 +127,69 @@ const Submitform = () => {
       formDataToSend.append("Experience", formData.Experience);
       formDataToSend.append("message", formData.message);
       formDataToSend.append("pdfFile", formData.file);
-
       try {
         // Reset form data and errors after successful submission
-        const response = await ApplyForm(formDataToSend)
-        if(response.status){
-
-    
-          toast.success(response.message)
+        
+        setIsLoading(true)
+        console.log("form data ---------",formDataToSend);
+        // const response = await ApplyForm(formDataToSend)
+        const response = await axios.post("http://localhost:3002/applyforjob", formDataToSend)
+        setIsLoading(false)
+        
+        console.log("final response",response);
+        if (response.status) {
+          notifySuccess(response.data.message);
+          setFormData({
+            name: "",
+            email: "",
+            contact: "",
+            Position: "",
+            Experience: "",
+            message: "",
+            file: "",
+          });
+          handleFileReset()
+          setErrors({ ...errors, file: null });
+          setErrors({});
+          // window.location.href = "/";
+        } else {
+          setIsLoading(false)
+          console.log("submit form ---",response);
+          setErrors({ ...errors, file: null }); 
+          if(response.response){
+            notifyError(response.response.data.message)
+          }
+          else{
+            notifyError(response.data.message);
+          }
+        }
+      } catch (error) {
+        setIsLoading(false)
+        setErrors({ ...errors, file: null });
+        console.error("Error submitting form:", error);
+        if(error.response){
+          setFormData({...formData, file:null})
+          notifyError(error.response.data.message)
+          handleFileReset()
         }
         else{
-  
-          toast.error(response.message)
+          setFormData({...formData, file:null})
+          notifyError(error.message);
+          handleFileReset()
         }
-        setFormData({
-          name: "",
-          email: "",
-          contact: "",
-          Position: "",
-          Experience: "",
-          message: "",
-          file: null,
-        });
-        setErrors({});
-        window.location.href='/'
-      } catch (error) {
-        console.error("Error submitting form:", error);
         // Handle error if needed
       }
     }
   };
-;
-
   return (
     <div>
-      <div className="applyBack" style={{backgroundColor: "#000000"}}>
+       <Toaster position="top-right" reverseOrder={false} />
+      <div className="applyBack" style={{ backgroundColor: "#000000" }}>
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-6 glass">
-              <h1 className="text-center applyFormTitle" >
-                Job Application
-              </h1>
-              <form className="my-5">
+              <h1 className="text-center applyFormTitle">Job Application</h1>
+              <form className="my-5" onSubmit={submit}>
                 <div className="form-group">
                   <input
                     type="text"
@@ -162,10 +200,12 @@ const Submitform = () => {
                       errors.name ? "is-invalid" : ""
                     }`}
                     placeholder="Name"
-                     id="formName"
+                    id="formName"
                   />
                   {errors.name && (
-                    <div className="invalid-feedback"><b>{errors.name}</b></div>
+                    <div className="invalid-feedback">
+                      <b>{errors.name}</b>
+                    </div>
                   )}
                 </div>
                 <div className="form-group">
@@ -179,8 +219,6 @@ const Submitform = () => {
                     }`}
                     placeholder="Your Email"
                     id="formEmail"
-                   
-                   
                   />
                   {errors.email && (
                     <div className="invalid-feedback">
@@ -190,7 +228,7 @@ const Submitform = () => {
                 </div>
                 <div className="form-group">
                   <input
-                    type="text"
+                    type="number"
                     name="contact"
                     value={formData.contact}
                     onChange={handleInputChange}
@@ -201,7 +239,9 @@ const Submitform = () => {
                     id="formPhone"
                   />
                   {errors.contact && (
-                    <div className="invalid-feedback"><b>{errors.contact}</b></div>
+                    <div className="invalid-feedback">
+                      <b>{errors.contact}</b>
+                    </div>
                   )}
                 </div>
                 <div className="row row-cols-md-2 row-cols-1">
@@ -216,7 +256,7 @@ const Submitform = () => {
                       }`}
                       style={{ width: "100%" }}
                     >
-                      <option selected>Choose Position...</option>
+                      <option>Choose Position...</option>
                       <option>Senior Frontend Developer</option>
                       <option>Backend (Nodejs)</option>
                       <option>Digital Marketing</option>
@@ -262,33 +302,36 @@ const Submitform = () => {
                     id="textArea"
                   ></textarea>
                   {errors.message && (
-                    <div className="invalid-feedback"><b>{errors.message}</b></div>
+                    <div className="invalid-feedback">
+                      <b>{errors.message}</b>
+                    </div>
                   )}
                 </div>
                 <div>
                   <input
                     className={`form-control form-control-lg email ${
                       errors.file ? "is-invalid" : ""
-                      
                     }`}
                     id="file "
                     type="file"
                     accept=".pdf"
-                     name="file" 
+                    name="file"
+                    ref={inputFile}
                     onChange={handleFileChange}
                   />
                   {errors.file && (
-                    <div className="invalid-feedback"><b>{errors.file}</b></div>
+                    <div className="invalid-feedback">
+                      <b>{errors.file}</b>
+                    </div>
                   )}
-                  
                 </div>
                 <div className="Submit_form">
                   <button
-                    type="button"
+                    type="submit"
                     className="btn applySubmitButton"
-                    onClick={submit}
+            
                   >
-                    Submit
+                    {isLoading?"Wait...":"Submit"}
                   </button>
                 </div>
               </form>
@@ -302,5 +345,3 @@ const Submitform = () => {
 };
 
 export default Submitform;
-
-

@@ -7,17 +7,18 @@ import { makeApiRequest } from "./axiosService";
         method: "POST",
         data: bodyData
       }
-      console.log('bodyData', bodyData)
+      console.log('bodyData-------------', bodyData)
       let response = await makeApiRequest(params);
       return {
-        status:response.status,
+        status: response.status,
         message: response.message
       }
     } catch (error) {
       console.log('buytoken error',error);
       return {
         status:false,
-        message: "Error on server"
+        message: "Error on server",
+        error: error
       }
     }
   }
@@ -30,17 +31,19 @@ import { makeApiRequest } from "./axiosService";
         data: bodyData
       }
       let response = await makeApiRequest(params);
-      // console.log('response',response)
-      return {
-        status:response.status,
-        message: response.message,
-        data:response.data
-      }
+      console.log('backend call response',response)
+      // return {
+      //   status:response.status,
+      //   message:response.message,
+      //   data:response.data  
+      // }
+      return response
     } catch (error) {
       // console.log('getLoanHistory error',error);
       return {
         status:false,
-        message: "Error on server"
+        message: "Error on server",
+        error:error
       }
     }
   }

@@ -23,8 +23,8 @@ let Carrers=()=>{
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center align-items-center py-3 "> 
             <div className="col joinCard" >
 <div className="card details" data-aos="fade-in">
-    <h1 class="fs-1 carrersTitle"> Come Connect With Us Our Family. </h1>
-    {/* <h3 style={{color:"white",marginTop:"10"}} class="fs-3 joinSubTitle">Come work with us</h3> */}  
+    <h1 className="fs-1 carrersTitle"> Come Connect With Us Our Family. </h1>
+    {/* <h3 style={{color:"white",marginTop:"10"}} className="fs-3 joinSubTitle">Come work with us</h3> */}  
     <p className="fs-5 joinSubTitle">We aim is to change your working environment to work for our future development and growth of our company.</p>
 </div>
 
@@ -67,7 +67,7 @@ let Carrers=()=>{
         </AccordionDetails>
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
                   </div>
         </AccordionActions>
       </Accordion>
@@ -95,7 +95,7 @@ let Carrers=()=>{
         </AccordionDetails>
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
                   </div>
         </AccordionActions>
       </Accordion>
@@ -123,7 +123,7 @@ let Carrers=()=>{
         </AccordionDetails>
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">                    
-                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
                   </div>
         </AccordionActions>
       </Accordion>
@@ -152,7 +152,7 @@ let Carrers=()=>{
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
                    
-                   <a href="/apply"> <button  type="button" class="btn jobApplyButton"> Apply </button></a> 
+                   <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
 
                   </div>
         </AccordionActions>
