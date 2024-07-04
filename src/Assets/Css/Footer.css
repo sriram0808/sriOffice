@@ -95,11 +95,13 @@
     border-top-color: #3498db !important; /* Change this color to your desired loading color */
     border-right-color: #3498db !important; /* Change this color to your desired loading color */
   }
+
  .companyName{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
+ 
  .foot{
     color: white;
 }
