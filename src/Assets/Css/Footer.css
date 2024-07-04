@@ -77,7 +77,6 @@
 }
  .subscribeButton{
     height: 50px;
-    /* width: 333px; */
     border: 2px solid !important;
     border-image: linear-gradient(45deg, rgb(252,252,252), rgb(51,120,153)) 1 !important;
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
@@ -96,10 +95,6 @@
     border-top-color: #3498db !important; /* Change this color to your desired loading color */
     border-right-color: #3498db !important; /* Change this color to your desired loading color */
   }
-
-
- 
-
  .companyName{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 10%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
@@ -108,8 +103,3 @@
  .foot{
     color: white;
 }
-
-
-
-
-
