@@ -371,6 +371,7 @@ let Contact = () => {
           </div>
           <div className="map">
             <iframe
+            title="Thamizhan Solutions Office"
               width="100%"
               height="400"
               frameBorder="0"
