@@ -7,6 +7,25 @@
     box-sizing: border-box;
 }
 
+/* removing number input box arrows for chrome, edge and etc*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+ /* removing number input box arrows for firefox browser*/
+input[type=number]{ 
+    -moz-appearance: textfield;
+}
+
+textarea::placeholder {
+    color: white; /* Change this to the desired color */
+}
+#textArea::placeholder {
+    color: white; /* Change this to the desired color */
+}
+
 .contactBack {
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902806/newContactBack_q8jnen.webp");
     background-position: center;

@@ -156,6 +156,7 @@ let Contact = () => {
                           id="fullname"
                           name="fullname"
                           value={formData.fullname}
+                          placeholder="Enter name"
                           onChange={handleChange}
                         />
                         {errors.fullname && (
@@ -177,6 +178,7 @@ let Contact = () => {
                             id="email"
                             name="email"
                             value={formData.email}
+                            placeholder="Enter email"
                             onChange={handleChange}
                           />
                         </div>
@@ -194,11 +196,12 @@ let Contact = () => {
                         </label>
                         <div className="input-group">
                           <input
-                            type="tel"
+                            type="number"
                             className="form-control formPhone"
                             id="phone"
                             name="phone"
                             value={formData.phone}
+                            placeholder="Enter phone no"
                             onChange={handleChange}
                           />
                         </div>
@@ -220,6 +223,7 @@ let Contact = () => {
                           id="subject"
                           name="subject"
                           value={formData.subject}
+                          placeholder="Enter your subject"
                           onChange={handleChange}
                         />
                         {errors.subject && (
@@ -228,7 +232,7 @@ let Contact = () => {
                       </div>
                       <div className="col-12">
                         <label
-                          htmlFor="message"
+                          htmlFor="textArea"
                           className="form-label"
                           style={{ color: "white" }}
                         >
@@ -236,10 +240,11 @@ let Contact = () => {
                         </label>
                         <textarea
                           className="form-control formMessage"
-                          id="message"
+                          id="textArea"
                           name="message"
                           rows="3"
                           value={formData.message}
+                          placeholder="Write your project brief"
                           onChange={handleChange}
                         ></textarea>
                         {errors.message && (
