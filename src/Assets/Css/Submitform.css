@@ -9,28 +9,28 @@
     border-radius: 10px;
 }
 input[type="email"]::placeholder {
-    color: white; /* Change this to the desired color */
+    color: rgb(133, 133, 133); /* Change this to the desired color */
 }
 input[type="text"]::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 input[type="number"]::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 input[type="textarea"]::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 input[type="contact"]::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 input[type="file"]::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 textarea::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 #textArea::placeholder {
-    color: white; /* Change this to the desired color */
+    color:rgb(133, 133, 133); /* Change this to the desired color */
 }
 .applyBack{
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902806/newContactBack_q8jnen.webp");
