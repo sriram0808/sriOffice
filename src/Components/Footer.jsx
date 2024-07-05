@@ -68,7 +68,7 @@ let Footer = () => {
               <div className="footer-logo-wrapper">
                 <a href="/">
                   <img
-                    src="https://res.cloudinary.com/deowghzbg/image/upload/v1720174080/Logo_with_Text_1_bazphb.png"
+                    src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png"
                     alt="Thamizhan Solution Logo"
                     width="179"
                     height="60"
