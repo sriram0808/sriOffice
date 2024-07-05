@@ -10,7 +10,9 @@ import whatsapp from "../Assets/Images/whatsapp.png"
 import linkedin from "../Assets/Images/linkedin.png"
 import toast, { Toaster } from 'react-hot-toast';
 import axios from "axios";
+
 let Footer=()=>{
+
   const closeMenu=()=> setClick(false);
   const [click, setClick] = useState(false);
 
@@ -88,7 +90,7 @@ let Footer=()=>{
                        </div>
                        <div className="social-div">
                        <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png" alt="Whatsapp Icon" className="img-fluid" style={{height:"40px"}}/> </a><h6>Whatsapp</h6>
-                       </div>   
+                       </div>
                        <div className="social-div"> 
                        <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/linkedin_mlh3ml.png" alt="Linked Icon" className="img-fluid" style={{height:"40px"}}/> </a><h6>Linkedin</h6>
                        </div>                   
@@ -107,7 +109,7 @@ let Footer=()=>{
                     <ul className="list-unstyled service">
                       <li className="mb-3">
                       <a href="/mobileapp"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> MobileApp Development </a>
-                      </li>
+                      </li>    
                       <li className="mb-3">
                       <a href="/webdevelopment"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Web Development </a>
                       </li>
@@ -135,37 +137,30 @@ let Footer=()=>{
             </li>
            
             <li className="mb-3">
-          
-              
               <a href="/about"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> About</a>
             </li>
             <li className="mb-3">
-          
                <a href="/service"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Service</a>
             </li>
             <li className="mb-3">
-          
                <a href="/career"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Career</a>
             </li>
             <li className="mb-3">
-        
                <a href="/contact"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Contact</a>
             </li>
             <li className="mb-3">
-
             <a href="/termsandconditions"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Terms & Condition</a>
             </li>
             <li className="mb-3">
-
             <a href="/privacypolicy"  className="link-secondary text-decoration-none footerSubTitle"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png" alt="arrow Icon" className="img-fluid"/> Privacy Policy</a>
             </li>
-                    </ul>
-                  </div>
-                </div>
+          </ul>
+        </div>
+      </div>
                 <div className="col-12 col-sm-6">
                   <div className="widget mx-0">
                     <h4 className="widget-title mb-4 footerTitle">Our Newsletter</h4>
-                    <p className="mb-4    footerSubTitle" >Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
+                    <p className="mb-4    footerSubTitle">Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
                     <form action="#!" onSubmit={handleSubscribe}>
                       <div className="row gy-4">
                         <div className="col-12">

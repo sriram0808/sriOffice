@@ -76,22 +76,22 @@ textarea::placeholder {
 
 
 #formName, #formEmail, #formPhone{
-    background: url(../Images//applyFormName.png);
     border: 1px solid ;
     border-image: linear-gradient(45deg, rgb(236,197,132), rgb(252,252,252)) 1 ;
     color: white;
+    background: transparent;
 }
 #formExp, #formChoose{
-    background: url(../Images//Choose\ position\ and\ Experience.png) !important;
     border: 1px solid;
     border-image: linear-gradient(45deg, rgb(236,197,132), rgb(252,252,252)) 1 ;
     color: white;
+    background: transparent;
 }
 #textArea{
-    background: url(../Images//Text\ your\ messages.png);
     border: 1px solid ;
     border-image: linear-gradient(45deg, rgb(236,197,132), rgb(252,252,252)) 1 ;
     color: white !important;
+    background: transparent;
 }
 .applySubmitButton{
     height: 50px;
