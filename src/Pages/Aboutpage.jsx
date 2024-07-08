@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../Components/Home";
+// import Home from "../Components/Home";
 import About from "../Components/About";
 import Service  from "../Components/Service";
 import Carrers from "../Components/Carrers";
@@ -15,7 +15,6 @@ function Aboutpage(){
             <Contactpage/>
             <Contact/>
             <Footer/>
-        
         </div>
     )
 }
