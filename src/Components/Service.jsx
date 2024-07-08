@@ -1,21 +1,13 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
-import { Link } from 'react-router-dom';
-import Carrers from './Carrers';
 import "../Assets/Css/service.css"
-import mobilelogo from "../Assets/Images/mobile.png"
-import logoWeb from "../Assets/Images/web.png"
-import uiuxlogo from "../Assets/Images/uiux.png"
-import ailogo from "../Assets/Images/ai.png"
-import cryptologo from "../Assets/Images/crypto.png"
-import nftlogo from "../Assets/Images/nft.png"
-import learnmore from "../Assets/Images/learnnn.png"
+
 
 let Service=()=>{
 
     useEffect(() => {
-        AOS.init({ duration: 1000, });
+        AOS.init({ duration: 500, });
       }, []);
 
     return(

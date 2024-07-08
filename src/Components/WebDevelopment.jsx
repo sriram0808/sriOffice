@@ -1,5 +1,4 @@
 import "../Assets/Css/Mobile.css"
-import web from "../Assets/Images/wwwwww.png"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
 

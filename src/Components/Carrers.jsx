@@ -1,21 +1,14 @@
-import Inter from "../Assets/Images/interview2.png"
 import "../Assets/Css/career.css"
 import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-// import Button from '@mui/material/Button';
-import {useRef} from 'react';
-import Contact from "./Contact"
+
 
 let Carrers=()=>{
 
-    const ref = useRef(null);
-
-  const handleClick = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'});
-  };
+  
     return(
       <div>
         <div className="container-fluid careers-page" style={{backgroundColor:" #000000"}}>
@@ -39,10 +32,10 @@ let Carrers=()=>{
           <div className="container my-4 open" data-aos="fade-in">
             <h3 className="text-center  carrersSubTitle"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
           </div>
-           <h1 className="current my-4 fs-1 carrersTitle" ref={ref} data-aos="fade-in ">
+           <h1 className="current my-4 fs-1 carrersTitle" data-aos="fade-in ">
             Current Openings
            </h1>
-           <div className="acc">
+           <div className="acc">      
            <div className="container p-3">
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
               <div className="col my-3"> 
@@ -84,7 +77,7 @@ let Carrers=()=>{
         <AccordionDetails>
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
-          <ul className="skillsList">
+     <ul className="skillsList">
         <li>Proficiency in HTML, CSS, and JavaScript is essential. These are the core technologies used in front-end development.</li>
         <li>Understanding of responsive design principles and experience with CSS preprocessors like Sass or Less.</li>
         <li>Expertise in React and related libraries for building modern web applications</li>
@@ -109,7 +102,7 @@ let Carrers=()=>{
         >
            <h5>Back End Developer</h5>
         </AccordionSummary>
-        <AccordionDetails >
+        <AccordionDetails>
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
     <ul className="skillsList">
@@ -123,8 +116,8 @@ let Carrers=()=>{
         </AccordionDetails>
         <AccordionActions>
         <div  className="mx-3 d-flex justify-content-start btn_pre p-2">                    
-                   <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
-                  </div>
+             <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
+         </div>
         </AccordionActions>
       </Accordion>
     </div>
@@ -137,7 +130,7 @@ let Carrers=()=>{
         >
            <h5>Digital Marketing</h5>
         </AccordionSummary>
-        <AccordionDetails >
+        <AccordionDetails>
         <h6>Experiece: 0-1 Year</h6>
           <h6>Skills</h6>
           <ul className="skillsList">
@@ -150,11 +143,9 @@ let Carrers=()=>{
     </ul>
         </AccordionDetails>
         <AccordionActions>
-        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">  
-                   
-                   <a href="/apply"> <button  type="button" className="btn jobApplyButton"> Apply </button></a> 
-
-                  </div>
+        <div  className="mx-3 d-flex justify-content-start btn_pre p-2">
+            <a href="/apply"><button  type="button" className="btn jobApplyButton"> Apply </button></a> 
+        </div>
         </AccordionActions>
       </Accordion>
     </div>
@@ -168,4 +159,3 @@ let Carrers=()=>{
     )
 }
 export default Carrers
-

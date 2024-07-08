@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import "../Assets/Css/navbar.css"
-import logo from "../Assets/Images/finalLogo.jpg";
 import { CgMenuRightAlt } from "react-icons/cg";
-import { Link } from "react-scroll";
 
 function NavBar() {
   const closeMenu=()=> setClick(false)

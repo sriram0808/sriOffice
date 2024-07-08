@@ -1,15 +1,8 @@
-import logo from "../Assets/Images/finalLogo.jpg";
 import "../Assets/Css/Footer.css";
 import { useState } from "react";
-import arrow from "../Assets/Images/arrow.png";
-import copyright from "../Assets/Images/copyright.png";
-import faceBook from "../Assets/Images/faceBook.png";
-import insta from "../Assets/Images/insta.png";
-import twitter from "../Assets/Images/twitter.png";
-import whatsapp from "../Assets/Images/whatsapp.png";
-import linkedin from "../Assets/Images/linkedin.png";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
+
 let Footer = () => {
   const closeMenu = () => setClick(false);
   const [click, setClick] = useState(false);
