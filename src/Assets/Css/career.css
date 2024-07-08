@@ -102,6 +102,7 @@ h6{
     justify-content: center ;
     /* height: 200px; */
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902701/joinGlass_qhwyfq.webp");
+    background-size: cover;
 }
 .joinSubTitle{
     color: white;
