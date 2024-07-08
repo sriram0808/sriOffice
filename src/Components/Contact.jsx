@@ -129,8 +129,8 @@ let Contact = () => {
         </div>
         <div className=" container map">
           <div className="container contactus">
-            <div className="row gy-4 gy-md-5 gy-lg-0 align-items-md-center ">
-              <div className="col-12 col-lg-6  ">
+            <div className="row gy-4 gy-md-5 gy-lg-0 align-items-md-center">
+              <div className="col-12 col-lg-6">
                 <div
                   className=" overflow-hidden  formBack"
                   data-aos="fade-right"

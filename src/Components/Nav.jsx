@@ -22,7 +22,6 @@ function NavBar() {
   };
   window.addEventListener("scroll", changeNavbarColor);
 
-
   return (
     <>
       <nav  
@@ -42,86 +41,19 @@ function NavBar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              {/* <Link
-            
-              exact
-                to="homepage"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="nav-links"
-                onClick={closeMenu}
-              >
-               Home
-              </Link> */}
               <a href="/" className="nav-links">Home </a>
             </li>
            
             <li className="nav-item">
-            {/* <Link
-                exact
-                to="aboutpage"
-                spy={true}
-                smooth={true}
-                offset={-110}
-                duration={500}
-                activeClassName="active"
-                className="nav-links"
-                onClick={closeMenu}
-              >
-               About
-              </Link> */}
                <a href="/about" className="nav-links">About </a>
             </li>
             <li className="nav-item">
-            {/* <Link
-                exact
-                to="serviceTitle"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="nav-links"
-                onClick={closeMenu}
-              >
-               Service
-              </Link> */}
                     <a href="/service" className="nav-links">Services</a>
             </li>
             <li className="nav-item">
-            {/* <Link
-                exact
-                to="rounded"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="nav-links"
-                onClick={closeMenu}
-              >
-               
-               Careers
-              </Link> */}
                     <a href="/career" className="nav-links">Careers</a>
             </li>
             <li className="nav-item">
-            {/* <Link
-                exact
-                to="contactus-text"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                activeClassName="active"
-                className="nav-links"
-                onClick={closeMenu}
-              >
-              Contact
-              </Link> */}
                     <a href="/contact" className="nav-links">Contact</a>
             </li>
           </ul>
