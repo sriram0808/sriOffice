@@ -1,10 +1,11 @@
 .privacyBack{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902697/discoverBack_qajhnb.webp");
+    /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902697/discoverBack_qajhnb.webp"); */
     background-color: black;
+    background-image: url('../Images/discoverBack.jpg');
     background-position: center ;
     background-repeat: no-repeat;
-    background-size: cover; 
     height: 100%;
+    background-size: cover; 
 }
 .privacyBackground{
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902706/privacypolicyBackground_ycivhi.webp");

@@ -11,6 +11,7 @@
 .footerBack{
     /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/footerBack_e0ztxo.webp"); */
     background-image: url("../Images/footerBack.jpg");
+    background-size: cover;
 }
 .fullWidthContainer {
     padding-left: 0;
