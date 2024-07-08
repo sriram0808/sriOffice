@@ -30,7 +30,7 @@ let About = () => {
                 </div>
                 <div className="container overflow-hidden">
                     <div className="row gy-4 gy-lg-0">
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-md-6">
                             <article>
                                 <div className="card border-0" data-aos="fade-right">
                                     <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/neAbout1_l6br80.webp" alt="Our Vision" />
@@ -47,7 +47,7 @@ let About = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-md-6 ">
                             <article>
                                 <div className="card border-0" data-aos="fade-left">
                                     <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/newAbout2_f71sfd.webp" alt="Our Approach"/>

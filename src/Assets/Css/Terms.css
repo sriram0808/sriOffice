@@ -1,5 +1,6 @@
 .termsBack{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902697/discoverBack_qajhnb.webp");
+    /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902697/discoverBack_qajhnb.webp"); */
+    background-image: url('../Images/discoverBack.jpg');
     background-color: black;
     background-position: center ;
     background-repeat: no-repeat;

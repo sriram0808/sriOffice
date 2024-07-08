@@ -2,7 +2,7 @@ import "../Assets/Css/Footer.css";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
-
+import config from "../Authiapis/config";
 let Footer = () => {
   const closeMenu = () => setClick(false);
   const [click, setClick] = useState(false);
@@ -28,7 +28,7 @@ let Footer = () => {
     event.preventDefault();
     if (!subscriberEmail == "") {
       await axios
-        .post("http://localhost:3002/new/email/subscribe", {
+        .post(`${config.BACKEND_URL}new/email/subscribe`, {
           email: subscriberEmail,
         }) // env variable
         .then((res) => {

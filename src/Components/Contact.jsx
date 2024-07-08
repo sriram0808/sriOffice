@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { UserFormUpload } from "../Authiapis/backendcall";
 import "react-toastify/dist/ReactToastify.css";
 import toast, { Toaster } from "react-hot-toast";
+import config from "../Authiapis/config";
 
 let Contact = () => {
   const [formData, setFormData] = useState({
@@ -74,7 +75,7 @@ let Contact = () => {
     }
   };
   const validateForm = (data) => {
-    let errors = {};   
+    let errors = {};
 
     // Full Name validation
     if (!data.fullname.trim()) {
@@ -89,7 +90,7 @@ let Contact = () => {
     // Phone validation (optional)
     if (!data.phone) {
       errors.phone = "Phone Number is required";
-    } else if (!/^\d{10}$/.test(data.phone)) {                              
+    } else if (!/^\d{10}$/.test(data.phone)) {
       errors.phone = "Invalid Phone number";
     }
 
@@ -278,7 +279,7 @@ let Contact = () => {
                       <div>
                         <h4 className="mb-2 officeLabel">Office</h4>
                         <p className="mb-2 officeQuote">
-                          {" "}  
+                          {" "}
                           Visit us to have a discussion.
                         </p>
                         <hr className="w-50 mb-3 border-dark-subtle" />
@@ -333,7 +334,7 @@ let Contact = () => {
                             <hr className="w-75 mb-3 border-dark-subtle" />
                             <p className="mb-0">
                               <a
-                                className=" text-decoration-none emailDetail"      
+                                className=" text-decoration-none emailDetail"
                                 href="/"
                               >
                                 thamizhansolutions1630@gmail.com
@@ -371,7 +372,7 @@ let Contact = () => {
           </div>
           <div className="map">
             <iframe
-            title="Thamizhan Solutions Office"
+              title="Thamizhan Solutions Office"
               width="100%"
               height="400"
               frameBorder="0"

@@ -6,7 +6,9 @@
 }
 
 .navbar {
-     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/footerBack_e0ztxo.webp");
+     /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/footerBack_e0ztxo.webp"); */
+     /* background-image: url("../Images/footerBack.jpg"); */
+     background: linear-gradient(247deg, #171F23, #26353B, #070707);
     height: 10vh;
     display: flex;
     justify-content: center;

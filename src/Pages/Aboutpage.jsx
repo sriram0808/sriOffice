@@ -15,8 +15,7 @@ function Aboutpage(){
             <Contactpage/>
             <Contact/>
             <Footer/>
-            
-
+        
         </div>
     )
 }
