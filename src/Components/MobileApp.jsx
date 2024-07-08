@@ -1,5 +1,4 @@
 import "../Assets/Css/Mobile.css"
-import mobile from "../Assets/Images/mobile app development 2.png"
 import { Link } from "react-router-dom"
 
 let MobileApp=()=>{

@@ -1,5 +1,4 @@
 import "../Assets/Css/Discover.css"
-import image from "../Assets/Images/discoverImage.png"
 import verstile from "../Assets/Images/versatile.png"
 import digital from "../Assets/Images/digital.png"
 

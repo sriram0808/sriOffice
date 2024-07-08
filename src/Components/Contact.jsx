@@ -4,12 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { UserFormUpload } from "../Authiapis/backendcall";
 import "react-toastify/dist/ReactToastify.css";
-import location from "../Assets/Images/officeIcon.png";
-import phone from "../Assets/Images/phoneIcon.png";
-import email from "../Assets/Images/emailIcon.png";
-import clock from "../Assets/Images/clockIcon.png";
 import toast, { Toaster } from "react-hot-toast";
-import axios from "axios";
 
 let Contact = () => {
   const [formData, setFormData] = useState({
@@ -79,7 +74,7 @@ let Contact = () => {
     }
   };
   const validateForm = (data) => {
-    let errors = {};
+    let errors = {};   
 
     // Full Name validation
     if (!data.fullname.trim()) {
@@ -94,7 +89,7 @@ let Contact = () => {
     // Phone validation (optional)
     if (!data.phone) {
       errors.phone = "Phone Number is required";
-    } else if (!/^\d{10}$/.test(data.phone)) {
+    } else if (!/^\d{10}$/.test(data.phone)) {                              
       errors.phone = "Invalid Phone number";
     }
 
@@ -111,7 +106,7 @@ let Contact = () => {
     return errors;
   };
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 500 });
   }, []);
 
   return (
@@ -283,7 +278,7 @@ let Contact = () => {
                       <div>
                         <h4 className="mb-2 officeLabel">Office</h4>
                         <p className="mb-2 officeQuote">
-                          {" "}
+                          {" "}  
                           Visit us to have a discussion.
                         </p>
                         <hr className="w-50 mb-3 border-dark-subtle" />
@@ -338,7 +333,7 @@ let Contact = () => {
                             <hr className="w-75 mb-3 border-dark-subtle" />
                             <p className="mb-0">
                               <a
-                                className=" text-decoration-none emailDetail"
+                                className=" text-decoration-none emailDetail"      
                                 href="/"
                               >
                                 thamizhansolutions1630@gmail.com

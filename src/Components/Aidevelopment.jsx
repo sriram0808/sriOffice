@@ -1,5 +1,4 @@
 import "../Assets/Css/Mobile.css"
-import ai from "../Assets/Images/Ai Image (1).png"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
 

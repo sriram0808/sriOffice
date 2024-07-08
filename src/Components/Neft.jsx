@@ -1,5 +1,4 @@
 import "../Assets/Css/Mobile.css"
-import nft from "../Assets/Images/nnnn.png"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
 

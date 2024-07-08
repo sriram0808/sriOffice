@@ -1,5 +1,3 @@
-import image1 from "../Assets/Images/neAbout1.png";
-import image2 from "../Assets/Images/newAbout2.png";
 import style from "../Assets/Css/about.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -9,7 +7,7 @@ import { useEffect } from "react";
 let About = () => {
 
     useEffect(() => {
-        AOS.init({ duration: 1000 });
+        AOS.init({ duration: 500 });
     }, []);
 
     return (
