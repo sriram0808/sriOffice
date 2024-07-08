@@ -27,7 +27,8 @@ textarea::placeholder {
 }
 
 .contactBack {
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902806/newContactBack_q8jnen.webp");
+    /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902806/newContactBack_q8jnen.webp"); */
+    background-image: url("../Images/newContactBack.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

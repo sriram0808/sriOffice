@@ -9,7 +9,8 @@
 }
 
 .footerBack{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/footerBack_e0ztxo.webp");
+    /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/footerBack_e0ztxo.webp"); */
+    background-image: url("../Images/footerBack.png");
 }
 .fullWidthContainer {
     padding-left: 0;
