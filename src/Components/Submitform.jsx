@@ -280,7 +280,7 @@ const Submitform = () => {
                       }`}
                       placeholder="Experience"
                       id="formExp"
-                      style={{ width: "100%" }}
+                      style={{ width: "100%" }}    
                     />
                     {errors.Experience && (
                       <div className="invalid-feedback">
