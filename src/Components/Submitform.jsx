@@ -5,7 +5,7 @@ import toast, { Toaster } from "react-hot-toast";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import config from "../Authiapis/config";
-import { ApplyForm } from "../Authiapis/backendcall";
+// import { ApplyForm } from "../Authiapis/backendcall";
 
 const Submitform = () => {
   

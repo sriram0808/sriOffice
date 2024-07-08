@@ -87,6 +87,7 @@ textarea::placeholder {
     color: white;
     background: transparent;
 }
+
 #textArea{
     border: 1px solid ;
     border-image: linear-gradient(45deg, rgb(236,197,132), rgb(252,252,252)) 1 ;
@@ -160,28 +161,27 @@ textarea::placeholder {
   
 }
 @media(max-width:470px){
-    input[type="email"]::placeholder {
-        color: white; /* Change this to the desired color */
+    /* input[type="email"]::placeholder {
+        color: white;
     }
     input[type="text"]::placeholder {
-        color: white; /* Change this to the desired color */
+        color: white;
     }
     input[type="contact"]::placeholder {
-        color: white; /* Change this to the desired color */
+        color: white;
     }
     input[type="file"]::placeholder {
-        color: white; /* Change this to the desired color */
+        color: white;
     }
     textarea::placeholder {
-        color: white; /* Change this to the desired color */
+        color: white;
     }
-  
+   */
     .email{
         margin-top: 20px;
         padding: 10px;
         border-radius: 5px;
         font-size: 12px;
-       
     border: 2px solid;
     border-color: white;
     }

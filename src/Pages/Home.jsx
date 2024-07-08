@@ -6,7 +6,6 @@ import Carrers from "../Components/Carrers";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 import Contactpage from "../Components/Contactpage";
-import Footerdemo from "../Components/Footerdemo";
 function Homepage(){
     return(
         <div className="homepage">
@@ -16,7 +15,6 @@ function Homepage(){
             <Carrers/>
             <Contact/> 
             <Footer/>
-            {/* <Footerdemo/> */}
         </div>
     )
 }

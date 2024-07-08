@@ -100,7 +100,7 @@ h6{
     display: flex;
     align-items: center;
     justify-content: center ;
-    height: 200px;
+    /* height: 200px; */
     background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902701/joinGlass_qhwyfq.webp");
 }
 .joinSubTitle{

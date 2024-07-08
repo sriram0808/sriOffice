@@ -15,13 +15,13 @@ let Service=()=>{
         <div>
                 <section className="py-5 py-xl-8  serviceBack" style={{backgroundColor:" #000000"}}>
                 <div className="container">
-                <h1 className="mb-4 display-5 text-center  serviceTitle"  >Our Services</h1>
+                <h1 className="mb-4 display-5 text-center  serviceTitle">Our Services</h1>
                         <p className=" mb-5 text-center serviceSubTitle">We provide comprehensive digital solutions including NFT services, AI development, web development, UI/UX design, and crypto trading services. Our expertise spans diverse sectors, ensuring innovative and tailored solutions for all your digital needs.</p>
                         <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
                 </div>      
                         <div className="container mt-5">
                         <div className="row" data-aos="fade-right">
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 mb-4">
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644960/mobile_we3e5y.png" alt="Mobile Development Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
@@ -34,7 +34,7 @@ let Service=()=>{
                             </div>
                             </div>
 
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 mb-4">
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644914/web_p6wxa8.png" alt="Web Development Icon" className='img-fluid mx-3 mt-3'  style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
@@ -47,7 +47,7 @@ let Service=()=>{
                             </div>
                             </div>
 
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 mb-4">
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644910/uiux_rmktbp.png" alt="UI/UX Development Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
                             <div className="card-body">
@@ -59,10 +59,10 @@ let Service=()=>{
                              </div>
                             </div>
                             </div>
-                        </div>
+                            {/* </div>
 
-                        <div className="row mt-0" data-aos="fade-right">
-                            <div className="col-md-4 mb-4">
+                            <div className="row mt-0" data-aos="fade-right"> */}
+                            <div className="col-lg-4 col-md-6 mb-4">
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719652113/ai_vqe0nl.png" alt="AI Development Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
@@ -74,7 +74,7 @@ let Service=()=>{
                                 </div>
                             </div>
                             </div>
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 mb-4">
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644933/crypto_s5vm1t.png" alt="Crypto Trading Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
@@ -88,7 +88,7 @@ let Service=()=>{
                             </div>
 
                             
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 mb-4">
                             <div className="card serviceCard">
                             <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644895/nft_p8lakq.png" alt="NFT Marketing Icon" className='img-fluid mx-3 mt-3' style={{height:"45px",width:"45px"}}/>
                                 <div className="card-body">
