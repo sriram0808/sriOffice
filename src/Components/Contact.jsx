@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { UserFormUpload } from "../Authiapis/backendcall";
 import "react-toastify/dist/ReactToastify.css";
 import toast, { Toaster } from "react-hot-toast";
-import config from "../Authiapis/config";
 
 let Contact = () => {
   const [formData, setFormData] = useState({
