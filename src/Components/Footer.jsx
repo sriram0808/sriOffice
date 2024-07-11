@@ -95,7 +95,7 @@ let Footer = () => {
                     <h6>Instagram</h6>
                   </div>
                   <div className="social-div">
-                    <a href="/">
+                    <a href="https://x.com/NaveenRaja_R">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png"
                         alt="Twitter Icon"
