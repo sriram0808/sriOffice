@@ -73,7 +73,7 @@ let Footer = () => {
                 <h1> Follow Us </h1>
                 <div className="social-links my-4">
                   <div className="social-div">
-                    <a href="/">
+                    <a href="https://www.facebook.com/profile.php?id=61562459455004&mibextid=JRoKGi">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644940/faceBook_mzumxj.png"
                         alt="FaceBook Icon"
@@ -84,7 +84,7 @@ let Footer = () => {
                     <h6>Facebook</h6>
                   </div>
                   <div className="social-div">
-                    <a href="/">
+                    <a href="https://www.instagram.com/thamizhansolutions?igsh=dWNvb3kyZDJkN2Nm">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644951/insta_siwe70.png"
                         alt="Instagram Icon"
@@ -106,7 +106,7 @@ let Footer = () => {
                     <h6>Twitter</h6>
                   </div>
                   <div className="social-div">
-                    <a href="/">
+                    <a href="https://wa.me/918807829070">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png"
                         alt="Whatsapp Icon"
