@@ -33,7 +33,6 @@ let Cripto=()=>{
                         <li>White-Label Crypto Exchange Development</li>
                         <li>Crypto derivative Exchange development</li>
                     </ul>
-
                   </p>
               </div>
           </div>
