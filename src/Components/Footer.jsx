@@ -73,7 +73,7 @@ let Footer = () => {
                 <h1> Follow Us </h1>
                 <div className="social-links my-4">
                   <div className="social-div">
-                    <a href="https://www.facebook.com/profile.php?id=61562459455004&mibextid=JRoKGi">
+                    <a href="https://www.facebook.com/profile.php?id=61562459455004&mibextid=JRoKGi" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644940/faceBook_mzumxj.png"
                         alt="FaceBook Icon"
@@ -84,7 +84,7 @@ let Footer = () => {
                     <h6>Facebook</h6>
                   </div>
                   <div className="social-div">
-                    <a href="https://www.instagram.com/thamizhansolutions?igsh=dWNvb3kyZDJkN2Nm">
+                    <a href="https://www.instagram.com/thamizhansolutions?igsh=dWNvb3kyZDJkN2Nm" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644951/insta_siwe70.png"
                         alt="Instagram Icon"
@@ -95,7 +95,7 @@ let Footer = () => {
                     <h6>Instagram</h6>
                   </div>
                   <div className="social-div">
-                    <a href="https://x.com/NaveenRaja_R">
+                    <a href="https://x.com/NaveenRaja_R" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png"
                         alt="Twitter Icon"
@@ -106,7 +106,7 @@ let Footer = () => {
                     <h6>Twitter</h6>
                   </div>
                   <div className="social-div">
-                    <a href="https://wa.me/918807829070">
+                    <a href="https://wa.me/918807829070" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png"
                         alt="Whatsapp Icon"
@@ -117,7 +117,7 @@ let Footer = () => {
                     <h6>Whatsapp</h6>
                   </div>
                   <div className="social-div">
-                    <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/">
+                    <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/linkedin_mlh3ml.png"
                         alt="Linked Icon"

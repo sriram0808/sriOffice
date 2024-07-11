@@ -1,4 +1,4 @@
-let environment = "local";
+let environment = "demo";
 let config = null;
 
 if (environment === "local") {
@@ -12,5 +12,4 @@ if (environment === "local") {
       
     };
 }
-
 export default config;
