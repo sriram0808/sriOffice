@@ -8,6 +8,7 @@ if (environment === "local") {
     
 } else if (environment === "demo") {
     config = {
+        BACKEND_URL:"https://api.thamizhansolution.com"
       
     };
 }
