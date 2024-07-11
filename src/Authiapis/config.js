@@ -1,4 +1,4 @@
-let environment = "demo";
+let environment = "local";
 let config = null;
 
 if (environment === "local") {

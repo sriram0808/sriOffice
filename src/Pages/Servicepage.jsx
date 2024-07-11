@@ -6,8 +6,11 @@ import Carrers from "../Components/Carrers";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 import Contactpage from "../Components/Contactpage";
+
 function Servicepage(){
+
     return(
+
         <div className="homepage">
             <Service/>
             <Carrers/>
@@ -15,7 +18,6 @@ function Servicepage(){
             <Contact/>
             <Footer/>
             
-
         </div>
     )
 }
