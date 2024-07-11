@@ -23,7 +23,7 @@ let Aidevelopment=()=>{
                    <p className="discrption">
                  Synthetic intelligence is the simulation of human intelligence techniques with the aid of machines, mainly pc structures. Examples of AI programs encompass expert systems, natural language processing (NLP), speech recognition, and gadget imaginative and prescient. <br />  <br />
                  We provide the most popular service:
-                <ul>
+                <ul>  
                     <li>AI Integration</li>
                     <li>AI Consulting</li>     
                     <li>AI Model marketplaces</li>
