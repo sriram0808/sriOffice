@@ -35,7 +35,7 @@ function NavBar() {
         <div className="nav-container">
          
           <div className="nav-logo">
-          <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png" alt="Thamizhan Solution Logo" className="logo"/></a>
+          <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png" alt="Thamizhan Solutions Logo" className="logo"/></a>
 
           </div>
 
