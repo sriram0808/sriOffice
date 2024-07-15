@@ -336,7 +336,7 @@ let Contact = () => {
                                 className=" text-decoration-none emailDetail"
                                 href="/"
                               >
-                                thamizhansolutions1630@gmail.com
+                                thamizhan1630@gmail.com
                               </a>
                             </p>
                           </div>
