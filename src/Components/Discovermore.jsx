@@ -7,7 +7,7 @@ let Discovermore=()=>{
         <div className="discoverBack">
             <div className="container">
                 <div className="row">
-                    <div className="col mt-5">
+                    <div className="col mt- 5">  
                         <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902695/discoverImage_vsnsme.webp" alt="" className="img-fluid discoverImage" style={{height:"330px"}}/>
                     </div>
                     <div className="col-md-6 mt-5">
@@ -41,7 +41,7 @@ let Discovermore=()=>{
                             </div>
                         </div>
                     </div>
-                    <div className="col ">
+                    <div className="col">
                     <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
                             <img src={digital} alt="" className="image-fluid mb-3" style={{height:"42px"}}/>
