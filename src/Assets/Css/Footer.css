@@ -48,6 +48,7 @@
 .innerSocial{
     display: flex;
     width: 100%;
+    transition: all .3s;
     align-items: center;
 }
 
