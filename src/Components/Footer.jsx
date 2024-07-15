@@ -63,7 +63,7 @@ let Footer = () => {
                 <a href="/">
                   <img
                     src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png"
-                    alt="Thamizhan Solution Logo"
+                    alt="Thamizhan Solutions Logo"
                     width="179"
                     height="60"
                   />
