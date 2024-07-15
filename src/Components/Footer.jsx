@@ -100,7 +100,7 @@ let Footer = () => {
                   </div>
                   <div className="social-div">
                     <div className="innerSocial">
-                    <a href="https://x.com/NaveenRaja_R" target="_blank">
+                    <a href="https://x.com/tstechfirm" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png"
                         alt="Twitter Icon"
