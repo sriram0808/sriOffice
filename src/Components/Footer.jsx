@@ -74,67 +74,67 @@ let Footer = () => {
                 <div className="social-links my-4">
                   <div className="social-div">
                     <div className="innerSocial">
-                    <a href="https://www.facebook.com/profile.php?id=61562459455004&mibextid=JRoKGi" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=61562459455004&mibextid=JRoKGi"  className=" d-flex align-items-center" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644940/faceBook_mzumxj.png"
                         alt="FaceBook Icon"
-                        className="img-fluid "
+                        className="img-fluid me-3 "
                         style={{ height: "40px" }}
                       />{" "}
-                    </a>
                     <h6>Facebook</h6>
+                    </a>
                     </div>
                   </div>
                   <div className="social-div">
                     <div className="innerSocial">
-                    <a href="https://www.instagram.com/thamizhansolutions?igsh=dWNvb3kyZDJkN2Nm" target="_blank">
+                    <a href="https://www.instagram.com/thamizhansolutions?igsh=dWNvb3kyZDJkN2Nm"  className=" d-flex align-items-center" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644951/insta_siwe70.png"
                         alt="Instagram Icon"
-                        className="img-fluid "
+                        className="img-fluid me-3"
                         style={{ height: "40px" }}
                       />{" "}
-                    </a>
                     <h6>Instagram</h6>
+                    </a>
                     </div>
                   </div>
                   <div className="social-div">
                     <div className="innerSocial">
-                    <a href="https://x.com/NaveenRaja_R" target="_blank">
+                    <a href="https://x.com/tstechfirm" className=" d-flex align-items-center" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png"
                         alt="Twitter Icon"
-                        className="img-fluid"
+                        className="img-fluid me-3"
                         style={{ height: "40px" }}
                       />{" "}
-                    </a>
                     <h6>Twitter</h6>
+                    </a>
                     </div>
                   </div>
                   <div className="social-div">
                     <div className="innerSocial">
-                    <a href="https://wa.me/918807829070" target="_blank">
+                    <a href="https://wa.me/918807829070"  className=" d-flex align-items-center" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png"
                         alt="Whatsapp Icon"
-                        className="img-fluid"
+                        className="img-fluid me-3"
                         style={{ height: "40px" }}
                       />{" "}
-                    </a>
                     <h6>Whatsapp</h6>
+                    </a>
                     </div>
                   </div>
                   <div className="social-div">
                     <div className="innerSocial">
-                      <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/" target="_blank">
+                      <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"  className=" d-flex align-items-center" target="_blank">
                       <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/linkedin_mlh3ml.png"
                         alt="Linked Icon"
-                        className="img-fluid"
+                        className="img-fluid me-3"
                         style={{ height: "40px" }}
                       />{" "}
-                    </a>
                     <h6>Linkedin</h6>
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ let Footer = () => {
                     className="img-fluid"
                     style={{ height: "18px" }}
                   />{" "}
-                  copyrights{" "}
+                  2024{" "}
                   <span className="fw-bold companyName">
                     Thamizhan Solutions
                   </span>{" "}
