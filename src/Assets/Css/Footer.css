@@ -46,9 +46,14 @@
     transition: all 0.3s ;
 }
 .innerSocial{
-
     display: flex;
+    width: 100%;
     align-items: center;
+}
+
+.social-div a{
+    text-decoration: none;
+    color: #fff;
 }
 
 
