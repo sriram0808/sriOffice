@@ -20,6 +20,12 @@ const Home = () => {
         const carousel = document.querySelector('#carouselExampleAutoplaying');
         carousel.addEventListener('slid.bs.carousel', handleSlide);
 
+        // Play the first video on page load
+        const firstVideo = document.querySelector('.carousel-item.active video');
+        if (firstVideo) {
+            firstVideo.play();
+        }
+
         // Clean up the event listener on component unmount
         return () => {
             carousel.removeEventListener('slid.bs.carousel', handleSlide);
