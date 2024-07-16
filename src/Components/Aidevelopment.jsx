@@ -20,7 +20,7 @@ let Aidevelopment=()=>{
                   <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902682/Ai_Image_1_pnwvgo.webp" alt="Descriptive Alt Text" className="img-fluid" />
                   <h1 className="mobileAppTitle">AI Development</h1>
                   <h5 className="discrption">Description:</h5>
-                   <p className="discrption">
+                   <p className="discrption">    
                  Synthetic intelligence is the simulation of human intelligence techniques with the aid of machines, mainly pc structures. Examples of AI programs encompass expert systems, natural language processing (NLP), speech recognition, and gadget imaginative and prescient. <br />  <br />
                  We provide the most popular service:
                 <ul>  
@@ -33,7 +33,7 @@ let Aidevelopment=()=>{
               </div>
           </div>
       </div>
-      <Footer/>
+     <Footer/>
  </div>
     )
 }

@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../Assets/Css/home.css";
 
 const Home = () => {
+
+    useEffect(() => {
+        const handleSlide = (event) => {
+            const videos = document.querySelectorAll('.carousel-item video');
+            videos.forEach((video) => {
+                if (video.closest('.carousel-item').classList.contains('active')) {
+                    video.currentTime = 0; // Restart video
+                    video.play();
+                } else {
+                    video.pause();
+                    video.currentTime = 0;
+                }
+            });
+        };
+
+        const carousel = document.querySelector('#carouselExampleAutoplaying');
+        carousel.addEventListener('slid.bs.carousel', handleSlide);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            carousel.removeEventListener('slid.bs.carousel', handleSlide);
+        };
+    }, []);
 
     return (
         <div className="">
@@ -14,7 +37,7 @@ const Home = () => {
                                 <p className='homeQuotes'>“Whenever the price of cryptocurrency is rallying, people start spending a lot more. — Erik Voorhees”</p>
                             </div>
                             <div className="col-md-6">
-                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643804/video1_qe2lm5.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video id="video1" src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643804/video1_qe2lm5.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -25,8 +48,7 @@ const Home = () => {
                                 <p className='homeQuotes'> “Websites promote you 24/7: No employee will do that.” <br /> – Paul Cookson</p>
                             </div>
                             <div className="col-md-6">
-                                {/* <img src={image} className="img-fluid" alt="Web Development" /> */}
-                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643904/video2_d4uxnx.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video id="video2" src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643904/video2_d4uxnx.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -37,8 +59,7 @@ const Home = () => {
                                 <p className='homeQuotes'>“Design is not just what it looks like and feels like. Design is how it works.” <br /> –Steve Jobs</p>
                             </div>
                             <div className="col-md-6">
-                                {/* <img src={image} className="img-fluid" alt="UI/UX Design" /> */}
-                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643918/video3_kixw5h.mp4"  className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video id="video3" src="https://res.cloudinary.com/deowghzbg/video/upload/v1721105691/Recording_2024-07-16_102037_online-video-cutter.com_c6rjhd.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -49,8 +70,7 @@ const Home = () => {
                                 <p className='homeQuotes'> “Machine intelligence is the last invention that humanity will ever need to make.” <br /> – Nick Bostrom</p>
                             </div>
                             <div className="col-md-6">
-                                {/* <img src={image} className="img-fluid" alt="AI Development" /> */}
-                                <video src="https://res.cloudinary.com/deowghzbg/video/upload/v1720438693/AI_Development_2_1_mcxgwq.mp4" className="video-fluid video-shadow home-video" loop muted autoPlay playsInline style={{height: "550px"}}></video>
+                                <video id="video4" src="https://res.cloudinary.com/deowghzbg/video/upload/v1721107163/Recording_2024-07-16_104558_online-video-cutter.com_tnlv94.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -75,4 +95,3 @@ const Home = () => {
 }
 
 export default Home;
-  
