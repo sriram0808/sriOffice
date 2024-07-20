@@ -18,6 +18,9 @@ input::-webkit-inner-spin-button {
 input[type=number]{ 
     -moz-appearance: textfield;
 }
+#textArea::placeholder {
+    color:rgb(133, 133, 133); /* Change this to the desired color */
+}
 
 textarea::placeholder {
     color: white; /* Change this to the desired color */

@@ -229,7 +229,7 @@ let Contact = () => {
                         <label
                           htmlFor="textArea"
                           className="form-label"
-                          style={{ color: "white" }}
+                          style={{ color: "white"}}
                         >
                           Project Breif <span className="text-danger">*</span>
                         </label>
