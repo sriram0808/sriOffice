@@ -4,6 +4,7 @@ import "../Assets/Css/home.css";
 const Home = () => {
 
     useEffect(() => {
+
         const handleSlide = (event) => {
             const videos = document.querySelectorAll('.carousel-item video');
             videos.forEach((video) => {
@@ -34,7 +35,7 @@ const Home = () => {
 
     return (
         <div className="">
-            <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid " data-bs-ride="carousel" data-bs-interval="3000">
+            <div id="carouselExampleAutoplaying" className="carousel slide homeBackground container-fluid" data-bs-ride="carousel" data-bs-interval="3000">
                 <div className="carousel-inner mt-5">
                     <div className="carousel-item active">
                         <div className="row">
@@ -99,5 +100,4 @@ const Home = () => {
         </div>
     );
 }
-
 export default Home;
