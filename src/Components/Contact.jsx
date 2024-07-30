@@ -5,6 +5,10 @@ import { useEffect, useState } from "react";
 import { UserFormUpload } from "../Authiapis/backendcall";
 import "react-toastify/dist/ReactToastify.css";
 import toast, { Toaster } from "react-hot-toast";
+import officeIcon from "../Assets/Images/officeIcon.png"
+import phoneIcon from "../Assets/Images/phoneIcon.png"
+import emailIcon from "../Assets/Images/emailIcon.png"
+import clockIcon from "../Assets/Images/clockIcon.png"
 
 let Contact = () => {
   const [formData, setFormData] = useState({
@@ -268,12 +272,14 @@ let Contact = () => {
                   <div className="col-12 col-xl-11">
                     <div className="mb-4 mb-md-5 officeBack">
                       <div className="col-12 col-lg-2 mb-3">
-                        <img
+                        {/* <img
                           src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644899/officeIcon_mx7exy.png"
+                          
                           alt="Office Icon"
                           className="img-fluid"
                           style={{ height: "40px" }}
-                        />
+                        /> */}
+                        <img src={officeIcon} alt="Office Icon" className="img-fluid" style={{ height: "40px" }}/>
                       </div>
                       <div>
                         <h4 className="mb-2 officeLabel">Office</h4>
@@ -292,12 +298,13 @@ let Contact = () => {
                       <div className="col-12 col-sm-6">
                         <div className="mb-4 mb-sm-0">
                           <div className="col-12 col-lg-2 mb-3">
-                            <img
+                            {/* <img
                               src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644901/phoneIcon_njcmed.png"
                               alt="Phone Icon"
                               className="img-fluid"
                               style={{ height: "40px" }}
-                            />
+                            /> */}
+                            <img src={phoneIcon} alt="Phone Icon" className="img-fluid" style={{ height: "40px" }}/>
                           </div>
                           <div>
                             <h4 className="mb-2 phoneLabel">Phone</h4>
@@ -317,12 +324,13 @@ let Contact = () => {
                       <div className="col-12 col-sm-6">
                         <div className="mb-4 mb-sm-0">
                           <div className="col-12 col-lg-2 mb-3">
-                            <img
+                            {/* <img
                               src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644939/emailIcon_pscotu.png"
                               alt="Email Icon"
                               className="img-fluid"
                               style={{ height: "40px" }}
-                            />
+                            /> */}
+                            <img src={emailIcon} alt="Email Icon" className="img-fluid" style={{ height: "40px" }}/>
                           </div>
                           <div>
                             <h4 className="mb-2 emailLabel">Email</h4>
@@ -345,12 +353,13 @@ let Contact = () => {
                     </div>
                     <div>
                       <div className="col-12 col-lg-2 mb-3">
-                        <img
+                        {/* <img
                           src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644930/clockIcon_udkcai.png"
                           alt="Clock Icon"
                           className="img-fluid"
                           style={{ height: "40px" }}
-                        />
+                        /> */}
+                        <img src={clockIcon} alt="Clock Icon" className="img-fluid" style={{ height: "40px" }}/>
                       </div>
                       <div>
                         <h4 className="mb-2 openingLabel">Opening Hours</h4>

@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
 import "../Assets/Css/home.css";
+import video1 from "../Assets/Images/video1.mp4"
+import video2 from "../Assets/Images/video2.mp4"
+import video3 from "../Assets/Images/video3.mp4"
+import video4 from "../Assets/Images/video4.mp4"
 
 const Home = () => {
 
@@ -44,7 +48,8 @@ const Home = () => {
                                 <p className='homeQuotes'>“Whenever the price of cryptocurrency is rallying, people start spending a lot more. — Erik Voorhees”</p>
                             </div>
                             <div className="col-md-6">
-                                <video id="video1" src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643804/video1_qe2lm5.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
+                                {/* <video id="video1" src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643804/video1_qe2lm5.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video> */}
+                                <video src={video1} className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -55,7 +60,8 @@ const Home = () => {
                                 <p className='homeQuotes'> “Websites promote you 24/7: No employee will do that.” <br /> – Paul Cookson</p>
                             </div>
                             <div className="col-md-6">
-                                <video id="video2" src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643904/video2_d4uxnx.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
+                                {/* <video id="video2" src="https://res.cloudinary.com/deowghzbg/video/upload/v1719643904/video2_d4uxnx.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video> */}
+                                <video src={video2} className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -66,7 +72,8 @@ const Home = () => {
                                 <p className='homeQuotes'>“Design is not just what it looks like and feels like. Design is how it works.” <br /> –Steve Jobs</p>
                             </div>
                             <div className="col-md-6">
-                                <video id="video3" src="https://res.cloudinary.com/deowghzbg/video/upload/v1721105691/Recording_2024-07-16_102037_online-video-cutter.com_c6rjhd.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
+                                {/* <video id="video3" src="https://res.cloudinary.com/deowghzbg/video/upload/v1721105691/Recording_2024-07-16_102037_online-video-cutter.com_c6rjhd.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video> */}
+                                <video src={video3} className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>
@@ -77,7 +84,8 @@ const Home = () => {
                                 <p className='homeQuotes'> “Machine intelligence is the last invention that humanity will ever need to make.” <br /> – Nick Bostrom</p>
                             </div>
                             <div className="col-md-6">
-                                <video id="video4" src="https://res.cloudinary.com/deowghzbg/video/upload/v1721107163/Recording_2024-07-16_104558_online-video-cutter.com_tnlv94.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
+                                {/* <video id="video4" src="https://res.cloudinary.com/deowghzbg/video/upload/v1721107163/Recording_2024-07-16_104558_online-video-cutter.com_tnlv94.mp4" className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video> */}
+                                <video src={video4} className="video-fluid video-shadow home-video" loop muted playsInline style={{height: "550px"}}></video>
                             </div>
                         </div>
                     </div>

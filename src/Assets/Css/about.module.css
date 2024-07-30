@@ -35,7 +35,8 @@
 }
  .textBackground{
     background-color: #000000!important;
-    background-image: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902703/newAboutBack_s45f7s.webp"); 
+    /* background-image: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902703/newAboutBack_s45f7s.webp");  */
+    background: url(../Images//newAboutBack.png);
     border: none !important;
     background-position: center;
     border-bottom-left-radius: 5px;

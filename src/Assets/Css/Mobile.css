@@ -1,6 +1,8 @@
 .mobileBack{
-    background-color: black;
-    
+    background-color: black;    
+    background: url(../Images//discoverBack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .detailsBlock{
@@ -64,5 +66,6 @@
 }
 
 .rightSideBack{
-    background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/back_s7ssjd.webp");
+    /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/back_s7ssjd.webp"); */
+    background: url(../Images//back.png);
 }

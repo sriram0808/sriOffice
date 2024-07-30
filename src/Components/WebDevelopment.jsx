@@ -1,6 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
+import WebdevelopmentImage from "../Assets/Images/wwwwww.png"
 
 let Webdevelopment=()=>{
 
@@ -15,7 +16,8 @@ let Webdevelopment=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902807/wwwwww_jpezwq.webp" alt="Descriptive Alt Text" className="img-fluid" />
+                  {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902807/wwwwww_jpezwq.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
+                  <img src={WebdevelopmentImage} alt="" className="img-fluid" />
                   <h1 className="mobileAppTitle">Web Development</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">

@@ -3,6 +3,14 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 import config from "../Authiapis/config";
+import companyLogo from "../Assets/Images/ThamizhanSolutions.png"
+import faceBookIcon from "../Assets/Images/faceBook.png"
+import instagramIcon from "../Assets/Images/insta.png"
+import whatsappIcon from "../Assets/Images/whatsapp.png"
+import twitterIcon from "../Assets/Images/twitter.png"
+import linkedinIcon from "../Assets/Images/linkedin.png"
+import arrowIcon from "../Assets/Images/arrow.png"
+import copytRightIcon from "../Assets/Images/copyright.png"
 
 let Footer = () => {
   const closeMenu = () => setClick(false);
@@ -61,12 +69,13 @@ let Footer = () => {
             <div className="col-12 col-md-11 col-xl-10 footer-con">
               <div className="footer-logo-wrapper">
                 <a href="/">
-                  <img
+                  {/* <img
                     src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png"
                     alt="Thamizhan Solutions Logo"
                     width="179"
                     height="60"
-                  />
+                  /> */}
+                  <img src={companyLogo} alt="" width="179" height="60"/>
                 </a>
               </div>
               <div className="col footer-col mx-1 my-4">
@@ -75,12 +84,13 @@ let Footer = () => {
                   <div className="social-div">
                     <div className="innerSocial">
                     <a href="https://www.facebook.com/profile.php?id=61562459455004&mibextid=JRoKGi"  className=" d-flex align-items-center" target="_blank">
-                      <img
+                      {/* <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644940/faceBook_mzumxj.png"
                         alt="FaceBook Icon"
                         className="img-fluid me-3 "
                         style={{ height: "40px" }}
-                      />{" "}
+                      />{" "} */}
+                      <img src={faceBookIcon} alt="FaceBook Icon" className="img-fluid me-3 " style={{ height: "40px" }}/>
                     <h6>Facebook</h6>
                     </a>
                     </div>
@@ -88,12 +98,13 @@ let Footer = () => {
                   <div className="social-div">
                     <div className="innerSocial">
                     <a href="https://www.instagram.com/thamizhansolutions?igsh=dWNvb3kyZDJkN2Nm"  className=" d-flex align-items-center" target="_blank">
-                      <img
+                      {/* <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644951/insta_siwe70.png"
                         alt="Instagram Icon"
                         className="img-fluid me-3"
                         style={{ height: "40px" }}
-                      />{" "}
+                      />{" "} */}
+                      <img src={instagramIcon} alt="Instagram Icon" className="img-fluid me-3" style={{ height: "40px" }}/>
                     <h6>Instagram</h6>
                     </a>
                     </div>
@@ -101,12 +112,13 @@ let Footer = () => {
                   <div className="social-div">
                     <div className="innerSocial">
                     <a href="https://x.com/tstechfirm" className=" d-flex align-items-center" target="_blank">
-                      <img
+                      {/* <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644908/twitter_nofcpl.png"
                         alt="Twitter Icon"
                         className="img-fluid me-3"
                         style={{ height: "40px" }}
-                      />{" "}
+                      />{" "} */}
+                      <img src={twitterIcon} alt="Twitter Icon" className="img-fluid me-3" style={{ height: "40px" }}/>
                     <h6>Twitter</h6>
                     </a>
                     </div>
@@ -114,12 +126,13 @@ let Footer = () => {
                   <div className="social-div">
                     <div className="innerSocial">
                     <a href="https://wa.me/918807829070"  className=" d-flex align-items-center" target="_blank">
-                      <img
+                      {/* <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644916/whatsapp_isp6je.png"
                         alt="Whatsapp Icon"
                         className="img-fluid me-3"
                         style={{ height: "40px" }}
-                      />{" "}
+                      />{" "} */}
+                      <img src={whatsappIcon} alt="whatsapp Icon" className="img-fluid me-3" style={{ height: "40px" }}/>
                     <h6>Whatsapp</h6>
                     </a>
                     </div>
@@ -127,12 +140,13 @@ let Footer = () => {
                   <div className="social-div">
                     <div className="innerSocial">
                       <a href="https://www.linkedin.com/company/101978309/admin/inbox/thread/2-NmRmNTc4NWUtZGRiZS00Y2IwLTgwNDktNWExNmNiMTNkODc0XzAxMA==/"  className=" d-flex align-items-center" target="_blank">
-                      <img
+                      {/* <img
                         src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644957/linkedin_mlh3ml.png"
                         alt="Linked Icon"
                         className="img-fluid me-3"
                         style={{ height: "40px" }}
-                      />{" "}
+                      />{" "} */}
+                      <img src={linkedinIcon} alt="Linked Icon" className="img-fluid me-3" style={{ height: "40px" }}/>
                     <h6>Linkedin</h6>
                     </a>
                     </div>
@@ -155,12 +169,13 @@ let Footer = () => {
                           href="/mobileapp"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
-                          MobileApp Development{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
+                           MobileApp Development
                         </a>
                       </li>
                       <li className="mb-3">
@@ -168,11 +183,12 @@ let Footer = () => {
                           href="/webdevelopment"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}   
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Web Development{" "}
                         </a>
                       </li>
@@ -181,11 +197,12 @@ let Footer = () => {
                           href="/uiux"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           UI/UX Development{" "}
                         </a>
                       </li>
@@ -194,11 +211,12 @@ let Footer = () => {
                           href="/aidevelopment"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           AI Development{" "}
                         </a>
                       </li>
@@ -207,11 +225,12 @@ let Footer = () => {
                           href="/cripto"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Crypto Trading{" "}
                         </a>
                       </li>
@@ -220,11 +239,12 @@ let Footer = () => {
                           href="/neft"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           NFT Marketing{" "}
                         </a>
                       </li>
@@ -240,11 +260,12 @@ let Footer = () => {
                           href="/"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Home
                         </a>
                       </li>
@@ -254,11 +275,12 @@ let Footer = () => {
                           href="/about"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           About
                         </a>
                       </li>
@@ -267,11 +289,12 @@ let Footer = () => {
                           href="/service"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Service
                         </a>
                       </li>
@@ -280,11 +303,12 @@ let Footer = () => {
                           href="/career"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Career
                         </a>
                       </li>
@@ -293,11 +317,12 @@ let Footer = () => {
                           href="/contact"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Contact
                         </a>
                       </li>
@@ -306,11 +331,12 @@ let Footer = () => {
                           href="/termsandconditions"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Terms & Condition
                         </a>
                       </li>
@@ -319,11 +345,12 @@ let Footer = () => {
                           href="/privacypolicy"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
-                          <img
+                          {/* <img
                             src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644924/arrow_sulfeo.png"
                             alt="arrow Icon"
                             className="img-fluid"
-                          />{" "}
+                          />{" "} */}
+                          <img src={arrowIcon} alt="Arrow Icon" className="img-fluid"/>
                           Privacy Policy
                         </a>
                       </li>
@@ -375,12 +402,13 @@ let Footer = () => {
               </div>
               <div className="row  border-top border-light-subtle my-5 text-center">
                 <div className="footer-copyright-wrapper foot my-4">
-                  <img
+                  {/* <img
                     src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644931/copyright_refluz.png"
                     alt="Copy Rights Icon"
                     className="img-fluid"
                     style={{ height: "18px" }}
-                  />{" "}
+                  />{" "} */}
+                  <img src={copytRightIcon} alt="Copy Right Icon" className="img-fluid" style={{ height: "18px" }} />
                   2024{" "}
                   <span className="fw-bold companyName">
                     Thamizhan Solutions

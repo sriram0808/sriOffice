@@ -1,7 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
-
+import cryptoImage from "../Assets/Images/Crypto image (1).png"
 
 let Cripto=()=>{
 
@@ -17,7 +17,8 @@ let Cripto=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/Crypto_image_1_ijkftx.webp" alt="Descriptive Alt Text" className="img-fluid" />
+                  {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/Crypto_image_1_ijkftx.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
+                  <img src={cryptoImage} alt="Crypto Image" className="img-fluid"/>
                   <h1 className="mobileAppTitle">Crypto Trading</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">

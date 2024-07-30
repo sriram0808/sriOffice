@@ -2,8 +2,8 @@ import style from "../Assets/Css/about.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
-
-
+import about1 from "../Assets/Images/neAbout1.png"
+import about2 from "../Assets/Images/newAbout2.png"
 let About = () => {
 
     useEffect(() => {
@@ -33,7 +33,8 @@ let About = () => {
                         <div className="col-12 col-md-6">
                             <article>
                                 <div className="card border-0" data-aos="fade-right">
-                                    <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/neAbout1_l6br80.webp" alt="Our Vision" />
+                                    {/* <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/neAbout1_l6br80.webp" alt="Our Vision" /> */}
+                                    <img src={about1} alt="Our Vission" className="card-img-top img-fluid m-0"/>
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3"> 
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>
@@ -50,7 +51,8 @@ let About = () => {
                         <div className="col-12 col-md-6 ">
                             <article>
                                 <div className="card border-0" data-aos="fade-left">
-                                    <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/newAbout2_f71sfd.webp" alt="Our Approach"/>
+                                    {/* <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/newAbout2_f71sfd.webp" alt="Our Approach"/> */}
+                                    <img src={about2} alt="Our Approach" className="card-img-top img-fluid m-0"/>
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3">
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>

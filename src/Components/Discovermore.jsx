@@ -1,6 +1,7 @@
 import "../Assets/Css/Discover.css"
 import verstile from "../Assets/Images/versatile.png"
 import digital from "../Assets/Images/digital.png"
+import discoverImage from "../Assets/Images/discoverImage.png"
 
 let Discovermore=()=>{
     return(
@@ -8,7 +9,8 @@ let Discovermore=()=>{
             <div className="container">
                 <div className="row">
                     <div className="col mt- 5">  
-                        <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902695/discoverImage_vsnsme.webp" alt="" className="img-fluid discoverImage" style={{height:"330px"}}/>
+                        {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902695/discoverImage_vsnsme.webp" alt="" className="img-fluid discoverImage" style={{height:"330px"}}/> */}
+                        <img src={discoverImage} alt="" className="img-fluid discoverImage" style={{height:"330px"}}/>
                     </div>
                     <div className="col-md-6 mt-5">
                         <div className="card discoverCard">

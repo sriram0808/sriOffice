@@ -4,7 +4,7 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import interviewImage from "../Assets/Images/Join Our Team.png"
 
 let Carrers=()=>{
 
@@ -24,7 +24,8 @@ let Carrers=()=>{
             </div>
             <div className="col">
             <div className="">
-            <img className="img-fluid rounded " src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/interview2_uk6vxu.webp" alt="Interview Image"/>
+            {/* <img className="img-fluid rounded " src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/interview2_uk6vxu.webp" alt="Interview Image"/> */}
+            <img src={interviewImage} alt="Join Our Team" className="img-fluid rounded "/>
            </div>
            </div>
           </div>  

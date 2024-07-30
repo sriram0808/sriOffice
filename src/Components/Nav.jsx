@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import "../Assets/Css/navbar.css"
 import { CgMenuRightAlt } from "react-icons/cg";
+import logo from "../Assets/Images/ThamizhanSolutions.png"
 
 function NavBar() {
   const closeMenu=()=> setClick(false)
@@ -35,7 +36,9 @@ function NavBar() {
         <div className="nav-container">
          
           <div className="nav-logo">
-          <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png" alt="Thamizhan Solutions Logo" className="logo"/></a>
+          {/* <a href="/"><img src="https://res.cloudinary.com/deowghzbg/image/upload/v1720176833/TSolu_ugibmk.png" alt="Thamizhan Solutions Logo" className="logo"/></a> */}
+          <a href="/"><img src={logo} alt="Thamizhan Solutions Logo" /></a>
+          
 
           </div>
 
