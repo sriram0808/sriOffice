@@ -5,7 +5,6 @@ import "../Assets/Css/Projectdone.css";
 
 const Projectdone = () => {
 
-
     return (
         <div className="projectBlock">
             <div className="container">
@@ -14,7 +13,7 @@ const Projectdone = () => {
                         <div className="card projectCard h-100">
                             <div className="card-body text-center">
                                 <h2 className='projectCount'>
-                                    <CountUp start={0} end={10} duration={2.75} suffix="+" />
+                                    <CountUp start={0} end={10} duration={2.75} suffix="+" enableScrollSpy = {true} />
                                 </h2>
                                 <h2 className='prjectSubTitle'>Countries</h2>
                             </div>
@@ -24,7 +23,7 @@ const Projectdone = () => {
                         <div className="card projectCard h-100">
                             <div className="card-body text-center">
                                 <h2 className='projectCount'>
-                                    <CountUp start={0} end={20} duration={2.75} suffix="+" />
+                                    <CountUp start={0} end={20} duration={2.75} suffix="+" enableScrollSpy = {true} />
                                 </h2>
                                 <h2 className='prjectSubTitle'>Project Delivered</h2>
                             </div>
@@ -34,7 +33,7 @@ const Projectdone = () => {
                         <div className="card projectCard h-100">
                             <div className="card-body text-center">
                                 <h2 className='projectCount'>
-                                    <CountUp start={0} end={20} duration={2.75} suffix="+" />
+                                    <CountUp start={0} end={20} duration={2.75} suffix="+" enableScrollSpy = {true} />
                                 </h2>
                                 <h2 className='prjectSubTitle'>Total Project</h2>
                             </div>
