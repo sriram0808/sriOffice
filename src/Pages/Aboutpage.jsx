@@ -6,9 +6,11 @@ import Carrers from "../Components/Carrers";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 import Contactpage from "../Components/Contactpage";
+import Projectdone from "../Components/Projectdone";
 function Aboutpage(){
     return(
         <div className="homepage">
+            <Projectdone/>
             <About/>
             <Service/>
             <Carrers/>
