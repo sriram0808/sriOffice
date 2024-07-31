@@ -9,6 +9,7 @@ const Projectdone = () => {
         <div className="projectBlock">
             <div className="container">
                 <div className="row d-flex justify-content-center">  
+                    <h2 className='projectTitle text-center'>Our Milestones</h2>
                     <div className="col-lg-6 col-md-6 col-sm-12 mt-5 mb-5 d-flex justify-content-center">
                         <div className="card projectCard h-100">
                             <div className="card-body d-flex flex-column align-items-center justify-content-center ">

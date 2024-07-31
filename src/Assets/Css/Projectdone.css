@@ -30,6 +30,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 40px !important;
+    font-weight: 400;
+    font-family: "Lexend", sans-serif;
+  }
+  .projectTitle{
+    background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px !important;
     font-weight: 500;
     font-family: "Lexend", sans-serif;
   }
