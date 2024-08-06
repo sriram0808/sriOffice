@@ -5,12 +5,13 @@ import { useEffect, useState } from "react";
 import { UserFormUpload } from "../Authiapis/backendcall";
 import "react-toastify/dist/ReactToastify.css";
 import toast, { Toaster } from "react-hot-toast";
-import officeIcon from "../Assets/Images/officeIcon.png"
-import phoneIcon from "../Assets/Images/phoneIcon.png"
-import emailIcon from "../Assets/Images/emailIcon.png"
-import clockIcon from "../Assets/Images/clockIcon.png"
+import officeIcon from "../Assets/Images/officeIcon.png";
+import phoneIcon from "../Assets/Images/phoneIcon.png";
+import emailIcon from "../Assets/Images/emailIcon.png";
+import clockIcon from "../Assets/Images/clockIcon.png";
 
 let Contact = () => {
+
   const [formData, setFormData] = useState({
     fullname: "",
     email: "",
@@ -235,7 +236,7 @@ let Contact = () => {
                           className="form-label"
                           style={{ color: "white"}}
                         >
-                          Project Breif <span className="text-danger">*</span>
+                          Project Brief <span className="text-danger">*</span>
                         </label>
                         <textarea
                           className="form-control formMessage"
@@ -315,7 +316,7 @@ let Contact = () => {
                             <hr className="w-75 mb-3 border-dark-subtle" />
 
                             <div className="number phoneDetail">
-                              <p>+91 8870854141</p>
+                              <p>+91 8807829070</p>
                               <p>+ 04524207281</p>
                             </div>
                           </div>
@@ -344,7 +345,7 @@ let Contact = () => {
                                 className=" text-decoration-none emailDetail"
                                 href="/"
                               >
-                                thamizhan1630@gmail.com
+                                hrthamizhansolutions@gmail.com
                               </a>
                             </p>
                           </div>

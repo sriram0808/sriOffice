@@ -102,6 +102,8 @@ textarea::placeholder {
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Lexend", sans-serif;
+
 }
 .applySubmitButton:hover{
     border-image: linear-gradient(45deg, rgb(51,120,153), rgb(252,252,252)) 1 !important;
@@ -109,6 +111,8 @@ textarea::placeholder {
     background: linear-gradient(45deg, rgb(51,120,153) 20%, rgb(236, 197, 132) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Lexend", sans-serif;
+
 }
 .email{
     margin-top: 20px;          

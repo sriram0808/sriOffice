@@ -43,6 +43,7 @@ let App=()=>{
                     <Route element={<Discover/>} path="/discover"></Route>
                     <Route element={<Privacypolicy/>} path="/privacypolicy"></Route>
                     <Route element={<Termsandconditions/>} path="/termsandconditions"></Route>
+                   
                     </Routes>
                     </BrowserRouter>
         </div>
