@@ -291,7 +291,7 @@ let Contact = () => {
                         <hr className="w-50 mb-3 border-dark-subtle" />
                         <address className="m-0 officeDetail">
                           {" "}
-                          21, Pandian St, T V S Nagar, Madurai,Tamil Nadu 625003
+                          <a href="https://www.google.com/maps/place/Thamizhan+Solutions+%7C+Crypto,+AI,+Web+Development./@9.8990208,78.0958413,4442m/data=!3m1!1e3!4m6!3m5!1s0x3b00cf00605633b5:0x3ab7982e9f1ffa80!8m2!3d9.8990208!4d78.0958413!16s%2Fg%2F11y6s0r3cb?entry=ttu">21, Pandian St, T V S Nagar, Madurai,Tamil Nadu 625003</a>
                         </address>
                       </div>
                     </div>
@@ -316,8 +316,8 @@ let Contact = () => {
                             <hr className="w-75 mb-3 border-dark-subtle" />
 
                             <div className="number phoneDetail">
-                              <p>+91 8807829070</p>
-                              <p>+ 04524207281</p>
+                              <p><a href="tel:+918807829070">+91 8807829070</a></p>
+                              <p><a href="tel:+04524207281">+04524207281</a></p>
                             </div>
                           </div>
                         </div>
@@ -343,7 +343,7 @@ let Contact = () => {
                             <p className="mb-0">
                               <a
                                 className=" text-decoration-none emailDetail"
-                                href="/"
+                                href="mailto:hrthamizhansolutions@gmail.com"
                               >
                                 hrthamizhansolutions@gmail.com
                               </a>

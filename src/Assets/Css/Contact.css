@@ -101,8 +101,17 @@ textarea::placeholder {
 }
 
 .officeDetail, .phoneDetail, .emailDetail, .openingDetail {
-    color: white;
+    color: white ;
     font-weight: 600;
+}
+
+.officeDetail a{
+    color: white;
+    text-decoration: none;
+}
+.phoneDetail a{
+    color: white;
+    text-decoration: none;
 }
 
 .contactTitle {
