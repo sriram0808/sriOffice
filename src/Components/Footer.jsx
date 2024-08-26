@@ -222,7 +222,7 @@ let Footer = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="/cripto"
+                          href="/crypto"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img

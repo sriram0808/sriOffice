@@ -97,7 +97,7 @@ let Service=()=>{
                                 <div className="card-body">
                                 <h1 className="mb-3 serviceCardTitle">Crypto Trading</h1>
                                 <p className="mb-3 serviceCardSubTitle">Thamizhan solutions leads in India's crypto offerings. From comfy digital asset management to superior blockchain answers, our trusted information covers all your needs. Explore our tailored offerings and join our team of professional developers to navigate the dynamic crypto landscape.   </p>
-                                <a href='/cripto'  style={{ position: 'absolute', bottom: '10px', right: '10px' }}> 
+                                <a href='/crypto'  style={{ position: 'absolute', bottom: '10px', right: '10px' }}> 
                                 {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644956/learnnn_rld4rb.png" alt="learn more" className="img-fluid mx-3 mb-3" style={{ height: "25px" }} /> */}
                                 <img src={learnMore} alt="Learn more" className="img-fluid mx-3 mb-3" style={{ height: "25px" }}/>
 

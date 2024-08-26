@@ -38,7 +38,7 @@ let App=()=>{
                     <Route element={<Webdevelopment/>} path="/webdevelopment"></Route>
                     <Route element={<Uiux/>} path="/uiux"></Route>
                     <Route element={<Aidevelopment/>} path="/aidevelopment"></Route>
-                    <Route element={<Cripto/>} path="/cripto"></Route>
+                    <Route element={<Cripto/>} path="/crypto"></Route>
                     <Route element={<Neft/>} path="/neft"></Route>
                     <Route element={<Discover/>} path="/discover"></Route>
                     <Route element={<Privacypolicy/>} path="/privacypolicy"></Route>
