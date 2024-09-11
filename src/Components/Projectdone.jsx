@@ -1,6 +1,6 @@
 import React from 'react';
-import CountUp from 'react-countup';
 import "../Assets/Css/Projectdone.css";
+import CountUp from 'react-countup';
 
 
 const Projectdone = () => {
@@ -35,5 +35,4 @@ const Projectdone = () => {
         </div>
     );
 }
-
 export default Projectdone;
