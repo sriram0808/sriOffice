@@ -19,7 +19,7 @@ let Aidevelopment=()=>{
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
                   {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902682/Ai_Image_1_pnwvgo.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
                   <img src={aiDevelopmentImage} alt="" className="img-fluid"/>
-                  <h1 className="mobileAppTitle">AI Development</h1>
+                  <h1 className="mobileAppTitle">AI Development company in India</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">    
                  Synthetic intelligence is the simulation of human intelligence techniques with the aid of machines, mainly pc structures. Examples of AI programs encompass expert systems, natural language processing (NLP), speech recognition, and gadget imaginative and prescient. <br />  <br />

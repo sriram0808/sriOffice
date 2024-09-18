@@ -30,20 +30,19 @@ let App=()=>{
                     <Route element={<Homepage/>} path="/"></Route>
                     <Route element={<Homepage/>} path="homepage"></Route>
                     <Route element={<Aboutpage/>} path="/about"></Route>
-                    <Route element={<Servicepage/>} path="/service"></Route>
+                    <Route element={<Servicepage/>} path="/service"> </Route>
                     <Route element={<Careerpage/>} path="/career"></Route>
                     <Route element={<Contactpages/>} path="/contact"></Route>
                     <Route element={<Submitform/>} path="/apply"></Route>
-                    <Route element={<Mobile/>} path="/mobileapp"></Route>
-                    <Route element={<Webdevelopment/>} path="/webdevelopment"></Route>
-                    <Route element={<Uiux/>} path="/uiux"></Route>
-                    <Route element={<Aidevelopment/>} path="/aidevelopment"></Route>
-                    <Route element={<Cripto/>} path="/crypto"></Route>
-                    <Route element={<Neft/>} path="/neft"></Route>
+                    <Route element={<Mobile/>} path="/service/mobileapp"></Route>
+                    <Route element={<Webdevelopment/>} path="/service/webdesign"></Route>
+                    <Route element={<Uiux/>} path="/service/uiux"></Route>
+                    <Route element={<Aidevelopment/>} path="/service/aidevelopment"></Route>
+                    <Route element={<Cripto/>} path="/service/crypto"></Route>
+                    <Route element={<Neft/>} path="/service/nft"></Route>
                     <Route element={<Discover/>} path="/discover"></Route>
                     <Route element={<Privacypolicy/>} path="/privacypolicy"></Route>
                     <Route element={<Termsandconditions/>} path="/termsandconditions"></Route>
-                   
                     </Routes>
                     </BrowserRouter>
         </div>
