@@ -7,7 +7,7 @@
 }
 
 .dogyImage {
-    height: 200px;
+    height: 400px;
     margin-bottom: 20px;
 }
 
@@ -30,4 +30,58 @@
 .backLink:hover {
     background-color: #ffcc00;
     color: black;
+}
+
+/* Media Query for Large Devices (Desktops) */
+@media (min-width: 1200px) {
+    .dogyImage {
+        height: 400px;
+    }
+    .errorTitle {
+        font-size: 36px;
+    }
+    .backLink {
+        font-size: 18px;
+    }
+}
+
+/* Media Query for Medium Devices (Tablets, small desktops) */
+@media (max-width: 1199.98px) and (min-width: 768px) {
+    .dogyImage {
+        height: 300px;
+    }
+    .errorTitle {
+        font-size: 30px;
+    }
+    .backLink {
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Small Devices (Phones) */
+@media (max-width: 767.98px) {
+    .dogyImage {
+        height: 200px;
+    }
+    .errorTitle {
+        font-size: 24px;
+    }
+    .backLink {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Media Query for Extra Small Devices (Very small phones) */
+@media (max-width: 575.98px) {
+    .dogyImage {
+        height: 150px;
+    }
+    .errorTitle {
+        font-size: 20px;
+    }
+    .backLink {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
 }

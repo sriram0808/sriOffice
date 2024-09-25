@@ -1,4 +1,4 @@
-import errorImage from "../Assets/Images/sun-dogs.png";
+import errorImage from "../Assets/Images/errorpage.png";
 import "../Assets/Css/Pagenotfound.css";
 
 let Pagenotfound = () => {
