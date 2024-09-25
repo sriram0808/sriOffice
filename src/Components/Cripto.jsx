@@ -1,7 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
-import cryptoImage from "../Assets/Images/Crypto image (1).png"
+import cryptoImage from "../Assets/Images/Crypto image (1).webp"
 
 let Cripto=()=>{
 

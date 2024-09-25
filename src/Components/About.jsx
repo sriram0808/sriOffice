@@ -2,8 +2,8 @@ import style from "../Assets/Css/about.module.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from "react";
-import about1 from "../Assets/Images/neAbout1.png"
-import about2 from "../Assets/Images/newAbout2.png"
+import about1 from "../Assets/Images/neAbout1.webp"
+import about2 from "../Assets/Images/newAbout2.webp"
 let About = () => {
 
     useEffect(() => {

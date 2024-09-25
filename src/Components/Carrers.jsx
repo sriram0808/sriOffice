@@ -4,7 +4,7 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import interviewImage from "../Assets/Images/Join Our Team.png"
+import interviewImage from "../Assets/Images/Join Our Team.webp"
 
 let Carrers=()=>{
 
