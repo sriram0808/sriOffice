@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes, Route} from "react-router-dom"
+import { BrowserRouter,Routes, Route, Navigate} from "react-router-dom"
 import Nav from "./Components/Nav"
 import Submitform from "./Components/Submitform"
 import Mobile from "./Pages/Mobileapp"
@@ -16,6 +16,7 @@ import Careerpage from "./Pages/Careerpage"
 import Contactpages from "./Pages/Contactpage"
 import Privacypolicy from "./Components/Privacypolicy"
 import Termsandconditions from "./Components/Termsandcondition"
+import Pagenotfound from "./Components/Pagenotfound"
 
 
 let App=()=>{
@@ -39,10 +40,12 @@ let App=()=>{
                     <Route element={<Uiux/>} path="/service/uiux"></Route>
                     <Route element={<Aidevelopment/>} path="/service/aidevelopment"></Route>
                     <Route element={<Cripto/>} path="/service/crypto"></Route>
+                    <Route element={<Navigate to="/service/crypto"/>} path="/service/cripto"></Route>
                     <Route element={<Neft/>} path="/service/nft"></Route>
                     <Route element={<Discover/>} path="/discover"></Route>
                     <Route element={<Privacypolicy/>} path="/privacypolicy"></Route>
                     <Route element={<Termsandconditions/>} path="/termsandconditions"></Route>
+                    <Route element={<Pagenotfound/>} path="*"/>
                     </Routes>
                     </BrowserRouter>
         </div>
