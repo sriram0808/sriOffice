@@ -31,14 +31,15 @@ textarea::placeholder {
 
 .contactBack {
     /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902806/newContactBack_q8jnen.webp"); */
-    background-image: url("../Images/newContactBack.jpg");
+    background-image: url("../Images/newContactBack.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .formBack {
-    background: url(../Images/formBack.png);
+    /* background: url(../Images/formBack.png); */
+    background: linear-gradient(150deg, #ffffff0f, #5e5e5e0a);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
@@ -83,7 +84,8 @@ textarea::placeholder {
 }
 
 .informationBack {
-    background: url(../Images/informationBack.png);
+    /* background: url(../Images/informationBack.png); */
+    background: linear-gradient(150deg, #ffffff0f, #5e5e5e0a);
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
     padding: 20px;

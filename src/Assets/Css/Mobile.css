@@ -1,16 +1,13 @@
 .mobileBack{
+    background: url(../Images//discoverBack.webp);
     background-color: black;    
-    background: url(../Images//discoverBack.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .detailsBlock{
     margin-top: 450px;
     height: 200px;
     width: 600px;
-
-  
 }
 
 @media (min-width: 1200px) {
@@ -67,5 +64,7 @@
 
 .rightSideBack{
     /* background: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902696/back_s7ssjd.webp"); */
-    background: url(../Images//back.png);
+    /* background: url(../Images//back.png); */
+    border-radius: 1rem;
+    background: linear-gradient(rgba(41, 40, 40, 0.253), rgba(53, 53, 53, 0.308));
 }

@@ -1,7 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
-import aiDevelopmentImage from "../Assets/Images/Ai Image (1).png"
+import aiDevelopmentImage from "../Assets/Images/Ai Image (1).webp"
 
 let Aidevelopment=()=>{
 

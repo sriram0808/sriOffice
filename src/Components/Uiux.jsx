@@ -1,7 +1,7 @@
 import "../Assets/Css/Mobile.css"
 import { Link } from "react-router-dom"
 import Footer from "../Components/Footer"
-import uiuxImage from "../Assets/Images/ux-ui-development-it-photorealism (1) 1 (1).png"
+import uiuxImage from "../Assets/Images/ux-ui-development-it-photorealism (1) 1 (1).webp"
 
 let Uiux=()=>{
     return(
