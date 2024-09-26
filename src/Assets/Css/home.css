@@ -7,6 +7,10 @@
     /* max-width: 100%;  */
 }
 
+body{
+  background-color: #000;
+}
+
 .homeBackground{
     background-color: #000000;
     /* background: linear-gradient(rgb(255,255,255),rgb(255,255,255),rgb(255,255,255)); */
@@ -14,7 +18,7 @@
     width: 100%;
     padding: 45px;
     /* background-image: url("https://res.cloudinary.com/deowghzbg/image/upload/v1719902818/hero_yeslwx.webp"); */
-    background-image: url("../Images/hero.jpg");
+    background-image: url("../Images/hero.webp");
     background-size: cover;  
     background-position: center;
     background-repeat: no-repeat;

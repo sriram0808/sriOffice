@@ -166,7 +166,7 @@ let Footer = () => {
                     <ul className="list-unstyled service">
                       <li className="mb-3">
                         <a
-                          href="/mobileapp"
+                          href="/service/mobileapp"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img
@@ -180,7 +180,7 @@ let Footer = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="/webdevelopment"
+                          href="/service/webdesign"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img
@@ -194,7 +194,7 @@ let Footer = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="/uiux"
+                          href="/service/uiux"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img
@@ -208,7 +208,7 @@ let Footer = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="/aidevelopment"
+                          href="/service/aidevelopment"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img
@@ -222,7 +222,7 @@ let Footer = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="/cripto"
+                          href="/service/crypto"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img
@@ -236,7 +236,7 @@ let Footer = () => {
                       </li>
                       <li className="mb-3">
                         <a
-                          href="/neft"
+                          href="/service/nft"
                           className="link-secondary text-decoration-none footerSubTitle"
                         >
                           {/* <img
