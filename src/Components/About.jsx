@@ -16,7 +16,7 @@ let About = () => {
                 <div className="container">
                     <div className="row"> 
                         <div className="col-12">         
-                            <h1 className={`fs-5 mb-2 text-secondary aboutpage ${style.aboutTitle}`} data-aos="fade-down">About</h1>
+                            <h2 className={`fs-5 mb-2 text-secondary aboutpage ${style.aboutTitle}`} data-aos="fade-down">About</h2>
                         </div>
                     </div>
                     <div className="row" data-aos="fade-down">

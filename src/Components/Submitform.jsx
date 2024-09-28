@@ -191,7 +191,7 @@ const Submitform = () => {
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-12 glass">
-              <h1 className="text-center applyFormTitle">Job Application</h1>
+              <h2 className="text-center applyFormTitle">Job Application</h2>
               <form className="my-5" onSubmit={submit}>
                 <div className="form-group">
                   <input

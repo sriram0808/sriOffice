@@ -19,7 +19,8 @@ let Cripto=()=>{
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
                   {/* <img loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/Crypto_image_1_ijkftx.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
                   <img loading="lazy" src={cryptoImage} alt="Crypto Image" title="Crypto exchange and development" className="img-fluid"/>
-                  <h1 className="mobileAppTitle">Crypto Trading company in India</h1>
+
+                  <h2 className="mobileAppTitle">Crypto Trading company in India</h2>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
                     Project Description:
