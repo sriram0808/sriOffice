@@ -16,8 +16,8 @@ const Home = () => {
                     video.currentTime = 0; // Restart video
                     video.play();
                 } else {
-                    video.pause();
                     video.currentTime = 0;
+                    video.pause();
                 }
             });
         };
