@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import "../Assets/Css/home.css";
-import video1 from "../Assets/Images/video1.mp4"
-import video2 from "../Assets/Images/video2.mp4"
-import video3 from "../Assets/Images/video3.mp4"
-import video4 from "../Assets/Images/video4.mp4"
+import video1 from "../Assets/Images/compress-one.mp4"
+import video2 from "../Assets/Images/compress-two.mp4"
+import video3 from "../Assets/Images/compress-three.mp4"
+import video4 from "../Assets/Images/compress-four.mp4"
 
 const Home = () => {
 

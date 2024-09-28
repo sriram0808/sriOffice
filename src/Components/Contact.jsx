@@ -371,7 +371,7 @@ let Contact = () => {
             </div>
           </div>
           <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4192222680354!2d78.09326677583232!3d9.898998874762816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf00605633b5%3A0x3ab7982e9f1ffa80!2sThamizhan%20Solutions%20%7C%20Crypto%2C%20AI%2C%20Web%20Development.!5e0!3m2!1sen!2sin!4v1722424920765!5m2!1sen!2sin" width="100%" height="400" className="border-0" title="Thamizhan Solutions Office" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4192222680354!2d78.09326677583232!3d9.898998874762816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf00605633b5%3A0x3ab7982e9f1ffa80!2sThamizhan%20Solutions%20%7C%20Crypto%2C%20AI%2C%20Web%20Development.!5e0!3m2!1sen!2sin!4v1722424920765!5m2!1sen!2sin" width="100%" height="400" className="border-0" title="Thamizhan Solutions Office" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>

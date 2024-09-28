@@ -3,6 +3,7 @@ import { IoMdClose } from "react-icons/io";
 import "../Assets/Css/navbar.css"
 import { CgMenuRightAlt } from "react-icons/cg";
 import logo from "../Assets/Images/ThamizhanSolutions.png"
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   const closeMenu=()=> setClick(false)
