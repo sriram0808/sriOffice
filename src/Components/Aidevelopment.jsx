@@ -17,8 +17,8 @@ let Aidevelopment=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902682/Ai_Image_1_pnwvgo.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
-                  <img src={aiDevelopmentImage} alt="" className="img-fluid"/>
+                  {/* <img loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902682/Ai_Image_1_pnwvgo.webp" alt="Descriptive title="Ai Development company in madurai" Alt Text" className="img-fluid" /> */}
+                  <img loading="lazy" src={aiDevelopmentImage} alt="Ai Development" title="Artificial intelligence Development" className="img-fluid"/>
                   <h1 className="mobileAppTitle">AI Development company in India</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">    

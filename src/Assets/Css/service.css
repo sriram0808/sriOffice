@@ -17,6 +17,13 @@
 .serviceIcon{
    color: rgb(202, 172, 121);
 }
+.service-icon{
+    height: 45px;
+    width: 45px;
+}
+.learn-more-icon{
+    height: 25px;
+}
 .serviceTitle{
     background: -webkit-linear-gradient(45deg, rgb(236, 197, 132) 20%, rgb(252, 252, 252) 80%);
     -webkit-background-clip: text;

@@ -33,8 +33,13 @@
 
 
 .discoverImage {
-    width: 100%;
-    height: auto; 
+    /* width: 100%; */
+    min-height: 330px;
+    height: auto;
+}
+
+.discover-icon{
+    height: 42px;
 }
 
 @media (min-width: 1200px) {
@@ -53,6 +58,6 @@
 @media (max-width: 767px) {
     .discoverImage {
         height: auto; 
-        width: 350px;
+        width: 100%;
     }
 }

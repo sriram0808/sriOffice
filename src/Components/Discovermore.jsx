@@ -8,9 +8,9 @@ let Discovermore=()=>{
         <div className="discoverBack">
             <div className="container">
                 <div className="row">
-                    <div className="col mt- 5">  
-                        {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902695/discoverImage_vsnsme.webp" alt="" className="img-fluid discoverImage" style={{height:"330px"}}/> */}
-                        <img src={discoverImage} alt="" className="img-fluid discoverImage" style={{height:"330px"}}/>
+                    <div className="col mt- 5 d-flex justify-content-center align-items-center">  
+                        {/* <img loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902695/discoverImage_vsnsme.webp" alt="" className="img-fluid discoverImage" style={{height:"330px"}}/> */}
+                        <img loading="lazy" src={discoverImage} alt="" className="img-fluid discoverImage"/>
                     </div>
                     <div className="col-md-6 mt-5">
                         <div className="card discoverCard">
@@ -33,11 +33,11 @@ let Discovermore=()=>{
                         </div>
                     </div>
                 </div>
-                <div className="row mt-5 ">
-                    <div className="col mb-5">
-                    <div className="card discoverCard">
-                            <div className="card-body discoverCardBack">
-                                <img src={verstile} alt="" className="image-fluid mb-3" style={{height:"42px"}}/>
+                <div className="row my-5 ">
+                    <div className="col mb-5 mb-md-0">
+                    <div className="card discoverCard h-100">
+                            <div className="card-body discoverCardBack ">
+                                <img loading="lazy" src={verstile} alt="" className="image-fluid mb-3 discover-icon" />
                                 <h5 className="card-title discoverTitle mb-4">Versatile Brand</h5>
                                 <p className="card-text discoverSubTitle">We are crafting a digital method that sublists life across all mediums.</p>
                             </div>
@@ -46,7 +46,7 @@ let Discovermore=()=>{
                     <div className="col">
                     <div className="card discoverCard">
                             <div className="card-body discoverCardBack">
-                            <img src={digital} alt="" className="image-fluid mb-3" style={{height:"42px"}}/>
+                            <img loading="lazy" src={digital} alt="" className="image-fluid mb-3 discover-icon" />
                                 <h5 className="card-title discoverTitle mb-4">Digital Agency</h5>
                                 <p className="card-text discoverSubTitle">We belive in innovation by merging primary with <br /> elaborate ideas. </p>
                             </div>

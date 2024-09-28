@@ -14,8 +14,8 @@ let MobileApp=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902703/mobile_app_development_2_ulvj2u.webp" alt="Descriptive Alt Text" className="img-fluid"/> */}
-                  <img src={mobileAppDevelopment} alt="Mobile App Development" className="img-fluid"/>
+                  {/* <img loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902703/mobile_app_development_2_ulvj2u.webp" alt="Descriptive Alt Text" className="img-fluid"/> */}
+                  <img loading="lazy" src={mobileAppDevelopment} alt="Mobile App Development" title="Application Development" className="img-fluid"/>
                   <h1 className="mobileAppTitle">Mobile App Development company in India</h1>
                   {/* <h5 className="discrption">Description:</h5> */}
                    <p className="discrption">

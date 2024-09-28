@@ -187,7 +187,7 @@ const Submitform = () => {
   return (
     <div>
        <Toaster position="top-right" reverseOrder={false} />
-      <div className="applyBack" style={{ backgroundColor: "#000000" }}>
+      <div className="applyBack">
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-12 glass">
@@ -257,7 +257,6 @@ const Submitform = () => {
                       className={`form-control email ${
                         errors.Position ? "is-invalid" : ""
                       }`}
-                      style={{ width: "100%" }}
                     >
                       <option>Choose Position...</option>
                       <option>Senior Frontend Developer</option>
@@ -281,8 +280,7 @@ const Submitform = () => {
                         errors.Experience ? "is-invalid" : ""
                       }`}
                       placeholder="Experience"
-                      id="formExp"
-                      style={{ width: "100%" }}    
+                      id="formExp" 
                     />
                     {errors.Experience && (
                       <div className="invalid-feedback">
@@ -293,8 +291,8 @@ const Submitform = () => {
                 </div>
                 <div className="form-group">
                   <textarea
-                    style={{ width: "100%", padding: "8px" }}
-                    className={`form-control email ${
+                    
+                    className={`form-control email w- ${
                       errors.message ? "is-invalid" : ""
                     }`}
                     name="message"

@@ -11,7 +11,7 @@ let Carrers=()=>{
   
     return(
       <div>
-        <div className="container-fluid careers-page" style={{backgroundColor:" #000000"}}>
+        <div className="container-fluid careers-page" >
            <div className="container">
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center align-items-center py-3 "> 
             <div className="col joinCard" >
@@ -24,8 +24,8 @@ let Carrers=()=>{
             </div>
             <div className="col">
             <div className="">
-            {/* <img className="img-fluid rounded " src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/interview2_uk6vxu.webp" alt="Interview Image"/> */}
-            <img src={interviewImage} alt="Join Our Team" className="img-fluid rounded "/>
+            {/* <img loading="lazy" className="img-fluid rounded " src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902699/interview2_uk6vxu.webp" title="Software development company in madurai" alt="Interview Image"/> */}
+            <img loading="lazy" src={interviewImage} alt="Join Our Team" title="Hiring Team" className="img-fluid rounded "/>
            </div>
            </div>
           </div>  

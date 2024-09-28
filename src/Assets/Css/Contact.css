@@ -135,6 +135,9 @@ textarea::placeholder {
 .number {
     line-height: 10px;
 }
+.contact-icon{
+    height: 40px;
+}
 
 .map iframe {
     width: 100%;

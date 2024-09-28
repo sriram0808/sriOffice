@@ -61,28 +61,43 @@ let App =()=>{
         <div>
              <Nav></Nav>
               <ToastContainer />
-                    <BrowserRouter>                  
-                    <Routes>          
-                    <Route element={<Homepage/>} path="/"></Route>
-                    <Route element={<Homepage/>} path="homepage"></Route>
-                    <Route element={<Aboutpage/>} path="/about"></Route>
-                    <Route element={<Servicepage/>} path="/service"> </Route>
-                    <Route element={<Careerpage/>} path="/career"></Route>
-                    <Route element={<Contactpages/>} path="/contact"></Route>
-                    <Route element={<Submitform/>} path="/apply"></Route>
-                    <Route element={<Mobile/>} path="/service/mobileapp"></Route>
-                    <Route element={<Webdevelopment/>} path="/service/webdesign"></Route>
-                    <Route element={<Uiux/>} path="/service/uiux"></Route>
-                    <Route element={<Aidevelopment/>} path="/service/aidevelopment"></Route>
-                    <Route element={<Cripto/>} path="/service/crypto"></Route>
-                    <Route element={<Navigate to="/service/crypto"/>} path="/service/cripto"></Route>
-                    <Route element={<Neft/>} path="/service/nft"></Route>
-                    <Route element={<Discover/>} path="/discover"></Route>
-                    <Route element={<Privacypolicy/>} path="/privacypolicy"></Route>
-                    <Route element={<Termsandconditions/>} path="/termsandconditions"></Route>
-                    <Route element={<Pagenotfound/>} path="*"/>
-                    </Routes>
-                    </BrowserRouter>
+                <BrowserRouter>                  
+                  <Routes>          
+
+                    <Route element={<Homepage />} path="/"></Route>
+                    <Route element={<Homepage />} path="homepage"></Route>
+                    <Route element={<Aboutpage />} path="/about"></Route>
+                    <Route element={<Servicepage />} path="/service"> </Route>
+                    <Route element={<Careerpage />} path="/career"></Route>
+                    <Route element={<Contactpages />} path="/contact"></Route>
+                    <Route element={<Submitform />} path="/apply"></Route>
+                    <Route element={<Navigate to="/service" />} path="/services"> </Route>
+
+                    <Route element={<Mobile />} path="/service/mobileapp"></Route>
+                    <Route element={<Navigate to="/service/mobileapp" />} path="/mobileapp"></Route>
+
+                    <Route element={<Webdevelopment />} path="/service/webdesign"></Route>
+                    <Route element={<Navigate to="/service/webdesign" />} path="/webdevelopment"></Route>
+
+                    <Route element={<Uiux />} path="/service/uiux"></Route>
+
+                    <Route element={<Aidevelopment />} path="/service/aidevelopment"></Route>
+                    <Route element={<Navigate to="/service/aidevelopment" />} path="/aidevelopment"></Route>
+
+                    <Route element={<Cripto />} path="/service/crypto"></Route>
+                    <Route element={<Navigate to="/service/crypto" />} path="/service/cripto"></Route>
+                    <Route element={<Navigate to="/service/crypto" />} path="/cripto"></Route>
+
+                    <Route element={<Neft />} path="/service/nft"></Route>
+                    <Route element={<Navigate to="/service/nft" />} path="/neft"></Route>
+
+                    <Route element={<Discover />} path="/discover"></Route>
+                    <Route element={<Privacypolicy />} path="/privacypolicy"></Route>
+                    <Route element={<Termsandconditions />} path="/termsandconditions"></Route>
+
+                    <Route element={<Pagenotfound />} path="*"/>
+                  </Routes>
+                </BrowserRouter>
         </div>
     );
 }

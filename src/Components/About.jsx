@@ -12,7 +12,7 @@ let About = () => {
 
     return (
         <div className="">
-            <section className="py-3 py-md-5 py-xl-8" style={{backgroundColor:"#000000"}}>
+            <section className="py-3 py-md-5 py-xl-8" >
                 <div className="container">
                     <div className="row"> 
                         <div className="col-12">         
@@ -21,7 +21,7 @@ let About = () => {
                     </div>
                     <div className="row" data-aos="fade-down">
                         <div className="col-12 col-md-10 col-lg-8 mx-auto text-center">
-                            <h2 className="display-5 mb-4 "  style={{color:"white",fontSize:"22px",fontWeight:"400"}}>
+                            <h2 className="display-5 mb-4 text-light fw-normal fs-5">
                             Our adventure started out with a dream of redefining how the arena perceives layout.
                             </h2>
                             <a href="/discover"> <button  className={`btn btn-lg  mb-3 mb-md-4 mb-xl-5 ${style.discoverButton}`}>Discover More</button></a>
@@ -33,8 +33,8 @@ let About = () => {
                         <div className="col-12 col-md-6">
                             <article>
                                 <div className="card border-0" data-aos="fade-right">
-                                    {/* <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/neAbout1_l6br80.webp" alt="Our Vision" /> */}
-                                    <img src={about1} alt="Our Vission" className="card-img-top img-fluid m-0"/>
+                                    {/* <img loading="lazy" className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/neAbout1_l6br80.webp" alt="Our Vision" /> */}
+                                    <img loading="lazy" src={about1} alt="Our Vission" title="Our Vission" className="card-img-top img-fluid m-0"/>
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3"> 
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>
@@ -51,8 +51,8 @@ let About = () => {
                         <div className="col-12 col-md-6 ">
                             <article>
                                 <div className="card border-0" data-aos="fade-left">
-                                    {/* <img className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/newAbout2_f71sfd.webp" alt="Our Approach"/> */}
-                                    <img src={about2} alt="Our Approach" className="card-img-top img-fluid m-0"/>
+                                    {/* <img loading="lazy" className="card-img-top img-fluid m-0" loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902702/newAbout2_f71sfd.webp" alt="Our Approach"/> */}
+                                    <img loading="lazy" src={about2} alt="Our Approach" title="Our Approach" className="card-img-top img-fluid m-0"/>
                                     <div className={`card-body border bg-white p-4 ${style.textBackground}`}>
                                         <div className="entry-header mb-3">
                                             <h2 className={`card-title entry-title h4 mb-0 text-center ${style.aboutTitle}`}>

@@ -119,7 +119,6 @@ let Contact = () => {
       <Toaster position="top-right" reverseOrder={false} />
       <section
         className="py-3 py-md-5 py-xl-8 contactBack"
-        style={{ backgroundColor: " #000000" }}
       >
         <div className="container">
           <div className="row">
@@ -143,11 +142,7 @@ let Contact = () => {
                   <form onSubmit={handleSubmit}>
                     <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
                       <div className="col-12">
-                        <label
-                          htmlFor="fullname"
-                          className="form-label "
-                          style={{ color: "white" }}
-                        >
+                        <label htmlFor="fullname" className="form-label text-light" >
                           Full Name <span className="text-danger">*</span>
                         </label>
                         <input
@@ -166,8 +161,7 @@ let Contact = () => {
                       <div className="col-12 col-md-6">
                         <label
                           htmlFor="email"
-                          className="form-label"
-                          style={{ color: "white" }}
+                          className="form-label text-light"
                         >
                           Email <span className="text-danger">*</span>
                         </label>
@@ -189,8 +183,7 @@ let Contact = () => {
                       <div className="col-12 col-md-6">
                         <label
                           htmlFor="phone"
-                          className="form-label"
-                          style={{ color: "white" }}
+                          className="form-label text-light"
                         >
                           Phone Number <span className="text-danger">*</span>
                         </label>
@@ -212,8 +205,7 @@ let Contact = () => {
                       <div className="col-12">
                         <label
                           htmlFor="subject"
-                          className="form-label"
-                          style={{ color: "white" }}
+                          className="form-label text-light"
                         >
                           Subject <span className="text-danger">*</span>
                         </label>
@@ -233,8 +225,7 @@ let Contact = () => {
                       <div className="col-12">
                         <label
                           htmlFor="textArea"
-                          className="form-label"
-                          style={{ color: "white"}}
+                          className="form-label text-light"
                         >
                           Project Brief <span className="text-danger">*</span>
                         </label>
@@ -273,14 +264,14 @@ let Contact = () => {
                   <div className="col-12 col-xl-11">
                     <div className="mb-4 mb-md-5 officeBack">
                       <div className="col-12 col-lg-2 mb-3">
-                        {/* <img
+                        {/* <img loading="lazy"
                           src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644899/officeIcon_mx7exy.png"
                           
                           alt="Office Icon"
                           className="img-fluid"
-                          style={{ height: "40px" }}
+                         
                         /> */}
-                        <img src={officeIcon} alt="Office Icon" className="img-fluid" style={{ height: "40px" }}/>
+                        <img loading="lazy" src={officeIcon} alt="Office Icon" title="Office" className="img-fluid contact-icon"/>
                       </div>
                       <div>
                         <h4 className="mb-2 officeLabel">Office</h4>
@@ -299,13 +290,13 @@ let Contact = () => {
                       <div className="col-12 col-sm-6">
                         <div className="mb-4 mb-sm-0">
                           <div className="col-12 col-lg-2 mb-3">
-                            {/* <img
+                            {/* <img loading="lazy"
                               src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644901/phoneIcon_njcmed.png"
                               alt="Phone Icon"
                               className="img-fluid"
-                              style={{ height: "40px" }}
+                             
                             /> */}
-                            <img src={phoneIcon} alt="Phone Icon" className="img-fluid" style={{ height: "40px" }}/>
+                            <img loading="lazy" src={phoneIcon} alt="Phone Icon" title="Phone" className="img-fluid contact-icon"/>
                           </div>
                           <div>
                             <h4 className="mb-2 phoneLabel">Phone</h4>
@@ -325,13 +316,13 @@ let Contact = () => {
                       <div className="col-12 col-sm-6">
                         <div className="mb-4 mb-sm-0">
                           <div className="col-12 col-lg-2 mb-3">
-                            {/* <img
+                            {/* <img loading="lazy"
                               src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644939/emailIcon_pscotu.png"
                               alt="Email Icon"
                               className="img-fluid"
-                              style={{ height: "40px" }}
+                             
                             /> */}
-                            <img src={emailIcon} alt="Email Icon" className="img-fluid" style={{ height: "40px" }}/>
+                            <img loading="lazy" src={emailIcon} alt="Email Icon" title="Email" className="img-fluid contact-icon"/>
                           </div>
                           <div>
                             <h4 className="mb-2 emailLabel">Email</h4>
@@ -354,13 +345,13 @@ let Contact = () => {
                     </div>
                     <div>
                       <div className="col-12 col-lg-2 mb-3">
-                        {/* <img
+                        {/* <img loading="lazy"
                           src="https://res.cloudinary.com/deowghzbg/image/upload/v1719644930/clockIcon_udkcai.png"
                           alt="Clock Icon"
                           className="img-fluid"
-                          style={{ height: "40px" }}
+                         
                         /> */}
-                        <img src={clockIcon} alt="Clock Icon" className="img-fluid" style={{ height: "40px" }}/>
+                        <img loading="lazy" src={clockIcon} alt="Clock Icon" title="Clock" className="img-fluid contact-icon"/>
                       </div>
                       <div>
                         <h4 className="mb-2 openingLabel">Opening Hours</h4>
@@ -380,7 +371,7 @@ let Contact = () => {
             </div>
           </div>
           <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4192222680354!2d78.09326677583232!3d9.898998874762816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf00605633b5%3A0x3ab7982e9f1ffa80!2sThamizhan%20Solutions%20%7C%20Crypto%2C%20AI%2C%20Web%20Development.!5e0!3m2!1sen!2sin!4v1722424920765!5m2!1sen!2sin" width="100%" height="400" style={{border:"0px"}} title="Thamizhan Solutions Office" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4192222680354!2d78.09326677583232!3d9.898998874762816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf00605633b5%3A0x3ab7982e9f1ffa80!2sThamizhan%20Solutions%20%7C%20Crypto%2C%20AI%2C%20Web%20Development.!5e0!3m2!1sen!2sin!4v1722424920765!5m2!1sen!2sin" width="100%" height="400" className="border-0" title="Thamizhan Solutions Office" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>

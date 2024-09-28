@@ -4,7 +4,7 @@ import "../Assets/Css/Preloader.css"
 const Preloader = () => {
   return (
     <>
-        <div className=" d-flex justify-content-center align-items-center w-100 h-100" style={{minHeight:'100vh'}}>
+        <div className=" d-flex justify-content-center align-items-center w-100 h-100 preloader-container">
             <div class="svg-frame">
                 <svg style={{'--i':0,'--j':0}}>
                     <g id="out1">

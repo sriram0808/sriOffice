@@ -15,8 +15,8 @@ let Neft=()=>{
                   </div>
               </div>
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
-                  {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902706/nnnn_polkou.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
-                  <img src={nftImage} alt="" className="img-fluid" />
+                  {/* <img loading="lazy" src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902706/nnnn_polkou.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
+                  <img loading="lazy" src={nftImage} alt="NFT trading" title="NFT marketplace development" className="img-fluid" />
                   <h1 className="mobileAppTitle">NFT company in India</h1>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
