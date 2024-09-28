@@ -79,7 +79,7 @@ let Footer = () => {
                 </a>
               </div>
               <div className="col footer-col mx-1 my-4">
-                <h1> Follow Us </h1>
+                <h2 className="text-light fs-1 fw-bold"> Follow Us </h2>
                 <div className="social-links my-4">
                   <div className="social-div">
                     <div className="innerSocial">

@@ -18,7 +18,7 @@ let Uiux=()=>{
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
                   {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902807/ux-ui-development-it-photorealism_1_1_1_vd9z26.webp" alt="Descriptive Alt Text" className="img-fluid" /> */}
                   <img src={uiuxImage} alt="UI/UX Image" className="img-fluid"/>
-                  <h1 className="mobileAppTitle">UI/UX Development company in India</h1>
+                  <h2 className="mobileAppTitle">UI/UX Development company in India</h2>
                   <h5 className="discrption">Description:</h5>
                    <p className="discrption">
                      UI/UX

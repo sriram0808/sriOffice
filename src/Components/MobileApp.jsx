@@ -16,7 +16,7 @@ let MobileApp=()=>{
               <div className="col-md-6 mb-5 mt-5 content-column rightSideBack">
                   {/* <img src="https://res.cloudinary.com/deowghzbg/image/upload/v1719902703/mobile_app_development_2_ulvj2u.webp" alt="Descriptive Alt Text" className="img-fluid"/> */}
                   <img src={mobileAppDevelopment} alt="Mobile App Development" className="img-fluid"/>
-                  <h1 className="mobileAppTitle">Mobile App Development company in India</h1>
+                  <h2 className="mobileAppTitle">Mobile App Development company in India</h2>
                   {/* <h5 className="discrption">Description:</h5> */}
                    <p className="discrption">
                    Mobile software development is the technique of creating software for smartphones, Tablets, and virtual assistants, most typically for the Android and iOS operating systems. Mobile apps often leverage the unique hardware features of devices, such as GPS, cameras, and sensors, to deliver rich and interactive experiences. They also rely on network connectivity to interact with cloud services, enabling functionalities like data synchronization, real-time updates, and user authentication. With the rise of mobile usage globally, developing high-quality mobile applications is crucial for businesses aiming to engage users, streamline operations, and stay competitive in the digital marketplace. <br /> <br />

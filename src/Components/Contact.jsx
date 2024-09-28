@@ -124,7 +124,7 @@ let Contact = () => {
         <div className="container">
           <div className="row">
             <div className="text-center contactpage pb-3" data-aos="fade-in">
-              <h1 className="fs-5 mb-2  contactTitle  ">Contact Us</h1>
+              <h2 className="fs-5 mb-2  contactTitle  ">Contact Us</h2>
               <h2 className="display-5 mb-4 mb-md-5 mb-xl-8 contact contactSubTitle">
                 Our Experts Ready to Action your Business Analysis, for that you
                 Contact us.

@@ -16,7 +16,7 @@ let Carrers=()=>{
             <div className="row row-cols-lg-2 row-cols-md-2  row-cols-sm-1 row-cols-1 justify-content-center align-items-center py-3 "> 
             <div className="col joinCard" >
 <div className="card details" data-aos="fade-in">
-    <h1 className="fs-1 carrersTitle"> Come Connect With Us Our Family. </h1>
+    <h2 className="fs-1 carrersTitle"> Come Connect With Us Our Family. </h2>
     {/* <h3 style={{color:"white",marginTop:"10"}} className="fs-3 joinSubTitle">Come work with us</h3> */}  
     <p className="fs-5 joinSubTitle">We aim is to change your working environment to work for our future development and growth of our company.</p>
 </div>
@@ -33,9 +33,9 @@ let Carrers=()=>{
           <div className="container my-4 open" data-aos="fade-in">
             <h3 className="text-center  carrersSubTitle"> "We will succeed by providing the best service, <br/> driven by the most effective operation and smartest technology."</h3>
           </div>
-           <h1 className="current my-4 fs-1 carrersTitle" data-aos="fade-in ">
+           <h2 className="current my-4 fs-1 carrersTitle" data-aos="fade-in ">
             Current Openings
-           </h1>
+           </h2>
            <div className="acc">      
            <div className="container p-3">
             <div className="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 justify-content-center">
