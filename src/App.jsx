@@ -80,6 +80,7 @@ let App =()=>{
                     <Route element={<Navigate to="/service/webdesign" />} path="/webdevelopment"></Route>
 
                     <Route element={<Uiux />} path="/service/uiux"></Route>
+                    <Route element={<Navigate to="/service/uiux" />} path="/uiux"></Route>
 
                     <Route element={<Aidevelopment />} path="/service/aidevelopment"></Route>
                     <Route element={<Navigate to="/service/aidevelopment" />} path="/aidevelopment"></Route>
@@ -87,6 +88,7 @@ let App =()=>{
                     <Route element={<Cripto />} path="/service/crypto"></Route>
                     <Route element={<Navigate to="/service/crypto" />} path="/service/cripto"></Route>
                     <Route element={<Navigate to="/service/crypto" />} path="/cripto"></Route>
+                    <Route element={<Navigate to="/service/crypto" />} path="/crypto"></Route>
 
                     <Route element={<Neft />} path="/service/nft"></Route>
                     <Route element={<Navigate to="/service/nft" />} path="/neft"></Route>

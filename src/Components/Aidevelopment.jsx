@@ -22,7 +22,7 @@ let Aidevelopment=()=>{
 
                   <h2 className="mobileAppTitle">AI Development company in India</h2>
                   <h5 className="discrption">Description:</h5>
-                   <p className="discrption">    
+                   <p className="discrption">
                  Synthetic intelligence is the simulation of human intelligence techniques with the aid of machines, mainly pc structures. Examples of AI programs encompass expert systems, natural language processing (NLP), speech recognition, and gadget imaginative and prescient. <br />  <br />
                  We provide the most popular service:
                 <ul>  
